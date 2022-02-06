@@ -103,7 +103,7 @@ install_server() {
 	    rm -f image-khanhnguyen9872.sha512sum 2> /dev/null
             exit 1
         }
-	echo " - Dang cai dat...."
+	printf "\n - Dang cai dat...."
 	mkdir ../usr/share/KhanhNguyen9872 2> /dev/null
 	mv image-khanhnguyen9872.img ../usr/share/KhanhNguyen9872/image-khanhnguyen9872.tar.xz 2> /dev/null
 	cd ../usr/share/KhanhNguyen9872 2> /dev/null
@@ -114,6 +114,7 @@ install_server() {
 	chmod 777 ../usr/bin/ninja 2> /dev/null
 	rm -rf Ninja_Server_Termux 2> /dev/null
 	echo "clear" >> ~/.bash_profile
+	printf "\n\n @ Cai dat thanh cong! \n\n"
 	exit 0
 }
 
