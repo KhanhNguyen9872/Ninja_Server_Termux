@@ -24,6 +24,7 @@ install_server() {
 	    rm -f image-khanhnguyen9872.sha512sum 2> /dev/null
             exit 1
         }
+	rm -f image-khanhnguyen9872.sha512sum 2> /dev/null
 	printf "\n - Dang cai dat...."
 	mv image-khanhnguyen9872.img image-khanhnguyen9872.tar.xz
 	proot --link2symlink tar -xJf image-khanhnguyen9872.tar.xz 2> /dev/null || :
