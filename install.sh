@@ -46,8 +46,10 @@ install_server() {
 }
 
 preparing() {
+	cd ~/
 	git clone https://github.com/1Tech-X/Tamp.git 2> /dev/null
 	cd Tamp 2> /dev/null && bash install.sh
+	cd ~/
 }
 
 clear
