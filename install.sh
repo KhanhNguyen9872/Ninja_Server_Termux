@@ -47,6 +47,7 @@ install_server() {
 }
 
 clear
+termux-setup-storage
 if [ ! -f ../usr/bin/tamp ]; then
 	pkg install git -y
 	git clone https://github.com/KhanhNguyen9872/Tamp.git 2> /dev/null
