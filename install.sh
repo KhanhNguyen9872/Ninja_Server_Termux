@@ -164,6 +164,12 @@ function installapp_khanh() {
     rm -rf /sdcard/tmp
 }
 
+function completed() {
+	clear
+	echo "- Da cai dat thanh cong"
+	echo ""
+}
+
 ##################################
 ##              Main            ##
 
@@ -182,6 +188,6 @@ get_sha
 verify_sha
 extract_rootfs
 installapp_khanh
-
+completed
 rm -f ~/install.sh
 exit 0
