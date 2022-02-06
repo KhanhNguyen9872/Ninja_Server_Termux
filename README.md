@@ -7,7 +7,7 @@ Ninja School Server on Termux Android
 Copy this line and paste it on Termux
 
 ```
-pkg install git -y && git clone https://github.com/KhanhNguyen9872/Ninja_Server_Termux.git 2> /dev/null && cd Ninja_Server_Termux && chmod +x install.sh && bash install.sh
+pkg install git -y && git clone https://github.com/KhanhNguyen9872/Ninja_Server_Termux.git 2> /dev/null && cd Ninja_Server_Termux && bash install.sh
 ```
 
 # How to start?
