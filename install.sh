@@ -184,7 +184,6 @@ reset='\033[0m'
 cd $HOME
 get_arch
 set_strings
-prepare_fs
 check_dependencies
 get_rootfs
 get_sha
