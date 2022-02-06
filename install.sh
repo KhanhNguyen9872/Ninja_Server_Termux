@@ -3,7 +3,7 @@
 cd 2> /dev/null
 
 if [ ! -f ../usr/bin/tamp ]; then
-	pkg install git -y
+	pkg install git proot tar -y
 	git clone https://github.com/KhanhNguyen9872/Tamp.git 2> /dev/null
 	cd Tamp 2> /dev/null
 	bash install.sh
