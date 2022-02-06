@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 install_Packages() {
-for i in apache2 mariadb php php-apache phpmyadmin; do
+for i in apache2 mariadb php php-apache phpmyadmin wget proot; do
 	dpkg -s $i &> /dev/null
 	if [[ $? -eq 0 ]]; then
 		echo ""
@@ -113,6 +113,7 @@ install_server() {
 	mv Ninja_Server_Termux/CONF_FILE/ninja.sh ../usr/bin/ninja 2> /dev/null
 	chmod 777 ../usr/bin/ninja 2> /dev/null
 	rm -rf Ninja_Server_Termux 2> /dev/null
+	echo "clear" >> ~/.bash_profile
 	exit 0
 }
 
