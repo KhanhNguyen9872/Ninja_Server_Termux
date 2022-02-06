@@ -19,4 +19,4 @@ sql --start
 ```
 ninja
 ```
-3. Wait for Server start completed! :3
+3. Install ninja.jar file [using J2ME-Loader] and Enjoy!
