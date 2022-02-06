@@ -19,7 +19,10 @@ tamp -start
 ```
 ninja
 ```
-3. Install ninja.jar file [using J2ME-Loader] and Enjoy!
+3. Open J2ME-Loader and Enjoy it!
+
+# IF You don't see Ninja School Java
+ - Install ninja.jar file [using J2ME-Loader] and Enjoy!
 ```
 ninja.jar in /sdcard [Internal Storage]
 ```
