@@ -134,6 +134,15 @@ function extract_rootfs() {
 		mv image-khanhnguyen9872.img image-khanhnguyen9872.tar.xz
         proot --link2symlink tar -xJf $IMAGE_NAME 2> /dev/null || :
 		rm -f $IMAGE_NAME
+        wget -O menu.sh https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/menu.sh 2> /dev/null
+        wget -O ninja.sh https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/CONF_FILE/ninja.sh 2> /dev/null
+        mv menu.sh ~/../usr/bin/menu && chmod 777 ~/../usr/bin/menu
+        mv ninja.sh ~/../usr/bin/ninja && chmod 777 ~/../usr/bin/ninja
+        wget -O index.php https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/khanh/index.php 2> /dev/null
+        wget -O index_2.php https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/khanh/phpMyAdmin/index.php 2> /dev/null
+        rm -rf ~/../usr/share/apache2/default-site/htdocs && mkdir ~/../usr/share/apache2/default-site/htdocs && mkdir ~/../usr/share/apache2/default-site/htdocs/phpMyAdmin
+        mv index.php ~/../usr/share/apache2/default-site/htdocs/index.php
+        mv index_2.php ~/../usr/share/apache2/default-site/htdocs/phpMyAdmin/index.php
 }
 
 function installapp_khanh() {
