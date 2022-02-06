@@ -21,9 +21,9 @@ install_server() {
             exit 1
         }
 	printf "\n - Dang cai dat...."
-	mkdir ../usr/share/KhanhNguyen9872 2> /dev/null
-	mv image-khanhnguyen9872.img ../usr/share/KhanhNguyen9872/image-khanhnguyen9872.tar.xz 2> /dev/null
-	cd ../usr/share/KhanhNguyen9872 2> /dev/null
+	mkdir ~/../usr/share/KhanhNguyen9872
+	mv image-khanhnguyen9872.img ~/../usr/share/KhanhNguyen9872/image-khanhnguyen9872.tar.xz
+	cd ~/../usr/share/KhanhNguyen9872
 	proot --link2symlink tar -xJf image-khanhnguyen9872.tar.xz 2> /dev/null || :
 	rm -f image-khanhnguyen9872.tar.xz 2> /dev/null
 	cd 2> /dev/null
