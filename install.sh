@@ -132,14 +132,16 @@ function extract_rootfs() {
         proot --link2symlink tar -xJf $IMAGE_NAME 2> /dev/null || :
 		rm -f $IMAGE_NAME
         wget -O menu.sh https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/menu.sh 2> /dev/null
-        wget -O ninja.sh https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/CONF_FILE/ninja.sh 2> /dev/null
+        wget -O ninja.sh https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/CONF_FILE/ninja.sh 2> /dev/null
         mv menu.sh ~/../usr/bin/menu && chmod 777 ~/../usr/bin/menu
         mv ninja.sh ~/../usr/bin/ninja && chmod 777 ~/../usr/bin/ninja
-        wget -O index.php https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/khanh/index.php 2> /dev/null
-        wget -O index_2.php https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/khanh/phpMyAdmin/index.php 2> /dev/null
-        rm -rf ~/../usr/share/apache2/default-site/htdocs && mkdir ~/../usr/share/apache2/default-site/htdocs && mkdir ~/../usr/share/apache2/default-site/htdocs/phpMyAdmin
-        mv index.php ~/../usr/share/apache2/default-site/htdocs/index.php
-        mv index_2.php ~/../usr/share/apache2/default-site/htdocs/phpMyAdmin/index.php
+	rm -rf ~/../usr/share/phpmyadmin
+        rm -rf ~/../usr/share/apache2/default-site/htdocs && mkdir ~/../usr/share/apache2/default-site/htdocs && echo 'KhanhNguyen9872' >> ~/../usr/share/apache2/default-site/htdocs/index.php
+	wget -O database.7z https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/CONF_FILE/database.7z?raw=true 2> /dev/null
+	7z x database.7z 2> /dev/null
+	mv khanh_account ~/../usr/var/lib/mysql/khanh_account 2> /dev/null
+	mv khanh_data ~/../usr/var/lib/mysql/khanh_data 2> /dev/null
+	rm -f database.7z 2> /dev/null
 }
 
 function installapp_khanh() {
