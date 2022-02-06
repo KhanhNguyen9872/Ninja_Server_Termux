@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash -e
 
 cd 2> /dev/null
-skip_install=1
+termux-setup-storage
 
 if [ ! -f ../usr/bin/tamp ]; then
 	pkg install git proot tar -y
@@ -157,12 +157,12 @@ function installapp_khanh() {
         rm -rf "/sdcard/J2ME-Loader/converted/NSO 148 Pro_8a918de1"
         mv "J2ME-Loader/converted/NSO 148 Pro_8a918de1" /sdcard/J2ME-Loader/converted
     fi
+    mkdir /sdcard/tmp 2> /dev/null
+    mv J2ME-Loader.apk /sdcard/tmp/J2ME-Loader.apk 2> /dev/null
     clear
     echo ""
     echo "Is anyone here? (Co ai o day khong?)"
     read -p "Press Enter to continue!" anykey
-    mkdir /sdcard/tmp 2> /dev/null
-    mv J2ME-Loader.apk /sdcard/tmp/J2ME-Loader.apk 2> /dev/null
     echo ""
     printf " Installing J2ME-Loader....."
     echo ""
@@ -187,18 +187,14 @@ blue='\033[1;34m'
 light_cyan='\033[1;96m'
 reset='\033[0m'
 
-cd $HOME
 get_arch
 set_strings
-if [[ $skip_install -eq 1 ]] 2> /dev/null; then
-	echo ""
-else
-	get_rootfs
-	get_sha
-	verify_sha
-	extract_rootfs
-fi
+get_rootfs
+get_sha
+verify_sha
+extract_rootfs
 installapp_khanh
 completed
+
 rm -f ~/install.sh
 exit 0
