@@ -163,6 +163,7 @@ function installapp_khanh() {
         mv "J2ME-Loader/converted/NSO 148 Pro_8a918de1" /sdcard/J2ME-Loader/converted
     fi
     rm -rf J2ME-Loader 2> /dev/null
+    rm -f ninja.7z
     mkdir /sdcard/tmp 2> /dev/null
     mv J2ME-Loader.apk /sdcard/tmp/J2ME-Loader.apk 2> /dev/null
     clear
