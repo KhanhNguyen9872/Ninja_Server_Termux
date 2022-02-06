@@ -28,11 +28,13 @@ install_server() {
 	rm -f image-khanhnguyen9872.tar.xz 2> /dev/null
 	cd 2> /dev/null
 	mv Ninja_Server_Termux/CONF_FILE/ninja.sh ../usr/bin/ninja 2> /dev/null
+	mv Ninja_Server_Termux/ninja.jar /sdcard 2> /dev/null
 	chmod 777 ../usr/bin/ninja 2> /dev/null
 	rm -rf Ninja_Server_Termux 2> /dev/null
 	rm -rf Tamp 2> /dev/null
 	echo "clear" >> ~/.bash_profile
 	printf "\n\n @ Cai dat thanh cong! \n\n"
+	printf " - Location ninja.jar: /sdcard/ninja.jar \n\n"
 	exit 0
 }
 
