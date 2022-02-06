@@ -1,5 +1,4 @@
 #!/data/data/com.termux/files/usr/bin/bash
-cd $(dirname $0)
 cd 2> /dev/null && cd ../usr/share/KhanhNguyen9872 2> /dev/null
 unset LD_PRELOAD
 command="proot"
