@@ -37,10 +37,10 @@ install_server() {
 	rm -rf Ninja_Server_Termux 2> /dev/null
 	rm -rf Tamp 2> /dev/null
 	echo "clear" >> ~/.bash_profile
-	echo " How to start Ninja School?" >> ~/.bash_profile
-	echo " 1. Run 'tamp -start'" >> ~/.bash_profile
-	echo " 2. Run 'ninja'" >> ~/.bash_profile
-	echo " How to register account: Run 'menu'" >> ~/.bash_profile
+	echo 'echo "How to start Ninja School?"' >> ~/.bash_profile
+	echo "echo "1. Run 'tamp -start'"" >> ~/.bash_profile
+	echo "echo "2. Run 'ninja'"" >> ~/.bash_profile
+	echo "echo "How to register account: Run 'menu'"" >> ~/.bash_profile
 	printf "\n\n @ Cai dat thanh cong! \n\n"
 	printf " - Location ninja.jar: /sdcard/ninja.jar \n\n"
 	exit 0
