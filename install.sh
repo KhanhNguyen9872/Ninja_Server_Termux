@@ -1,6 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash -e
 
 cd 2> /dev/null
+skip_install=1
 
 if [ ! -f ../usr/bin/tamp ]; then
 	pkg install git proot tar -y
