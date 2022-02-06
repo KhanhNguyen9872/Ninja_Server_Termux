@@ -5,7 +5,7 @@ Ninja School Server on Termux Android
 
 # How to install?
 1. Download Termux APK in this link
-[![](https://f-droid.org/repo/com.termux/en-US/icon_7jMZ7XD80oeucmGEaTwktIRZexLtGWvJfKdVD6Wu2SI=.png)](https://f-droid.org/repo/com.termux_118.apk)
+[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png)](https://f-droid.org/repo/com.termux_118.apk)
 [![](https://f-droid.org/repo/com.termux/en-US/icon_7jMZ7XD80oeucmGEaTwktIRZexLtGWvJfKdVD6Wu2SI=.png)](https://f-droid.org/repo/com.termux_118.apk)
 2. Install Termux APK
 3. Open Termux, copy this line and paste it on Termux
