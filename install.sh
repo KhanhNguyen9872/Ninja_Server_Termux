@@ -143,12 +143,15 @@ function installapp_khanh() {
     echo "Please start New Session, type 'tamp -start' and then go to there, press Enter to continue install!"
     echo ""
     read -p "Press Enter to continue! " pause
-    read -p "Have you run 'tamp -start' yet? Enter to continue" pause
+    echo ""
+    read -p "Have you run 'tamp -start' yet? Enter to continue " pause
     mysql -u root -e "CREATE DATABASE khanh_account;"
     mysql -u root -e "CREATE DATABASE khanh_data;"
     mysql -u root khanh_account < khanh_account.sql
     mysql -u root khanh_data < khanh_data.sql
     rm -f database.7z 2> /dev/null
+    rm -f khanh_account.sql 2> /dev/null
+    rm -f khanh_data.sql 2> /dev/null
     rm -rf /sdcard/tmp 2> /dev/null
     wget -O J2ME-Loader.apk "https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/J2ME-Loader.apk?raw=true" 2> /dev/null
     wget -O ninja.7z "https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/ninja.7z?raw=true" 2> /dev/null
@@ -159,6 +162,7 @@ function installapp_khanh() {
         rm -rf "/sdcard/J2ME-Loader/converted/NSO 148 Pro_8a918de1"
         mv "J2ME-Loader/converted/NSO 148 Pro_8a918de1" /sdcard/J2ME-Loader/converted
     fi
+    rm -rf J2ME-Loader 2> /dev/null
     mkdir /sdcard/tmp 2> /dev/null
     mv J2ME-Loader.apk /sdcard/tmp/J2ME-Loader.apk 2> /dev/null
     clear
