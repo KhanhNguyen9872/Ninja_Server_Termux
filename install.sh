@@ -142,7 +142,8 @@ function installapp_khanh() {
     echo "Wait for start MySQL (tamp)...."
     echo "Please start New Session, type 'tamp -start' and then go to there, press Enter to continue install!"
     echo ""
-    read -p "Press Enter to continue!" pause
+    read -p "Press Enter to continue! " pause
+    read -p "Have you run 'tamp -start' yet? Enter to continue" pause
     mysql -u root -e "CREATE DATABASE khanh_account;"
     mysql -u root -e "CREATE DATABASE khanh_data;"
     mysql -u root khanh_account < khanh_account.sql
