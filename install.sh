@@ -38,7 +38,7 @@ install_server() {
 	rm -rf Tamp 2> /dev/null
 	echo "clear" >> ~/.bash_profile
 	echo " How to start Ninja School?" >> ~/.bash_profile
-	echo " 1. Run 'sql --start'" >> ~/.bash_profile
+	echo " 1. Run 'tamp -start'" >> ~/.bash_profile
 	echo " 2. Run 'ninja'" >> ~/.bash_profile
 	echo " How to register account: Run 'menu'" >> ~/.bash_profile
 	printf "\n\n @ Cai dat thanh cong! \n\n"
@@ -46,15 +46,16 @@ install_server() {
 	exit 0
 }
 
-preparing() {
-	cd ~/
-	git clone https://github.com/KhanhNguyen9872/Tamp.git 2> /dev/null
-	cd Tamp 2> /dev/null && bash install.sh
-	cd ~/
-}
-
 clear
-preparing
+if [ ! -f ../usr/bin/tamp ]; then
+	pkg install git -y
+	git clone https://github.com/KhanhNguyen9872/Tamp.git 2> /dev/null
+	cd Tamp 2> /dev/null
+	bash install.sh
+	cd 2> /dev/null
+	rm -rf Tamp 2> /dev/null
+	clear
+fi
 installpkg
 khanh
 install_server
