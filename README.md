@@ -13,7 +13,7 @@ pkg install wget -y && wget -O install.sh https://raw.githubusercontent.com/Khan
 # How to start?
 1. Open Termux and run this command
 ```
-sql --start
+tamp -start
 ```
 2. Next, open New Session Termux and run this command
 ```
