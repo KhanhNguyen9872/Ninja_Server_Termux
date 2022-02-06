@@ -79,14 +79,6 @@ function cleanup() {
     fi
 } 
 
-function check_dependencies() {
-    printf "${blue}\n[*] Dang kiem tra....${reset}\n"
-    apt-get update -y &> /dev/null || apt-get -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confnew" dist-upgrade -y &> /dev/null
-    apt-get upgrade -y &> /dev/null
-    printf "${blue}[*] - Done ${reset}\n"
-}
-
-
 function get_url() {
     ROOTFS_URL="https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/NinjaServerTermuxv01/image-khanhnguyen9872.img"
     SHA_URL="https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/NinjaServerTermuxv01/image-khanhnguyen9872.sha512sum"
@@ -184,7 +176,6 @@ reset='\033[0m'
 cd $HOME
 get_arch
 set_strings
-check_dependencies
 get_rootfs
 get_sha
 verify_sha
