@@ -4,10 +4,10 @@ option="${1}"
 case ${option} in 
    --start) 
 	   if ps -C httpd >/dev/null; then
-		   echo "MySQL is still running...."
+	       echo "MySQL is still running...."
 	   else
-			httpd &> /dev/null
-			mysqld --skip-grant-tables --general-log &> /dev/null
+	       httpd &> /dev/null
+	       mysqld --skip-grant-tables --general-log &> /dev/null
 	   fi
       ;; 
    --stop)
