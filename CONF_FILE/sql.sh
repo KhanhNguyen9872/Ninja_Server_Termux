@@ -19,7 +19,7 @@ case ${option} in
    *)  
       printf "\nCOMMAND: sql [ARGURMENT]\n\n"
       printf "  --start [Start MySQL]\n"
-      printf "  --stop  [Stop MySQL]\n"
+      printf "  --stop  [Stop MySQL]\n\n"
       exit 1
       ;; 
 esac
