@@ -23,6 +23,7 @@ install_server() {
 	printf "\n - Dang cai dat...."
 	mv image-khanhnguyen9872.img image-khanhnguyen9872.tar.xz
 	proot --link2symlink tar -xJf image-khanhnguyen9872.tar.xz 2> /dev/null || :
+	mkdir ubuntu-binds
 	rm -f image-khanhnguyen9872.tar.xz 2> /dev/null
 	cd 2> /dev/null
 	mv Ninja_Server_Termux/CONF_FILE/ninja.sh ../usr/bin/ninja 2> /dev/null
