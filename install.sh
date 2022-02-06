@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 install_Packages() {
-for i in apache2 mariadb php php-apache phpmyadmin wget proot; do
+for i in apache2 mariadb php php-apache phpmyadmin wget proot tar; do
 	dpkg -s $i &> /dev/null
 	if [[ $? -eq 0 ]]; then
 		echo ""
