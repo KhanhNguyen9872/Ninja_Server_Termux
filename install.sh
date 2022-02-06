@@ -46,6 +46,7 @@ function ask() {
 }
 
 function get_arch() {
+    clear
     printf "${blue}[*] Kiem tra CPU...."
     case $(getprop ro.product.cpu.abi) in
         arm64-v8a)
