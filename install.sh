@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+installpkg() {
+	pkg install wget proot -y
+}
+
 khanh() {
 	cd 2> /dev/null
 	mv Ninja_Server_Termux/menu.sh ../usr/bin/menu 2> /dev/null
@@ -48,5 +52,6 @@ preparing() {
 
 clear
 preparing
+installpkg
 khanh
 install_server
