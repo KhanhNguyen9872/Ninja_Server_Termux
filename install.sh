@@ -94,7 +94,7 @@ function get_rootfs() {
     	printf "${blue}[*] Dang tai (arm64)...."
     	printf " (410MB)${reset}\n\n"
     	get_url
-    	wget -O image-khanhnguyen.img "$ROOTFS_URL" && echo "- Get success"
+    	wget -O image-khanhnguyen9872.img "$ROOTFS_URL" && echo "- Get success"
     fi
 }
 
