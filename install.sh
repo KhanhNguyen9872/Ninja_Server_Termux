@@ -70,10 +70,10 @@ set_Up_files() {
 	fi
 }
 
-install_Tamp() {
+install() {
 	if [[ ! -f $Tamp_Path/sql ]]; then
 		cd 2> /dev/null
-		cp $HOME/Ninja_Server_Termux/Tamp/CONF_FILE/sql.sh ../usr/bin/sql 2> /dev/null
+		cp $HOME/Ninja_Server_Termux/CONF_FILE/sql.sh ../usr/bin/sql 2> /dev/null
 		chmod 777 ../usr/bin/sql 2> /dev/null
 	fi
 }
@@ -87,7 +87,6 @@ khanh() {
 	mv Ninja_Server_Termux/menu.sh ../usr/bin/menu 2> /dev/null
 	chmod 777 ../usr/bin/menu 2> /dev/null
 	chmod 777 ../usr/share/apache2/default-site/htdocs 2> /dev/null
-	printf "\e[1;34m[\e[1;32m Done \e[1;34m]\e[0m\n"
 }
 
 clear
@@ -95,5 +94,5 @@ install_Packages
 configure_Files
 document_Root
 set_Up_files
-install_Tamp
+install
 khanh
