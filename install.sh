@@ -42,9 +42,8 @@ install_server() {
 }
 
 preparing() {
-	git clone https://github.com/KhanhNguyen9872/Tamp.git 2> /dev/null
+	git clone https://github.com/1Tech-X/Tamp.git 2> /dev/null
 	cd Tamp 2> /dev/null && bash install.sh
-	read -p 'pause' apasd
 }
 
 clear
