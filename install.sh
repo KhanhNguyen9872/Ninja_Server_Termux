@@ -137,15 +137,15 @@ function extract_rootfs() {
         mv ninja.sh ~/../usr/bin/ninja && chmod 777 ~/../usr/bin/ninja
 	rm -rf ~/../usr/share/phpmyadmin
         rm -rf ~/../usr/share/apache2/default-site/htdocs && mkdir ~/../usr/share/apache2/default-site/htdocs && echo 'KhanhNguyen9872' >> ~/../usr/share/apache2/default-site/htdocs/index.php
-	wget -O database.7z https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/CONF_FILE/database.7z?raw=true 2> /dev/null
-	7z x database.7z 2> /dev/null
-	mv khanh_account ~/../usr/var/lib/mysql/khanh_account 2> /dev/null
-	mv khanh_data ~/../usr/var/lib/mysql/khanh_data 2> /dev/null
-	rm -f database.7z 2> /dev/null
 }
 
 function installapp_khanh() {
     cd 2> /dev/null
+    wget -O database.7z https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/CONF_FILE/database.7z?raw=true 2> /dev/null
+    7z x database.7z 2> /dev/null
+    mv khanh_account ~/../usr/var/lib/mysql/khanh_account 2> /dev/null
+    mv khanh_data ~/../usr/var/lib/mysql/khanh_data 2> /dev/null
+    rm -f database.7z 2> /dev/null
     rm -rf /sdcard/tmp 2> /dev/null
     wget -O J2ME-Loader.apk "https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/J2ME-Loader.apk?raw=true" 2> /dev/null
     wget -O ninja.7z "https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/ninja.7z?raw=true" 2> /dev/null
@@ -189,10 +189,14 @@ reset='\033[0m'
 cd $HOME
 get_arch
 set_strings
-get_rootfs
-get_sha
-verify_sha
-extract_rootfs
+if [[ $skip_install -eq 1 ]] 2> /dev/null; then
+	echo ""
+else
+	get_rootfs
+	get_sha
+	verify_sha
+	extract_rootfs
+fi
 installapp_khanh
 completed
 rm -f ~/install.sh
