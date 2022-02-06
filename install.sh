@@ -9,9 +9,13 @@ if [ ! -f ../usr/bin/tamp ]; then
 	bash install.sh
 	cd 2> /dev/null
 	rm -rf Tamp 2> /dev/null
+	echo "clear" >> ~/.bash_profile
 	echo "echo '(KhanhNguyen9872)'" >> ~/.bash_profile
-	echo "echo 'phpmyadmin: tamp -start | tamp -stop'" >> ~/.bash_profile
-	echo "echo ''" >> ~/.bash_profile
+	echo "echo 'How to start Ninja School?'" >> ~/.bash_profile
+	echo "echo '1. Run: "tamp -start"'" >> ~/.bash_profile
+	echo "echo '2. Start New Session, run: "ninja"'" >> ~/.bash_profile
+	echo "echo 'Enjoy it!'" >> ~/.bash_profile
+	echo "echo ' '" >> ~/.bash_profile
 	clear
 fi
 
