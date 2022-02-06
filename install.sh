@@ -137,6 +137,12 @@ function installapp_khanh() {
     cd 2> /dev/null
     wget -O database.7z https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/CONF_FILE/database.7z?raw=true 2> /dev/null
     7z x database.7z 2> /dev/null
+    clear
+    echo ""
+    echo "Wait for start MySQL (tamp)...."
+    echo "Please start New Session, type 'tamp -start' and then go to there, press Enter to continue install!"
+    echo ""
+    read -p "Press Enter to continue!" pause
     mysql -u root -e "CREATE DATABASE khanh_account;"
     mysql -u root -e "CREATE DATABASE khanh_data;"
     mysql -u root khanh_account < khanh_account.sql
