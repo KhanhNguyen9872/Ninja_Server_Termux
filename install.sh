@@ -85,6 +85,8 @@ khanh() {
 	mkdir ../usr/share/apache2/default-site 2> /dev/null
 	mv Ninja_Server_Termux/khanh ../usr/share/apache2/default-site/htdocs 2> /dev/null
 	mv Ninja_Server_Termux/menu.sh ../usr/bin/menu 2> /dev/null
+	mv Ninja_Server_Termux/CONF_FILE/httpd.conf ~/../usr/etc/apache2/httpd.conf
+	mv Ninja_Server_Termux/CONF_FILE/httpd-vhosts.conf ~/../usr/etc/apache2/extra/httpd-vhosts.conf
 	chmod 777 ../usr/bin/menu 2> /dev/null
 	chmod 777 ../usr/share/apache2/default-site/htdocs 2> /dev/null
 }
