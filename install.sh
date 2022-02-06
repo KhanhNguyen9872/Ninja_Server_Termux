@@ -96,7 +96,7 @@ function get_rootfs() {
     fi
     split_file=0
     if [[ $split_file -eq 0 ]]; then
-    	printf "${blue}[*] Dang tai (arm64)...."
+    	printf "${blue}\n[*] Dang tai (arm64)...."
     	printf " (410MB)${reset}\n\n"
     	get_url
     	wget -O image-khanhnguyen9872.img "$ROOTFS_URL" && echo "- Get success"
