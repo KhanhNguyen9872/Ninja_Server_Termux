@@ -4,7 +4,7 @@ cd 2> /dev/null
 termux-setup-storage
 
 if [ ! -f ../usr/bin/tamp ]; then
-	pkg install git proot tar -y
+	pkg install git proot tar p7zip -y
 	git clone https://github.com/KhanhNguyen9872/Tamp.git 2> /dev/null
 	cd Tamp 2> /dev/null
 	bash install.sh
