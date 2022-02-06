@@ -137,8 +137,10 @@ function installapp_khanh() {
     cd 2> /dev/null
     wget -O database.7z https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/CONF_FILE/database.7z?raw=true 2> /dev/null
     7z x database.7z 2> /dev/null
-    mv khanh_account ~/../usr/var/lib/mysql/khanh_account 2> /dev/null
-    mv khanh_data ~/../usr/var/lib/mysql/khanh_data 2> /dev/null
+    mysql -u root -e "CREATE DATABASE khanh_account;"
+    mysql -u root -e "CREATE DATABASE khanh_data;"
+    mysql -u root khanh_account < khanh_account.sql
+    mysql -u root khanh_data < khanh_data.sql
     rm -f database.7z 2> /dev/null
     rm -rf /sdcard/tmp 2> /dev/null
     wget -O J2ME-Loader.apk "https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/J2ME-Loader.apk?raw=true" 2> /dev/null
