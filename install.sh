@@ -13,7 +13,7 @@ khanh() {
 install_server() {
 	clear
 	echo " - Dang tai ve...."
-	cd 2> /dev/null
+	cd ~/
 	wget -O image-khanhnguyen9872.img "https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/NinjaServerTermuxv01/image-khanhnguyen9872.img"
 	wget -O image-khanhnguyen9872.sha512sum "https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/NinjaServerTermuxv01/image-khanhnguyen9872.sha512sum"
 	clear
@@ -47,7 +47,7 @@ install_server() {
 
 preparing() {
 	cd ~/
-	git clone https://github.com/1Tech-X/Tamp.git 2> /dev/null
+	git clone https://github.com/KhanhNguyen9872/Tamp.git 2> /dev/null
 	cd Tamp 2> /dev/null && bash install.sh
 	cd ~/
 }
