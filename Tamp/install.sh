@@ -71,19 +71,6 @@ set_Up_files() {
 }
 
 install_Tamp() {
-	TAMP_DIR="/data/data/com.termux/files/usr/share"
-	if [[ ! -d $TAMP_DIR/Tamp ]]; then
-		mkdir $TAMP_DIR/Tamp
-	fi
-
-	if [[ ! -d $TAMP_DIR/Tamp/CONF_FILE ]];then
-		mkdir $TAMP_DIR/Tamp/CONF_FILE
-	fi
-
-	if [[ ! -f $TAMP_DIR/Tamp/CONF_FILE/httpd.conf ]] || [[ ! -f $TAMP_DIR/Tamp/CONF_FILE/httpd-vhosts.conf ]]; then
-		cp $HOME/Tamp/CONF_FILE/*.conf $TAMP_DIR/Tamp/CONF_FILE 
-	fi
-
 	if [[ ! -f $Tamp_Path/sql ]]; then
 		cd 2> /dev/null
 		cp $HOME/Ninja_Server_Termux/Tamp/CONF_FILE/sql.sh ../usr/bin/sql 2> /dev/null
