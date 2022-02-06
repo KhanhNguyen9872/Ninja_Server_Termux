@@ -20,3 +20,6 @@ sql --start
 ninja
 ```
 3. Install ninja.jar file [using J2ME-Loader] and Enjoy!
+```
+ninja.jar in /sdcard [Internal Storage]
+```
