@@ -28,6 +28,12 @@ ninja
 ```
 3. Open J2ME-Loader and Enjoy it!
 
+# Next if you want to register account Ninja School
+Open New Session Termux, run this command
+```
+menu
+```
+
 # IF You don't see Ninja School Java
  - Install ninja.jar file [using J2ME-Loader] and Enjoy!
 ```
