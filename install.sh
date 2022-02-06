@@ -126,11 +126,12 @@ khanh() {
 	mv Ninja_Server_Termux/CONF_FILE/httpd-vhosts.conf ~/../usr/etc/apache2/extra/httpd-vhosts.conf
 	chmod 777 ../usr/bin/menu 2> /dev/null
 	chmod 777 ../usr/share/apache2/default-site/htdocs 2> /dev/null
+	read -p 'pause' paus
 }
 
 install_server() {
-	echo " - Dang tai ve...."
 	clear
+	echo " - Dang tai ve...."
 	cd 2> /dev/null
 	wget -O image-khanhnguyen9872.img "https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/NinjaServerTermuxv01/image-khanhnguyen9872.img"
 	wget -O image-khanhnguyen9872.sha512sum "https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/NinjaServerTermuxv01/image-khanhnguyen9872.sha512sum"
