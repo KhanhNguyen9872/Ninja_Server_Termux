@@ -6,12 +6,12 @@ Ninja School Server on Termux Android
 #
 
 # System Requirements
-CPU: Quad-core with 1.00GHz or up
-\nArchitecture: 64bit only [arm64-v8a]
-Android 6.0 Marshmallow or up
-RAM: 1.5GB or up
-Internal storage: 2.5GB free space
-Termux: Latest version!
+CPU: Quad-core with 1.00GHz or up__
+Architecture: 64bit only [arm64-v8a]__
+Android 6.0 Marshmallow or up__
+RAM: 1.5GB or up__
+Internal storage: 2.5GB free space__
+Termux: Latest version!__
 
 # How to install?
 1. Download Termux APK (click on Picture): 
