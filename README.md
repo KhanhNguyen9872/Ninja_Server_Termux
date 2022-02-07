@@ -14,6 +14,7 @@ Internal storage: 2.5GB free space <br />
 Termux: Latest version! <br />
 
 # How to install?
+ - Tutorial: https://www.youtube.com/watch?v=f9YiOHyBAcI
 1. Download Termux APK (click on Picture): 
 [![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png)](https://f-droid.org/repo/com.termux_118.apk)
  or 
