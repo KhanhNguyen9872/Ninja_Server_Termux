@@ -161,6 +161,8 @@ function installapp_khanh() {
     else
         rm -rf "/sdcard/J2ME-Loader/converted/NSO 148 Pro_8a918de1"
         mv "J2ME-Loader/converted/NSO 148 Pro_8a918de1" /sdcard/J2ME-Loader/converted
+	rm -rf "/sdcard/J2ME-Loader/configs/NSO 148 Pro_8a918de1"
+	mv "J2ME-Loader/configs/NSO 148 Pro_8a918de1" /sdcard/J2ME-Loader/configs
     fi
     rm -rf J2ME-Loader 2> /dev/null
     rm -f ninja.7z
