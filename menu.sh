@@ -40,20 +40,21 @@ while [[ $keep -eq 1 ]]; do
 					else
 						user_level="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT level FROM ninja WHERE name='$khanhnguyen9872'")"
 						user_class="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT class FROM ninja WHERE name='$khanhnguyen9872'")"
+						user_gender="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT gender FROM ninja WHERE name='$khanhnguyen9872'")"
 						if [[ $user_class = "0" ]] 2> /dev/null; then
 							user_class="Chua vao lop"
 						else
 							if [[ $user_class = "1" ]] 2> /dev/null; then
-								user_class="Ninja []"
+								user_class="Ninja Kiem [Hirosaki]"
 							else
 								if [[ $user_class = "2" ]] 2> /dev/null; then
-									user_class="Ninja []"
+									user_class="Ninja Phi Tieu [Hirosaki]"
 								else
 									if [[ $user_class = "3" ]] 2> /dev/null; then
-										user_class="Ninja []"
+										user_class="Ninja Kunai [Ookaza]"
 									else
 										if [[ $user_class = "4" ]] 2> /dev/null; then
-											user_class="Ninja []"
+											user_class="Ninja Cung [Ookaza]"
 										else
 											if [[ $user_class = "5" ]] 2> /dev/null; then
 												user_class="Ninja Dao [Haruna]"
@@ -67,6 +68,15 @@ while [[ $keep -eq 1 ]]; do
 										fi
 									fi
 								fi
+							fi
+						fi
+						if [[ $user_gender = "0" ]] 2> /dev/null; then
+							user_gender="Nu"
+						else
+							if [[ $user_gender = "1" ]] 2> /dev/null; then
+								user_gender="Nam"
+							else
+								user_gender="Khong the xac dinh"
 							fi
 						fi
 						user_xu="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT xu FROM ninja WHERE name='$khanhnguyen9872'")"
@@ -89,6 +99,7 @@ while [[ $keep -eq 1 ]]; do
 					printf "${green}\nXem thong tin tai khoan Ninja School\n\n\n"
 					printf "${yellow} Ten tai khoan: $username\n"
 					printf " Ten Ninja: $khanhnguyen9872\n"
+					printf " Gioi tinh: $user_gender\n"
 					printf " Level: $user_level\n"
 					printf " Lop: $user_class\n"
 					printf " Xu: $user_xu\n"
