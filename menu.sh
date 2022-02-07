@@ -33,8 +33,9 @@ while [[ $keep -eq 1 ]]; do
 					khanhnguyen9872="$(mysql -u root -D khanh_account --skip-column-names -e "SELECT ninja FROM player WHERE username='$username';" | awk -F \| '{ printf $1 }' | sed 's/\"//g' | sed 's/\[//g' | sed 's/\]//g')"
 					if [ -z $khanhnguyen9872 ] 2> /dev/null || [ $khanhnguyen9872 = "" ] 2> /dev/null; then
 						khanhnguyen9872="Chua tao nhan vat Ninja"
+						user_gender="Unknown"
 						user_level="0"
-						user_class="0"
+						user_class="Unknown"
 						user_xu="0"
 						user_yen="0"
 					else
