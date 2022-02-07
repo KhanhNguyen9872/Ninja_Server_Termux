@@ -191,10 +191,10 @@ function completed() {
 	echo "clear" >> ~/.bash_profile
 	echo "echo '(KhanhNguyen9872)'" >> ~/.bash_profile
 	echo "echo 'How to start Ninja School?'" >> ~/.bash_profile
-	echo "echo '1. Run: "tamp -start"'" >> ~/.bash_profile
-	echo "echo '2. Start New Session, run: "ninja"'" >> ~/.bash_profile
+	echo "echo '1. Run: [tamp -start]'" >> ~/.bash_profile
+	echo "echo '2. Start New Session, run [ninja]'" >> ~/.bash_profile
 	echo "echo 'Enjoy it!'" >> ~/.bash_profile
-	echo "echo 'You can use "menu" to register account!'" >> ~/.bash_profile
+	echo "echo 'You can use [menu] to register account!'" >> ~/.bash_profile
 	echo "echo ' '" >> ~/.bash_profile
 }
 
