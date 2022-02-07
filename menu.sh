@@ -122,8 +122,8 @@ while [[ $keep -eq 1 ]]; do
 			read -p 'Ten tai khoan: ' username
 			username_check="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
 			if [ $username_check = $username ] 2> /dev/null; then
-				matkhau_khanh="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT password FROM player WHERE username='$username';")"
-				printf "\n${yellow} Mat khau hien tai: ${matkhau_khanh}\n\n${reset}"
+				matkhau_khanh="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT password FROM player WHERE username='$username';")" 2> /dev/null
+				printf "${yellow}\n Mat khau hien tai: ${matkhau_khanh} \n\n${reset}"
 				read -p 'Press Enter to exit!' pause
 			else
 				printf "\n${red} !!! Tai khoan nay khong ton tai !!!\n\n${reset}"
