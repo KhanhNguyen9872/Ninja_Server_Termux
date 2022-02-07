@@ -176,7 +176,7 @@ while [[ $keep -eq 1 ]]; do
 				printf "${red}\n !!! Thong tin dang ky khong hop le !!!\n\n${reset}"
 				read -p 'Press Enter to exit!' pause
 			else
-				if [[ $password -eq $repassword ]] 2> /dev/null; then
+				if [[ $password -eq $repassword ]] 2> /dev/null || [ $password = $repassword ] 2> /dev/null; then
 					username_check="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
 					if [ $username_check = $username ] 2> /dev/null; then
 						printf "${red}\n !!! Tai khoan nay da ton tai !!!\n\n${reset}"
@@ -368,7 +368,10 @@ EOF
 			fi
 		;;
 	esac
+	unset check_apache2
 	unset khanh
+	unset pause
+	unset user_gender
 	unset user_class
 	unset user_trangthai
 	unset user_xu
