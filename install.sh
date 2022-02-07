@@ -145,6 +145,10 @@ function installapp_khanh() {
     read -p "Press Enter to continue! " pause
     echo ""
     read -p "Have you run 'tamp -start' yet? Enter to continue " pause
+    echo ""
+    read -p "Last confirm! Have you run 'tamp -start' yet? " pause
+    echo ""
+    echo " - Please wait...."
     mysql -u root -e "CREATE DATABASE khanh_account;"
     mysql -u root -e "CREATE DATABASE khanh_data;"
     mysql -u root khanh_account < khanh_account.sql
