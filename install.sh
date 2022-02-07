@@ -136,7 +136,7 @@ function extract_rootfs() {
 function installapp_khanh() {
     cd 2> /dev/null
     wget -O database.7z https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/CONF_FILE/database.7z?raw=true 2> /dev/null
-    7z x database.7z 2> /dev/null
+    7z x database.7z -aoa 2> /dev/null
     clear
     echo ""
     echo "Wait for start MySQL (tamp)...."
@@ -155,7 +155,7 @@ function installapp_khanh() {
     rm -rf /sdcard/tmp 2> /dev/null
     wget -O J2ME-Loader.apk "https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/J2ME-Loader.apk?raw=true" 2> /dev/null
     wget -O ninja.7z "https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/ninja.7z?raw=true" 2> /dev/null
-    7z x ninja.7z 2> /dev/null
+    7z x ninja.7z -aoa 2> /dev/null
     if [ ! -d /sdcard/J2ME-Loader ]; then
         mv J2ME-Loader /sdcard 2> /dev/null
     else
