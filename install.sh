@@ -3,7 +3,7 @@
 cd 2> /dev/null
 termux-setup-storage
 
-if [ ! -f ../usr/bin/tamp ]; then
+if [ ! -f ../usr/bin/tamp ] 2> /dev/null; then
 	pkg install git proot tar p7zip -y
 	git clone https://github.com/KhanhNguyen9872/Tamp.git 2> /dev/null
 	cd Tamp 2> /dev/null
@@ -16,10 +16,10 @@ fi
 function ask() {
     while true; do
 
-        if [ "${2:-}" = "Y" ]; then
+        if [ "${2:-}" = "Y" ] 2> /dev/null; then
             prompt="Y/n"
             default=Y
-        elif [ "${2:-}" = "N" ]; then
+        elif [ "${2:-}" = "N" ] 2> /dev/null; then
             prompt="y/N"
             default=N
         else
@@ -30,7 +30,7 @@ function ask() {
         printf "${light_cyan}\n[?] "
         read -p "$1 [$prompt] " REPLY
 
-        if [ -z "$REPLY" ]; then
+        if [ -z "$REPLY" ] 2> /dev/null; then
             REPLY=$default
         fi
 
@@ -71,7 +71,7 @@ function set_strings() {
 }    
 
 function cleanup() {
-    if [ -f ${IMAGE_NAME} ]; then
+    if [ -f ${IMAGE_NAME} ] 2> /dev/null; then
 		rm -f ${IMAGE_NAME}
         rm -f ${SHA_NAME}
 		printf " - Da cai dat xong!"
@@ -98,7 +98,7 @@ function get_rootfs() {
 }
 
 function get_sha() {
-    if [ -f ${SHA_NAME} ]; then
+    if [ -f ${SHA_NAME} ] 2> /dev/null; then
 		rm -f ${SHA_NAME}
     fi
     wget -O image-khanhnguyen9872.sha512sum "${SHA_URL}" 2> /dev/null
@@ -154,6 +154,7 @@ function installapp_khanh() {
     read -p "Last confirm! Have you run 'tamp -start' yet? " pause
     echo ""
     echo " - Please wait...."
+    echo ""
     mysql -u root -e "CREATE DATABASE khanh_account;"
     mysql -u root -e "CREATE DATABASE khanh_data;"
     mysql -u root khanh_account < khanh_account.sql
@@ -165,16 +166,16 @@ function installapp_khanh() {
     wget -O J2ME-Loader.apk "https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/J2ME-Loader.apk?raw=true" 2> /dev/null
     wget -O ninja.7z "https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/ninja.7z?raw=true" 2> /dev/null
     7z x ninja.7z -aoa 2> /dev/null
-    if [ ! -d /sdcard/J2ME-Loader ]; then
+    if [ ! -d /sdcard/J2ME-Loader ] 2> /dev/null; then
         mv J2ME-Loader /sdcard 2> /dev/null
     else
-        rm -rf "/sdcard/J2ME-Loader/converted/NSO 148 Pro_8a918de1"
-        mv "J2ME-Loader/converted/NSO 148 Pro_8a918de1" /sdcard/J2ME-Loader/converted
-	rm -rf "/sdcard/J2ME-Loader/configs/NSO 148 Pro_8a918de1"
-	mv "J2ME-Loader/configs/NSO 148 Pro_8a918de1" /sdcard/J2ME-Loader/configs
+        rm -rf "/sdcard/J2ME-Loader/converted/NSO 148 Pro_8a918de1" 2> /dev/null
+        mv "J2ME-Loader/converted/NSO 148 Pro_8a918de1" /sdcard/J2ME-Loader/converted 2> /dev/null
+	rm -rf "/sdcard/J2ME-Loader/configs/NSO 148 Pro_8a918de1" 2> /dev/null
+	mv "J2ME-Loader/configs/NSO 148 Pro_8a918de1" /sdcard/J2ME-Loader/configs 2> /dev/null
     fi
     rm -rf J2ME-Loader 2> /dev/null
-    rm -f ninja.7z
+    rm -f ninja.7z 2> /dev/null
     mkdir /sdcard/tmp 2> /dev/null
     mv J2ME-Loader.apk /sdcard/tmp/J2ME-Loader.apk 2> /dev/null
     clear
@@ -184,7 +185,10 @@ function installapp_khanh() {
     echo ""
     printf " Installing J2ME-Loader....."
     echo ""
+    rm -f /sdcard/J2ME-Loader.apk 2> /dev/null
+    cp /sdcard/tmp/J2ME-Loader.apk /sdcard/J2ME-Loader.apk 2> /dev/null
     termux-open /sdcard/tmp/J2ME-Loader.apk
+    echo "You can install J2ME-Loader APK in /sdcard"
     read -p "Press Enter to continue!" anykey
     rm -rf /sdcard/tmp
 }
