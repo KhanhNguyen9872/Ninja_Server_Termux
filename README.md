@@ -44,7 +44,7 @@ Open New Session Termux, run this command
 menu
 ```
 
-# IF You don't see Ninja School Java
+# IF You don't see Ninja School in J2ME-Loader
  - Install ninja.jar file [using J2ME-Loader] and Enjoy!
 ```
 ninja.jar in /sdcard [Internal Storage]
