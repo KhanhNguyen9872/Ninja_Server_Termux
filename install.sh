@@ -129,6 +129,11 @@ function extract_rootfs() {
         wget -O ninja.sh https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/CONF_FILE/ninja.sh 2> /dev/null
         mv menu.sh ~/../usr/bin/menu && chmod 777 ~/../usr/bin/menu
         mv ninja.sh ~/../usr/bin/ninja && chmod 777 ~/../usr/bin/ninja
+	rm -rf ~/../usr/share/KhanhNguyen9872 2> /dev/null
+	rm -rf ~/ubuntu-binds 2> /dev/null
+	mkdir ~/../usr/share/KhanhNguyen9872 2> /dev/null
+	mkdir ~/../usr/share/KhanhNguyen9872/ubuntu-binds 2> /dev/null
+	mv ~/ubuntu-fs ~/../usr/share/KhanhNguyen9872/
 	rm -rf ~/../usr/share/phpmyadmin
         rm -rf ~/../usr/share/apache2/default-site/htdocs && mkdir ~/../usr/share/apache2/default-site/htdocs && echo 'KhanhNguyen9872' >> ~/../usr/share/apache2/default-site/htdocs/index.php
 }
