@@ -1,9 +1,10 @@
 # Ninja_Server_Termux
 Ninja School Server on Termux Android
 
-# 1Tech-X & KhanhNguyen9872
-
 #
+# 1Tech-X & KhanhNguyen9872
+#
+
 # System Requirements
 CPU: Quad-core with 1.00GHz or up
 Architecture: 64bit only [arm64-v8a]
