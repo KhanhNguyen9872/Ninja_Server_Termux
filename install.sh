@@ -188,6 +188,7 @@ function completed() {
 	clear
 	echo "- Da cai dat thanh cong"
 	echo ""
+        echo "termux-wake-lock" >> ~/.bash_profile
 	echo "clear" >> ~/.bash_profile
 	echo "echo '(KhanhNguyen9872)'" >> ~/.bash_profile
 	echo "echo 'How to start Ninja School?'" >> ~/.bash_profile
