@@ -39,9 +39,9 @@ while [[ $keep -eq 1 ]]; do
 						user_xu="0"
 						user_yen="0"
 					else
-						user_level="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT level FROM ninja WHERE name='$khanhnguyen9872'")"
-						user_class="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT class FROM ninja WHERE name='$khanhnguyen9872'")"
-						user_gender="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT gender FROM ninja WHERE name='$khanhnguyen9872'")"
+						user_level="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT level FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
+						user_class="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT class FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
+						user_gender="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT gender FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
 						if [[ $user_class = "0" ]] 2> /dev/null; then
 							user_class="Chua vao lop"
 						else
@@ -80,11 +80,11 @@ while [[ $keep -eq 1 ]]; do
 								user_gender="Khong the xac dinh"
 							fi
 						fi
-						user_xu="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT xu FROM ninja WHERE name='$khanhnguyen9872'")"
-						user_yen="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT yen FROM ninja WHERE name='$khanhnguyen9872'")"
+						user_xu="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT xu FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
+						user_yen="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT yen FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
 					fi
-					user_luong="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT luong FROM player WHERE username='$username'")"
-					user_trangthai="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT ban FROM player WHERE username='$username'")"
+					user_luong="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT luong FROM player WHERE username='$username'")" 2> /dev/null
+					user_trangthai="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT ban FROM player WHERE username='$username'")" 2> /dev/null
 					if [[ $user_trangthai -eq 0 ]]; then
 						user_trangthai="Dang kich hoat [Unlocked]"
 					else
@@ -123,7 +123,9 @@ while [[ $keep -eq 1 ]]; do
 			username_check="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
 			if [ $username_check = $username ] 2> /dev/null; then
 				matkhau_khanh="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT password FROM player WHERE username='$username';")" 2> /dev/null
-				printf "${yellow}\n Mat khau hien tai: ${matkhau_khanh} \n\n${reset}"
+				printf "${yellow}\n Mat khau hien tai: "
+                                echo "$matkhau_khanh"
+                                printf "\n\n${reset}"
 				read -p 'Press Enter to exit!' pause
 			else
 				printf "\n${red} !!! Tai khoan nay khong ton tai !!!\n\n${reset}"
@@ -146,7 +148,7 @@ while [[ $keep -eq 1 ]]; do
 				username_check="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
 				if [ $username_check = $username ] 2> /dev/null && [ ! -z $username_check ] 2> /dev/null; then
 					if [ $passwordnew = $repassword ] 2> /dev/null; then
-						matkhau_khanh="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT password FROM player WHERE username='$username';")"
+						matkhau_khanh="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT password FROM player WHERE username='$username';")" 2> /dev/null
 						if [ $matkhau_khanh = $password ] 2> /dev/null; then
 							mysql --user=root -D khanh_account -e "UPDATE player SET password='$passwordnew' WHERE username='$username';"
 							printf "\n${yellow} Doi mat khau thanh cong!\n\n${reset}"
