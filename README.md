@@ -7,11 +7,23 @@ Ninja School Server on Termux Android
 
 # System Requirements
 CPU: Quad-core with 1.00GHz or up <br />
+
 Architecture: 64bit only [arm64-v8a] <br />
+
 Android 6.0 Marshmallow or up <br />
+
 RAM: 1.5GB or up <br />
+
 Internal storage: 2.5GB free space <br />
+
 Termux: Latest version! <br />
+
+# Note
+
+Server cannot be start if port 3306, 8080 is in used! <br />
+
+Sometimes if you install you will get some SQL errors, try to download the latest Termux or change to another repo with the command 'termux-change-repo' and try again <br />
+
 
 # How to install?
  - Tutorial: https://www.youtube.com/watch?v=f9YiOHyBAcI
