@@ -81,6 +81,7 @@ while [[ $keep -eq 1 ]]; do
 							fi
 						fi
 						user_xu="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT xu FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
+						user_xuBox="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT xuBox FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
 						user_yen="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT yen FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
 					fi
 					user_luong="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT luong FROM player WHERE username='$username'")" 2> /dev/null
@@ -104,6 +105,7 @@ while [[ $keep -eq 1 ]]; do
 					printf " Level: $user_level\n"
 					printf " Lop: $user_class\n"
 					printf " Xu: $user_xu\n"
+					printf " Xu giu ruong: $user_xuBox\n"
 					printf " Yen: $user_yen\n"
 					printf " Luong: $user_luong\n"
 					printf " Trang thai: $user_trangthai\n\n\n"
@@ -378,6 +380,7 @@ EOF
 	unset user_class
 	unset user_trangthai
 	unset user_xu
+	unset user_xuBox
 	unset user_yen
 	unset user_luong
 	unset user_level
