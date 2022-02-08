@@ -28,9 +28,9 @@ while [[ $keep -eq 1 ]]; do
 			printf "${green}\nXem thong tin tai khoan Ninja School\n\n"
 			read -p 'Ten tai khoan: ' username
 			if [ ! -z $username ] 2> /dev/null; then
-				username_check="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
+				username_check="$(mysql --user=root -D khanh --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
 				if [ $username_check = $username ] 2> /dev/null; then
-					khanhnguyen9872="$(mysql -u root -D khanh_account --skip-column-names -e "SELECT ninja FROM player WHERE username='$username';" | awk -F \| '{ printf $1 }' | sed 's/\"//g' | sed 's/\[//g' | sed 's/\]//g')"
+					khanhnguyen9872="$(mysql -u root -D khanh --skip-column-names -e "SELECT ninja FROM player WHERE username='$username';" | awk -F \| '{ printf $1 }' | sed 's/\"//g' | sed 's/\[//g' | sed 's/\]//g')"
 					if [ -z $khanhnguyen9872 ] 2> /dev/null || [ $khanhnguyen9872 = "" ] 2> /dev/null; then
 						khanhnguyen9872="Chua tao nhan vat Ninja"
 						user_gender="Unknown"
@@ -39,9 +39,9 @@ while [[ $keep -eq 1 ]]; do
 						user_xu="0"
 						user_yen="0"
 					else
-						user_level="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT level FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
-						user_class="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT class FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
-						user_gender="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT gender FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
+						user_level="$(mysql --user=root -D khanh --skip-column-names -e "SELECT level FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
+						user_class="$(mysql --user=root -D khanh --skip-column-names -e "SELECT class FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
+						user_gender="$(mysql --user=root -D khanh --skip-column-names -e "SELECT gender FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
 						if [[ $user_class = "0" ]] 2> /dev/null; then
 							user_class="Chua vao lop"
 						else
@@ -80,12 +80,12 @@ while [[ $keep -eq 1 ]]; do
 								user_gender="Khong the xac dinh"
 							fi
 						fi
-						user_xu="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT xu FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
-						user_xuBox="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT xuBox FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
-						user_yen="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT yen FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
+						user_xu="$(mysql --user=root -D khanh --skip-column-names -e "SELECT xu FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
+						user_xuBox="$(mysql --user=root -D khanh --skip-column-names -e "SELECT xuBox FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
+						user_yen="$(mysql --user=root -D khanh --skip-column-names -e "SELECT yen FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
 					fi
-					user_luong="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT luong FROM player WHERE username='$username'")" 2> /dev/null
-					user_trangthai="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT ban FROM player WHERE username='$username'")" 2> /dev/null
+					user_luong="$(mysql --user=root -D khanh --skip-column-names -e "SELECT luong FROM player WHERE username='$username'")" 2> /dev/null
+					user_trangthai="$(mysql --user=root -D khanh --skip-column-names -e "SELECT ban FROM player WHERE username='$username'")" 2> /dev/null
 					if [[ $user_trangthai -eq 0 ]]; then
 						user_trangthai="Dang kich hoat [Unlocked]"
 					else
@@ -122,9 +122,9 @@ while [[ $keep -eq 1 ]]; do
 			printf "${red}By KhanhNguyen9872\n\n${yellow}\n"
 			printf "${green}\nLay mat khau hien tai Ninja School\n\n"
 			read -p 'Ten tai khoan: ' username
-			username_check="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
+			username_check="$(mysql --user=root -D khanh --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
 			if [ $username_check = $username ] 2> /dev/null; then
-				matkhau_khanh="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT password FROM player WHERE username='$username';")" 2> /dev/null
+				matkhau_khanh="$(mysql --user=root -D khanh --skip-column-names -e "SELECT password FROM player WHERE username='$username';")" 2> /dev/null
 				printf "${yellow}\n Mat khau hien tai: "
                                 echo "$matkhau_khanh"
                                 printf "\n\n${reset}"
@@ -147,12 +147,12 @@ while [[ $keep -eq 1 ]]; do
 				printf "${red}\n !!! Thong tin khong hop le !!!\n\n${reset}"
 				read -p 'Press Enter to exit!' pause
 			else
-				username_check="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
+				username_check="$(mysql --user=root -D khanh --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
 				if [ $username_check = $username ] 2> /dev/null && [ ! -z $username_check ] 2> /dev/null; then
 					if [ $passwordnew = $repassword ] 2> /dev/null; then
-						matkhau_khanh="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT password FROM player WHERE username='$username';")" 2> /dev/null
+						matkhau_khanh="$(mysql --user=root -D khanh --skip-column-names -e "SELECT password FROM player WHERE username='$username';")" 2> /dev/null
 						if [ $matkhau_khanh = $password ] 2> /dev/null; then
-							mysql --user=root -D khanh_account -e "UPDATE player SET password='$passwordnew' WHERE username='$username';"
+							mysql --user=root -D khanh -e "UPDATE player SET password='$passwordnew' WHERE username='$username';"
 							printf "\n${yellow} Doi mat khau thanh cong!\n\n${reset}"
 							read -p 'Press Enter to exit!' pause
 						else
@@ -182,12 +182,12 @@ while [[ $keep -eq 1 ]]; do
 				read -p 'Press Enter to exit!' pause
 			else
 				if [[ $password -eq $repassword ]] 2> /dev/null || [ $password = $repassword ] 2> /dev/null; then
-					username_check="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
+					username_check="$(mysql --user=root -D khanh --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
 					if [ $username_check = $username ] 2> /dev/null; then
 						printf "${red}\n !!! Tai khoan nay da ton tai !!!\n\n${reset}"
 						read -p 'Press Enter to exit!' pause
 					else
-						mysql --user=root -D khanh_account << EOF
+						mysql --user=root -D khanh << EOF
 INSERT INTO player (\`username\`, \`password\`, \`lock\`) VALUES ("${username}", "${password}", '0');
 EOF
 						printf "\n${yellow} Dang ky thanh cong!\n\n${reset}"
@@ -209,9 +209,9 @@ EOF
 			read -p 'Ban co muon khoa tai khoan nay khong? [Y/N]: ' yesorno
 			printf "${reset}"
 			if [ $yesorno = "y" ] 2> /dev/null || [ $yesorno = "Y" ] 2> /dev/null; then
-				username_check="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
+				username_check="$(mysql --user=root -D khanh --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
 				if [ $username_check = $username ] 2> /dev/null; then
-					mysql --user=root -D khanh_account -e "UPDATE player SET ban = replace(ban,'0','1') WHERE username='$username';"
+					mysql --user=root -D khanh -e "UPDATE player SET ban = replace(ban,'0','1') WHERE username='$username';"
 					printf "\n${yellow} Khoa tai khoan $username thanh cong!\n\n${reset}"
 					read -p 'Press Enter to exit!' pause
 				else
@@ -236,9 +236,9 @@ EOF
 					printf "\n${red} !!! Luong vuot qua muc cho phep (Toi da: 2.000.000.000) !!!\n\n${reset}"
 					read -p 'Press Enter to exit!' pause
 				else
-					username_check="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
+					username_check="$(mysql --user=root -D khanh --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
 					if [ $username_check = $username ] 2> /dev/null; then
-						mysql --user=root -D khanh_account -e "UPDATE player SET luong = '$luong' WHERE username='$username';"
+						mysql --user=root -D khanh -e "UPDATE player SET luong = '$luong' WHERE username='$username';"
 						printf "\n${yellow} Buff ${luong} Luong thanh cong!\n\n${reset}"
 						read -p 'Press Enter to exit!' pause
 					else
@@ -264,11 +264,11 @@ EOF
 					printf "\n${red} !!! Xu vuot qua muc cho phep (Toi da: 2.000.000.000) !!!\n\n${reset}"
 					read -p 'Press Enter to exit!' pause
 				else
-					username_check="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
+					username_check="$(mysql --user=root -D khanh --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
 					if [ $username_check = $username ] 2> /dev/null; then
-						khanhnguyen9872="$(mysql -u root -D khanh_account --skip-column-names -e "SELECT ninja FROM player WHERE username='$username';" | awk -F \| '{ printf $1 }' | sed 's/\"//g' | sed 's/\[//g' | sed 's/\]//g')"
+						khanhnguyen9872="$(mysql -u root -D khanh --skip-column-names -e "SELECT ninja FROM player WHERE username='$username';" | awk -F \| '{ printf $1 }' | sed 's/\"//g' | sed 's/\[//g' | sed 's/\]//g')"
 						if [ ! -z $khanhnguyen9872 ] 2> /dev/null || [ $khanhnguyen9872 != "" ] 2> /dev/null; then
-							mysql --user=root -D khanh_account -e "UPDATE ninja SET xu = '$xu' WHERE name='$khanhnguyen9872';"
+							mysql --user=root -D khanh -e "UPDATE ninja SET xu = '$xu' WHERE name='$khanhnguyen9872';"
 							printf "\n${yellow} Buff ${xu} Xu thanh cong!\n\n${reset}"
 							read -p 'Press Enter to exit!' pause
 						else
@@ -298,11 +298,11 @@ EOF
 					printf "\n${red} !!! Yen vuot qua muc cho phep (Toi da: 2.000.000.000) !!!\n\n${reset}"
 					read -p 'Press Enter to exit!' pause
 				else
-					username_check="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
+					username_check="$(mysql --user=root -D khanh --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
 					if [ $username_check = $username ] 2> /dev/null; then
-						khanhnguyen9872="$(mysql -u root -D khanh_account --skip-column-names -e "SELECT ninja FROM player WHERE username='$username';" | awk -F \| '{ printf $1 }' | sed 's/\"//g' | sed 's/\[//g' | sed 's/\]//g')"
+						khanhnguyen9872="$(mysql -u root -D khanh --skip-column-names -e "SELECT ninja FROM player WHERE username='$username';" | awk -F \| '{ printf $1 }' | sed 's/\"//g' | sed 's/\[//g' | sed 's/\]//g')"
 						if [ ! -z $khanhnguyen9872 ] 2> /dev/null || [ $khanhnguyen9872 != "" ] 2> /dev/null; then
-							mysql --user=root -D khanh_account -e "UPDATE ninja SET yen = '$yen' WHERE name='$khanhnguyen9872';"
+							mysql --user=root -D khanh -e "UPDATE ninja SET yen = '$yen' WHERE name='$khanhnguyen9872';"
 							printf "\n${yellow} Buff ${yen} Yen thanh cong!\n\n${reset}"
 							read -p 'Press Enter to exit!' pause
 						else
@@ -326,9 +326,9 @@ EOF
 			read -p 'Ban co muon mo khoa tai khoan nay khong? [Y/N]: ' yesorno
 			printf "${reset}"
 			if [ $yesorno = "y" ] 2> /dev/null || [ $yesorno = "Y" ] 2> /dev/null; then
-				username_check="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
+				username_check="$(mysql --user=root -D khanh --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
 				if [ $username_check = $username ] 2> /dev/null; then
-					mysql --user=root -D khanh_account -e "UPDATE player SET ban = replace(ban,'1','0') WHERE username='$username';"
+					mysql --user=root -D khanh -e "UPDATE player SET ban = replace(ban,'1','0') WHERE username='$username';"
 					printf "\n${yellow} Mo khoa tai khoan $username thanh cong!\n\n${reset}"
 					read -p 'Press Enter to exit!' pause
 				else
@@ -350,12 +350,12 @@ EOF
 				read -p 'Ban co chac chan xoa tai khoan nay hay khong? [Y/N]: ' yesornolast
 				printf "${reset}"
 				if [ $yesornolast = "y" ] 2> /dev/null || [ $yesornolast = "Y" ] 2> /dev/null; then
-					username_check="$(mysql --user=root -D khanh_account --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
+					username_check="$(mysql --user=root -D khanh --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
 					if [ $username_check = $username ] 2> /dev/null; then
-						khanhnguyen9872="$(mysql -u root -D khanh_account --skip-column-names -e "SELECT ninja FROM player WHERE username='$username';" | awk -F \| '{ printf $1 }' | sed 's/\"//g' | sed 's/\[//g' | sed 's/\]//g')"
-						mysql --user=root -D khanh_account --skip-column-names -e "DELETE FROM player WHERE username='$username';"
-						mysql --user=root -D khanh_account --skip-column-names -e "DELETE FROM ninja WHERE name='$khanhnguyen9872';"
-						mysql --user=root -D khanh_account -e "UPDATE player SET ban = replace(ban,'1','0') WHERE username='$username';"
+						khanhnguyen9872="$(mysql -u root -D khanh --skip-column-names -e "SELECT ninja FROM player WHERE username='$username';" | awk -F \| '{ printf $1 }' | sed 's/\"//g' | sed 's/\[//g' | sed 's/\]//g')"
+						mysql --user=root -D khanh --skip-column-names -e "DELETE FROM player WHERE username='$username';"
+						mysql --user=root -D khanh --skip-column-names -e "DELETE FROM ninja WHERE name='$khanhnguyen9872';"
+						mysql --user=root -D khanh -e "UPDATE player SET ban = replace(ban,'1','0') WHERE username='$username';"
 						printf "\n${yellow} Xoa tai khoan $username thanh cong!\n\n${reset}"
 						read -p 'Press Enter to exit!' pause
 					else
