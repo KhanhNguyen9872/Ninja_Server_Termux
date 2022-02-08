@@ -37,6 +37,7 @@ while [[ $keep -eq 1 ]]; do
 						user_level="0"
 						user_class="Unknown"
 						user_xu="0"
+						user_xuBox="0"
 						user_yen="0"
 					else
 						user_level="$(mysql --user=root -D khanh --skip-column-names -e "SELECT level FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
