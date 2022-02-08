@@ -26,7 +26,9 @@ Termux: Latest version! <br />
 ```
 pkg install wget -y && wget -O install.sh https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/install.sh && bash install.sh
 ```
-4. Wait for complete!
+4. Wait for a long time!
+5. After Download 4xx MB and Install, Termux will ask you something, do it!
+6. Enjoy!
 
 # How to start?
 1. Open Termux and run this command
