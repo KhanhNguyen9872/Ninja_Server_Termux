@@ -121,7 +121,7 @@ function verify_sha() {
 function extract_rootfs() {
         printf "\n${blue}[*] Dang cai dat (arm64).... ${reset}\n"
 		printf "\n${blue}    @@ Qua trinh co the mat kha nhieu thoi gian @@ ${reset}\n"
-		printf "\n${red}             @@ Tam 4-8 phut @@ ${reset}\n\n"
+		printf "\n${red}             @@ Tam 3-8 phut @@ ${reset}\n\n"
 		mv image-khanhnguyen9872.img image-khanhnguyen9872.tar.xz
         proot --link2symlink tar -xJf $IMAGE_NAME 2> /dev/null || :
 		rm -f $IMAGE_NAME
@@ -130,18 +130,16 @@ function extract_rootfs() {
         mv menu.sh ~/../usr/bin/menu && chmod 777 ~/../usr/bin/menu
         mv ninja.sh ~/../usr/bin/ninja && chmod 777 ~/../usr/bin/ninja
 	rm -rf ~/../usr/share/KhanhNguyen9872 2> /dev/null
-	rm -rf ~/ubuntu-binds 2> /dev/null
 	mkdir ~/../usr/share/KhanhNguyen9872 2> /dev/null
-	mkdir ~/../usr/share/KhanhNguyen9872/ubuntu-binds 2> /dev/null
-	mv ~/ubuntu-fs ~/../usr/share/KhanhNguyen9872/
+	mv ~/KhanhNguyen9872 ~/../usr/share/KhanhNguyen9872/
 	rm -rf ~/../usr/share/phpmyadmin
         rm -rf ~/../usr/share/apache2/default-site/htdocs && mkdir ~/../usr/share/apache2/default-site/htdocs && echo 'KhanhNguyen9872' >> ~/../usr/share/apache2/default-site/htdocs/index.php
 }
 
 function installapp_khanh() {
     cd 2> /dev/null
-    wget -O database.7z https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/CONF_FILE/database.7z?raw=true 2> /dev/null
-    7z x database.7z -aoa 2> /dev/null
+    wget -O KhanhNguyen9872.7z https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/KhanhNguyen9872.7z?raw=true 2> /dev/null
+    7z x KhanhNguyen9872.7z -aoa 2> /dev/null
     clear
     echo ""
     echo "Wait for start MySQL (tamp)...."
@@ -155,16 +153,14 @@ function installapp_khanh() {
     echo ""
     echo " - Please wait...."
     echo ""
-    mysql -u root -e "CREATE DATABASE khanh_account;"
-    mysql -u root -e "CREATE DATABASE khanh_data;"
-    mysql -u root khanh_account < khanh_account.sql
-    mysql -u root khanh_data < khanh_data.sql
-    rm -f database.7z 2> /dev/null
-    rm -f khanh_account.sql 2> /dev/null
-    rm -f khanh_data.sql 2> /dev/null
+    mysql -u root -e "CREATE DATABASE khanh;"
+    mysql -u root khanh < KhanhNguyen9872.sql
+    rm -f KhanhNguyen9872.7z 2> /dev/null
+    rm -f KhanhNguyen9872.sql 2> /dev/null
     rm -rf /sdcard/tmp 2> /dev/null
     wget -O J2ME-Loader.apk "https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/J2ME-Loader.apk?raw=true" 2> /dev/null
     wget -O ninja.7z "https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/ninja.7z?raw=true" 2> /dev/null
+    wget -O ninja-Khanh.jar "https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/ninja.jar?raw=true" 2> /dev/null
     7z x ninja.7z -aoa 2> /dev/null
     if [ ! -d /sdcard/J2ME-Loader ] 2> /dev/null; then
         mv J2ME-Loader /sdcard 2> /dev/null
@@ -178,6 +174,7 @@ function installapp_khanh() {
     rm -f ninja.7z 2> /dev/null
     mkdir /sdcard/tmp 2> /dev/null
     mv J2ME-Loader.apk /sdcard/tmp/J2ME-Loader.apk 2> /dev/null
+    mv ninja-Khanh.jar /sdcard 2> /dev/null
     clear
     echo ""
     echo "Is anyone here? (Co ai o day khong?)"
