@@ -5,14 +5,8 @@ unset LD_PRELOAD
 command="proot"
 command+=" --link2symlink"
 command+=" -0"
-command+=" -r ubuntu-fs"
-if [ -n "$(ls -A ubuntu-binds)" ]; then
-    for f in ubuntu-binds/* ;do
-      . $f
-    done
-fi
+command+=" -r KhanhNguyen9872"
 command+=" -b /proc"
-command+=" -b ubuntu-fs/tmp:/dev/shm"
 command+=" -w /root"
 command+=" /usr/bin/env -i"
 command+=" HOME=/root"
