@@ -22,7 +22,7 @@ Termux: Latest version! <br />
 
 Server cannot be start if port 3306, 8080 is in used! <br />
 
-Sometimes if you install you will get some SQL errors, try to download the latest Termux or change to another repo with the command 'termux-change-repo' and try again <br />
+Sometimes if after install, you get some SQL errors when Start Server, try to Force-Stop Termux and start again, if can't fix it, try download the latest Termux or change to another repo with the command 'termux-change-repo' and try again! <br />
 
 
 # How to install?
