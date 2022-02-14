@@ -249,7 +249,7 @@ while [[ $keep -eq 1 ]]; do
 			clear
 			printf "${green}\nMENU Ninja School\n"
 			printf "${red}By KhanhNguyen9872\n\n"
-			printf "${light_cyan} Github: https://github.com/khanhnguyen9872\n Facebook: https://fb.me/khanh10a1\n$"
+			printf "${light_cyan} Github: https://github.com/khanhnguyen9872\n Facebook: https://fb.me/khanh10a1\n"
 			printf "${green}\nDang ky tai khoan Ninja School\n\n"
 			read -p 'Ten tai khoan: ' username
 			read -p 'Mat khau: ' password
