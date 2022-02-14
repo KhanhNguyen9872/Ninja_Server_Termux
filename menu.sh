@@ -22,9 +22,17 @@ while [[ $keep -eq 1 ]]; do
 	printf "${green}\nMENU Ninja School\n"
 	printf "${red}By KhanhNguyen9872\n\n"
 	printf "${light_cyan} Github: https://github.com/khanhnguyen9872\n Facebook: https://fb.me/khanh10a1\n\n${yellow}"
-	printf "0. Xem thong tin tai khoan\n1. Dang ky tai khoan\n2. Lock/Unlock tai khoan\n3. Mat khau [Doi pass, Lay pass,...]\n4. Buff [Luong, Yen, Xu, Level,...]\n5. Reset [Tiem nang] \n9. Xoa tai khoan\nK. Thoat (Exit)\n\n${light_cyan}"
+	printf "0. Xem thong tin tai khoan\n1. Dang ky tai khoan\n2. Lock/Unlock tai khoan\n3. Mat khau [Doi pass, Lay pass,...]\n4. Buff [Luong, Yen, Xu, Level,...]\n5. Reset [Tiem nang]\n6. Backup/Restore your data\n9. Xoa tai khoan\nK. Thoat (Exit)\n\n${light_cyan}"
 	read -p "Lua chon: " khanh
 	case ${khanh} in
+		6)
+			clear
+			printf "${green}\nMENU Ninja School\n"
+			printf "${red}By KhanhNguyen9872\n\n"
+			printf "${light_cyan} Github: https://github.com/khanhnguyen9872\n Facebook: https://fb.me/khanh10a1\n"
+			printf "${red}\n Tinh nang dang duoc phat trien!\n\n${reset}"
+			read -p 'Press Enter to exit!' pause
+		;;
 		0)
 			clear
 			printf "${green}\nMENU Ninja School\n"
