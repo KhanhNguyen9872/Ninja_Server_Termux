@@ -178,7 +178,7 @@ while [[ $keep -eq 1 ]]; do
 				clear
 				printf "${green}\nMENU Ninja School\n"
 				printf "${red}By KhanhNguyen9872\n\n"
-				printf "${light_cyan} Github: https://github.com/khanhnguyen9872\n Facebook: https://fb.me/khanh10a1\n\n"
+				printf "${light_cyan} Github: https://github.com/khanhnguyen9872\n Facebook: https://fb.me/khanh10a1\n\n${yellow}"
 				printf "1. Lay mat khau hien tai\n2. Doi mat khau\nK. Thoat ra menu\n\n${light_cyan}"
 				read -p 'Lua chon: ' khanh
 				case ${khanh} in
