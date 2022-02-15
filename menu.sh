@@ -5,10 +5,6 @@
 ## All code here by KhanhNguyen9872
 ## Please don't re-upload without my name!
 cd 2> /dev/null
-if [ ! -f ../usr/bin/python ]; then
-	printf "${red}\n\n !!! Missing Python !!!\n\n\n"
-	exit 0
-fi
 red='\033[1;31m'
 green='\033[1;32m'
 yellow='\033[1;33m'
@@ -36,7 +32,7 @@ while [[ $keep -eq 1 ]]; do
 				printf "${green}\nMENU Ninja School\n"
 				printf "${red}By KhanhNguyen9872\n\n"
 				printf "${light_cyan} Github: https://github.com/khanhnguyen9872\n Facebook: https://fb.me/khanh10a1\n"
-				printf "${red}\n 1. Backup your data\n2. Restore your data\n\n${reset}"
+				printf "${yellow}\n1. Backup your data\n2. Restore your data\nK. Thoat ra menu\n\n${light_cyan}"
 				read -p "Lua chon: " khanh
 				case ${khanh} in
 					1)
@@ -45,8 +41,9 @@ while [[ $keep -eq 1 ]]; do
 						printf "${red}By KhanhNguyen9872\n\n"
 						printf "${light_cyan} Github: https://github.com/khanhnguyen9872\n Facebook: https://fb.me/khanh10a1\n\n"
 						printf "${yellow} Backup your data\n"
-						printf "\nBackup file: /sdcard/khanh_nja.backup [Internal Storage]\n\n${light_cyan}"
+						printf " File: /sdcard/khanh_nja.backup [Internal Storage]\n\n${light_cyan}"
 						read -p "Do you want to backup it? [Y/N] " yesorno
+						printf "\n"
 						if [ $yesorno = "y" ] 2> /dev/null || [ $yesorno = "Y" ] 2> /dev/null; then
 							check_apache2="$(curl -s -X POST http://localhost:8080)"
 							if [ -z $check_apache2 ] || ! ps -C httpd >/dev/null; then
@@ -54,20 +51,10 @@ while [[ $keep -eq 1 ]]; do
 								printf "${red}\n\n !!! MySQL is not running !!!\n\nExiting...\n\n"
 								exit 0
 							else
-								if [ -f ~/../usr/share/KhanhNguyen9872/temp.txt ] 2> /dev/null; then
-									rm -f ~/../usr/share/KhanhNguyen9872/temp.txt 2> /dev/null
-								fi
 								if [ -f /sdcard/khanh_nja.backup ] 2> /dev/null; then
 									rm -f /sdcard/khanh_nja.backup 2> /dev/null
 								fi
-								mysqldump -u root --databases khanh >> ~/../usr/share/KhanhNguyen9872/temp.txt
-								khanhencrypt
-								if [ -f temp.txt ] 2> /dev/null; then
-									mv temp.txt /sdcard/khanh_nja.backup 2> /dev/null
-								else
-									printf "${red}\n\n Backup failed!\n\n${reset}"
-									read -p 'Press Enter to exit!' pause
-								fi
+								mysqldump -u root --databases khanh >> /sdcard/khanh_nja.backup
 								if [ -f /sdcard/khanh_nja.backup ] 2> /dev/null; then
 									printf "${light_cyan}\n\n Backup completed!\n\n${reset}"
 									read -p 'Press Enter to exit!' pause
@@ -103,11 +90,9 @@ while [[ $keep -eq 1 ]]; do
 											printf "${red}\n\n !!! MySQL is not running !!!\n\nExiting...\n\n"
 											exit 0
 										else
-											khanhdecrypt
 											mysql -u root -e "DROP DATABASE IF EXISTS khanh; CREATE DATABASE khanh;"
-											mysql -u root khanh < ~/../usr/share/KhanhNguyen9872/temp.sql
-											rm -f ~/../usr/share/KhanhNguyen9872/temp.sql
-											printf "\n${light_cyan} Restore completed!\n${reset}"
+											mysql -u root khanh < $restorefile
+											printf "\n${light_cyan} Restore completed!\n\n${reset}"
 											read -p 'Press Enter to exit!' pause
 										fi
 									else
@@ -823,6 +808,7 @@ EOF
 	esac
 	unset check_apache2
 	unset khanh
+	unset restorefile
 	unset pause
 	unset user_gender
 	unset user_class
