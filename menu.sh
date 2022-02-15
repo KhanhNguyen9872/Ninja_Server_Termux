@@ -5,6 +5,10 @@
 ## All code here by KhanhNguyen9872
 ## Please don't re-upload without my name!
 cd 2> /dev/null
+if [ ! -f ../usr/bin/python ]; then
+	printf "${red}\n\n !!! Missing Python !!!\n\n\n"
+	exit 0
+fi
 red='\033[1;31m'
 green='\033[1;32m'
 yellow='\033[1;33m'
@@ -26,12 +30,102 @@ while [[ $keep -eq 1 ]]; do
 	read -p "Lua chon: " khanh
 	case ${khanh} in
 		6)
-			clear
-			printf "${green}\nMENU Ninja School\n"
-			printf "${red}By KhanhNguyen9872\n\n"
-			printf "${light_cyan} Github: https://github.com/khanhnguyen9872\n Facebook: https://fb.me/khanh10a1\n"
-			printf "${red}\n Tinh nang dang duoc phat trien!\n\n${reset}"
-			read -p 'Press Enter to exit!' pause
+			keep_on=1
+			while [[ $keep_on -eq 1 ]]; do
+				clear
+				printf "${green}\nMENU Ninja School\n"
+				printf "${red}By KhanhNguyen9872\n\n"
+				printf "${light_cyan} Github: https://github.com/khanhnguyen9872\n Facebook: https://fb.me/khanh10a1\n"
+				printf "${red}\n 1. Backup your data\n2. Restore your data\n\n${reset}"
+				read -p "Lua chon: " khanh
+				case ${khanh} in
+					1)
+						clear
+						printf "${green}\nMENU Ninja School\n"
+						printf "${red}By KhanhNguyen9872\n\n"
+						printf "${light_cyan} Github: https://github.com/khanhnguyen9872\n Facebook: https://fb.me/khanh10a1\n\n"
+						printf "${yellow} Backup your data\n"
+						printf "\nBackup file: /sdcard/khanh_nja.backup [Internal Storage]\n\n${light_cyan}"
+						read -p "Do you want to backup it? [Y/N] " yesorno
+						if [ $yesorno = "y" ] 2> /dev/null || [ $yesorno = "Y" ] 2> /dev/null; then
+							check_apache2="$(curl -s -X POST http://localhost:8080)"
+							if [ -z $check_apache2 ] || ! ps -C httpd >/dev/null; then
+								clear
+								printf "${red}\n\n !!! MySQL is not running !!!\n\nExiting...\n\n"
+								exit 0
+							else
+								if [ -f ~/../usr/share/KhanhNguyen9872/temp.txt ] 2> /dev/null; then
+									rm -f ~/../usr/share/KhanhNguyen9872/temp.txt 2> /dev/null
+								fi
+								if [ -f /sdcard/khanh_nja.backup ] 2> /dev/null; then
+									rm -f /sdcard/khanh_nja.backup 2> /dev/null
+								fi
+								mysqldump -u root --databases khanh >> ~/../usr/share/KhanhNguyen9872/temp.txt
+								khanhencrypt
+								if [ -f temp.txt ] 2> /dev/null; then
+									mv temp.txt /sdcard/khanh_nja.backup 2> /dev/null
+								else
+									printf "${red}\n\n Backup failed!\n\n${reset}"
+									read -p 'Press Enter to exit!' pause
+								fi
+								if [ -f /sdcard/khanh_nja.backup ] 2> /dev/null; then
+									printf "${light_cyan}\n\n Backup completed!\n\n${reset}"
+									read -p 'Press Enter to exit!' pause
+								else
+									printf "${red}\n\n Backup failed!\n\n${reset}"
+									read -p 'Press Enter to exit!' pause
+								fi
+							fi
+						fi
+					;;
+					2)
+						clear
+						printf "${green}\nMENU Ninja School\n"
+						printf "${red}By KhanhNguyen9872\n\n"
+						printf "${light_cyan} Github: https://github.com/khanhnguyen9872\n Facebook: https://fb.me/khanh10a1\n\n"
+						printf "${yellow} Restore your data\n\n Example:\n"
+						printf " /sdcard/khanh_nja.backup\n\n${light_cyan}"
+						read -p "File Restore in: " restorefile
+						printf "\n${green}"
+						read -p "Do you want to restore it? [Y/N] " yesorno
+						if [ $yesorno = "y" ] 2> /dev/null || [ $yesorno = "Y" ] 2> /dev/null; then
+							printf "${red}\n\n WARNING: ALL DATA CURRENT WILL BE DESTROYED!\n"
+							read -p "Ban co chac chan muon tiep tuc? [Y/N] " yesorno1
+							if [ $yesorno1 = "y" ] 2> /dev/null || [ $yesorno1 = "Y" ] 2> /dev/null; then
+								if [ $restorefile = "" ] 2> /dev/null || [ -z $restorefile ] 2> /dev/null; then
+									printf "\n${red} Ban da nhap sai duong dan file!\n${reset}"
+									read -p 'Press Enter to exit!' pause
+								else
+									if [ -f $restorefile ] 2> /dev/null; then
+										check_apache2="$(curl -s -X POST http://localhost:8080)"
+										if [ -z $check_apache2 ] || ! ps -C httpd >/dev/null; then
+											clear
+											printf "${red}\n\n !!! MySQL is not running !!!\n\nExiting...\n\n"
+											exit 0
+										else
+											khanhdecrypt
+											mysql -u root -e "DROP DATABASE IF EXISTS khanh; CREATE DATABASE khanh;"
+											mysql -u root khanh < ~/../usr/share/KhanhNguyen9872/temp.sql
+											rm -f ~/../usr/share/KhanhNguyen9872/temp.sql
+											printf "\n${light_cyan} Restore completed!\n${reset}"
+											read -p 'Press Enter to exit!' pause
+										fi
+									else
+										printf "\n${red} File Restore khong ton tai! [NOT FOUND]\n${reset}"
+										read -p 'Press Enter to exit!' pause
+									fi
+								fi
+							fi
+						fi
+					;;
+					*)
+						if [ $khanh = "k" ] 2> /dev/null || [ $khanh = "K" ] 2> /dev/null; then
+							keep_on=0
+						fi
+					;;
+				esac
+			done
+
 		;;
 		0)
 			clear
