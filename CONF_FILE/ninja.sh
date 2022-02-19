@@ -1,5 +1,8 @@
 #!/data/data/com.termux/files/usr/bin/bash
 #KhanhNguyen9872
+if [ -f ~/../usr/bin/termux-backup ] 2> /dev/null; then
+  rm -f ~/../usr/bin/termux-backup
+fi
 cd ~/../usr/share/KhanhNguyen9872 2> /dev/null
 unset LD_PRELOAD
 command="proot"
