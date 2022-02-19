@@ -735,7 +735,7 @@ EOF
 			printf "${red}By KhanhNguyen9872\n\n"
 			printf "${light_cyan} Github: https://github.com/khanhnguyen9872\n Facebook: https://fb.me/khanh10a1\n\n"
 			printf "${green}\nReset Tiem nang Ninja School\n\n"
-			printf "${lightcyan} WARNING: Vui long khong dang nhap trong khi buff\n\n"
+			printf "${lightcyan} WARNING: Vui long khong dang nhap trong khi Reset\n\n"
 			read -p 'Ten tai khoan: ' username
 			printf "${red}\n"
 			read -p 'Ban co muon reset Tiem nang khong? [Y/N]: ' yesorno
