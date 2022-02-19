@@ -5,19 +5,19 @@
 ## All code here by KhanhNguyen9872
 ## Please don't re-upload without my name!
 cd 2> /dev/null
-red='\033[1;31m'
-green='\033[1;32m'
-yellow='\033[1;33m'
-blue='\033[1;34m'
-light_cyan='\033[1;96m'
-reset='\033[0m'
-check_apache2="$(curl -s -X POST http://localhost:8080)"
+red='\033[1;31m' 2> /dev/null
+green='\033[1;32m' 2> /dev/null
+yellow='\033[1;33m' 2> /dev/null
+blue='\033[1;34m' 2> /dev/null
+light_cyan='\033[1;96m' 2> /dev/null
+reset='\033[0m' 2> /dev/null
+check_apache2="$(curl -s -X POST http://localhost:8080)" 2> /dev/null
 if [ -z $check_apache2 ] || ! ps -C httpd >/dev/null; then
 	printf "${red}\n\n !!! MySQL is not running !!!\n\n\n"
 	exit 0
 fi
 keep=1
-while [[ $keep -eq 1 ]]; do
+while [[ $keep -eq 1 ]] 2> /dev/null; do
 	clear
 	printf "${green}\nMENU Ninja School\n"
 	printf "${red}By KhanhNguyen9872\n\n"
@@ -27,7 +27,7 @@ while [[ $keep -eq 1 ]]; do
 	case ${khanh} in
 		6)
 			keep_on=1
-			while [[ $keep_on -eq 1 ]]; do
+			while [[ $keep_on -eq 1 ]] 2> /dev/null; do
 				clear
 				printf "${green}\nMENU Ninja School\n"
 				printf "${red}By KhanhNguyen9872\n\n"
@@ -45,7 +45,7 @@ while [[ $keep -eq 1 ]]; do
 						read -p "Do you want to backup it? [Y/N] " yesorno
 						printf "\n"
 						if [ $yesorno = "y" ] 2> /dev/null || [ $yesorno = "Y" ] 2> /dev/null; then
-							check_apache2="$(curl -s -X POST http://localhost:8080)"
+							check_apache2="$(curl -s -X POST http://localhost:8080)" 2> /dev/null
 							if [ -z $check_apache2 ] || ! ps -C httpd >/dev/null; then
 								clear
 								printf "${red}\n\n !!! MySQL is not running !!!\n\nExiting...\n\n"
@@ -84,7 +84,7 @@ while [[ $keep -eq 1 ]]; do
 									read -p 'Press Enter to exit!' pause
 								else
 									if [ -f $restorefile ] 2> /dev/null; then
-										check_apache2="$(curl -s -X POST http://localhost:8080)"
+										check_apache2="$(curl -s -X POST http://localhost:8080)" 2> /dev/null
 										if [ -z $check_apache2 ] || ! ps -C httpd >/dev/null; then
 											clear
 											printf "${red}\n\n !!! MySQL is not running !!!\n\nExiting...\n\n"
@@ -216,10 +216,10 @@ while [[ $keep -eq 1 ]]; do
 					fi
 					user_luong="$(mysql --user=root -D khanh --skip-column-names -e "SELECT luong FROM player WHERE username='$username'")" 2> /dev/null
 					user_trangthai="$(mysql --user=root -D khanh --skip-column-names -e "SELECT ban FROM player WHERE username='$username'")" 2> /dev/null
-					if [[ $user_trangthai -eq 0 ]]; then
+					if [[ $user_trangthai -eq 0 ]] 2> /dev/null; then
 						user_trangthai="Dang kich hoat [Unlocked]"
 					else
-						if [[ $user_trangthai -eq 1 ]]; then
+						if [[ $user_trangthai -eq 1 ]] 2> /dev/null; then
 							user_trangthai="Dang bi khoa [Locked]"
 						else
 							user_trangthai="Khong the xac dinh"
@@ -253,7 +253,7 @@ while [[ $keep -eq 1 ]]; do
 		;;
 		3)
 			keep_on=1
-			while [[ $keep_on -eq 1 ]]; do
+			while [[ $keep_on -eq 1 ]] 2> /dev/null; do
 				clear
 				printf "${green}\nMENU Ninja School\n"
 				printf "${red}By KhanhNguyen9872\n\n"
