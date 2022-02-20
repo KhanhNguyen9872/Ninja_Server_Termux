@@ -1,6 +1,6 @@
 # Ninja_Server_Termux
 Ninja School Server on Termux Android
-# Update: 15/02/2022
+# Update: 20/02/2022
 
 #
 # 1Tech-X & KhanhNguyen9872
@@ -13,9 +13,9 @@ Architecture: 64bit only [arm64-v8a] <br />
 
 Android 6.0 Marshmallow or up <br />
 
-RAM: 1.5GB or up <br />
+RAM: 2GB or up <br />
 
-Internal storage: 2.5GB free space <br />
+Internal storage: 3GB free space <br />
 
 Termux: Latest version! <br />
 
