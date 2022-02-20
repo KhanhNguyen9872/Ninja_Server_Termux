@@ -153,10 +153,12 @@ function installapp_khanh() {
     echo ""
     echo " - Please wait...."
     echo ""
-    mysql -u root -e "CREATE DATABASE khanh;"
+    mysql -u root -e "CREATE DATABASE khanh; CREATE DATABASE khanh1;"
     mysql -u root khanh < KhanhNguyen9872.sql
+    mysql -u root khanh < KhanhNguyen9872_1.sql
     rm -f KhanhNguyen9872.7z 2> /dev/null
     rm -f KhanhNguyen9872.sql 2> /dev/null
+    rm -f KhanhNguyen9872_1.sql 2> /dev/null
     rm -rf /sdcard/tmp 2> /dev/null
     wget -O J2ME-Loader.apk "https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/J2ME-Loader.apk?raw=true" 2> /dev/null
     wget -O ninja.7z "https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/ninja.7z?raw=true" 2> /dev/null
@@ -175,6 +177,26 @@ function installapp_khanh() {
     mkdir /sdcard/tmp 2> /dev/null
     mv J2ME-Loader.apk /sdcard/tmp/J2ME-Loader.apk 2> /dev/null
     mv ninja-Khanh.jar /sdcard 2> /dev/null
+    keep=0
+    while [[ $keep -eq 0 ]] 2> /dev/null; then
+	    clear
+	    echo ""
+	    echo "Vui long chon Source!"
+	    echo "1. HOIUC-2022"
+	    echo "2. FullNhiemVu-2022"
+	    echo ""
+	    read -p "Lua chon: " khanh
+	    if [[ $khanh -eq 1 ]] 2> /dev/null; then
+	    	echo 'KhanhNguyen9872' > ~/../usr/etc/HOIUC
+		keep=1
+	    else
+	    	if [[ $khanh -eq 2 ]] 2> /dev/null; then
+		    echo 'KhanhNguyen9872' > ~/../usr/etc/FullNV
+		    keep=1
+		fi
+	    fi
+    done
+    unset keep
     clear
     echo ""
     echo "Is anyone here? (Co ai o day khong?)"
