@@ -155,7 +155,7 @@ function installapp_khanh() {
     echo ""
     mysql -u root -e "CREATE DATABASE khanh; CREATE DATABASE khanh1;"
     mysql -u root khanh < KhanhNguyen9872.sql
-    mysql -u root khanh < KhanhNguyen9872_1.sql
+    mysql -u root khanh1 < KhanhNguyen9872_1.sql
     rm -f KhanhNguyen9872.7z 2> /dev/null
     rm -f KhanhNguyen9872.sql 2> /dev/null
     rm -f KhanhNguyen9872_1.sql 2> /dev/null
