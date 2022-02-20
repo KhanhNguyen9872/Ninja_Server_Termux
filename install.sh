@@ -178,7 +178,7 @@ function installapp_khanh() {
     mv J2ME-Loader.apk /sdcard/tmp/J2ME-Loader.apk 2> /dev/null
     mv ninja-Khanh.jar /sdcard 2> /dev/null
     keep=0
-    while [[ $keep -eq 0 ]] 2> /dev/null; then
+    while [[ $keep -eq 0 ]] 2> /dev/null; do
 	    clear
 	    echo ""
 	    echo "Vui long chon Source!"
