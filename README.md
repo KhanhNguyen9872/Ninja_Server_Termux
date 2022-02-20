@@ -43,8 +43,22 @@ pkg install wget -y && wget -O install.sh https://raw.githubusercontent.com/Khan
 4. Wait for a long time!
  
 5. After Download 4xx MB and Install, Termux will ask you something, do it!
+
+6. Choose Source you want to use! 
  
-6. Enjoy!
+7. Enjoy!
+# HOW TO CHANGE SOURCE?
+1. Open Termux and run this command
+```
+tamp -start
+```
+2. Open New Session and run this command
+```
+menu
+```
+3. Choose Settings, and Choose 'Change Source'
+
+4. Restart Termux!
 
 # How to start?
 1. Open Termux and run this command
