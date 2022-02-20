@@ -24,7 +24,7 @@ while [[ $keep -eq 1 ]]; do
 		printf "${red}By KhanhNguyen9872\n\n"
 		printf "${light_cyan} Github: https://github.com/khanhnguyen9872\n Facebook: https://fb.me/khanh10a1\n\n"
 		printf "${blue} Current: HOIUC-2022\n\n${yellow}"
-		printf "0. Xem thong tin tai khoan\n1. Dang ky tai khoan\n2. Lock/Unlock tai khoan\n3. Mat khau [Doi pass, Lay pass,...]\n4. Buff [Luong, Yen, Xu, Level,...]\n5. Reset [Tiem nang]\n6. Backup/Restore your data\n7. More...\n8. Settings\n9. Xoa tai khoan\nK. Thoat (Exit)\n\n${light_cyan}"
+		printf "0. Xem thong tin tai khoan\n1. Dang ky tai khoan\n2. Lock/Unlock tai khoan\n3. Mat khau [Doi pass, Lay pass,...]\n4. Buff [Luong, Yen, Xu, Level,...]\n5. Reset [Tiem nang]\n6. Backup/Restore your data\n7. More... [Chua co]\n8. Settings\n9. Xoa tai khoan\nK. Thoat (Exit)\n\n${light_cyan}"
 		read -p "Lua chon: " khanh
 		case ${khanh} in
 			8)
@@ -59,7 +59,7 @@ while [[ $keep -eq 1 ]]; do
 							fi
 						;;
 						*)
-							if [ $khanh = "k" ] 2> /dev/null || [ $khanh = "K" ] 2> /dev/null; then
+							if [ $khanhsource = "k" ] 2> /dev/null || [ $khanhsource = "K" ] 2> /dev/null; then
 								keep_on=0
 							fi
 						;;
@@ -927,7 +927,7 @@ EOF
 								fi
 							;;
 							*)
-								if [ $khanh = "k" ] 2> /dev/null || [ $khanh = "K" ] 2> /dev/null; then
+								if [ $khanhsource = "k" ] 2> /dev/null || [ $khanhsource = "K" ] 2> /dev/null; then
 									keep_on=0
 								fi
 							;;
@@ -960,11 +960,11 @@ EOF
 										printf "${red}\n\n !!! MySQL is not running !!!\n\nExiting...\n\n"
 										exit 0
 									else
-										if [ -f /sdcard/khanh_nja.backup ] 2> /dev/null; then
-											rm -f /sdcard/khanh_nja.backup 2> /dev/null
+										if [ -f /sdcard/khanh_nja_FULLNV.backup ] 2> /dev/null; then
+											rm -f /sdcard/khanh_nja_FULLNV.backup 2> /dev/null
 										fi
 										mysqldump -u root --databases khanh1 >> /sdcard/khanh_nja_FULLNV.backup
-										if [ -f /sdcard/khanh_nja.backup ] 2> /dev/null; then
+										if [ -f /sdcard/khanh_nja_FULLNV.backup ] 2> /dev/null; then
 											printf "${light_cyan}\n\n Backup completed!\n\n${reset}"
 											read -p 'Press Enter to exit!' pause
 										else
@@ -1125,7 +1125,7 @@ EOF
 								user_yen="$(mysql --user=root -D khanh1 --skip-column-names -e "SELECT yen FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
 							fi
 							user_luong="$(mysql --user=root -D khanh1 --skip-column-names -e "SELECT luong FROM player WHERE username='$username'")" 2> /dev/null
-							user_trangthai="$(mysql --user=root -D khanh1 --skip-column-names -e "SELECT ban FROM player WHERE username='$username'")" 2> /dev/null
+							user_trangthai="$(mysql --user=root -D khanh1 --skip-column-names -e "SELECT \`lock\` FROM player WHERE username='$username'")" 2> /dev/null
 							if [[ $user_trangthai -eq 0 ]]; then
 								user_trangthai="Dang kich hoat [Unlocked]"
 							else
@@ -1289,7 +1289,7 @@ EOF
 								if [ $yesorno = "y" ] 2> /dev/null || [ $yesorno = "Y" ] 2> /dev/null; then
 									username_check="$(mysql --user=root -D khanh1 --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
 									if [ $username_check = $username ] 2> /dev/null; then
-										mysql --user=root -D khanh1 -e "UPDATE player SET ban = replace(ban,'0','1') WHERE username='$username';"
+										mysql --user=root -D khanh1 -e "UPDATE player SET \`lock\` = replace(\`lock\`,'0','1') WHERE username='$username';"
 										printf "\n${yellow} Khoa tai khoan $username thanh cong!\n\n${reset}"
 										read -p 'Press Enter to exit!' pause
 									else
@@ -1311,7 +1311,7 @@ EOF
 								if [ $yesorno = "y" ] 2> /dev/null || [ $yesorno = "Y" ] 2> /dev/null; then
 									username_check="$(mysql --user=root -D khanh1 --skip-column-names -e "SELECT * FROM player WHERE username='$username';" | grep -o $username | sed '1p;/pattern/!d')"
 									if [ $username_check = $username ] 2> /dev/null; then
-										mysql --user=root -D khanh1 -e "UPDATE player SET ban = replace(ban,'1','0') WHERE username='$username';"
+										mysql --user=root -D khanh1 -e "UPDATE player SET \`lock\` = replace(\`lock\`,'1','0') WHERE username='$username';"
 										printf "\n${yellow} Mo khoa tai khoan $username thanh cong!\n\n${reset}"
 										read -p 'Press Enter to exit!' pause
 									else
@@ -1372,8 +1372,8 @@ EOF
 														printf "\n${yellow} Nhan vat nay da lam het nhiem vu!\n\n${reset}"
 														read -p 'Press Enter to exit!' pause
 													else
-														user_nv=$(( $user_nv + 1 ))
-														mysql --user=root -D khanh1 -e "UPDATE ninja SET taskId = '$user_nv' WHERE username='$khanhnguyen9872';"
+														khanh=$(( $user_nv + 1 ))
+														mysql --user=root -D khanh1 -e "UPDATE ninja SET taskId = '$khanh' WHERE name='$khanhnguyen9872';"
 														printf "\n${yellow} Skip nhiem vu ${user_nv} cho [${username}] thanh cong!\n\n${reset}"
 														read -p 'Press Enter to exit!' pause
 													fi
@@ -1404,13 +1404,13 @@ EOF
 													read -p 'Press Enter to exit!' pause
 												else
 													user_nv="$(mysql --user=root -D khanh1 --skip-column-names -e "SELECT taskId FROM ninja WHERE name='$khanhnguyen9872'")" 2> /dev/null
-													if [[ $user_nv -eq 1 ]] 2> /dev/null; then
+													if [[ $user_nv -eq 0 ]] 2> /dev/null; then
 														printf "\n${yellow} Nhan vat nay dang o nhiem vu dau tien!\n\n${reset}"
 														read -p 'Press Enter to exit!' pause
 													else
-														user_nv=$(( $user_nv - 1 ))
-														mysql --user=root -D khanh1 -e "UPDATE ninja SET taskId = '$user_nv' WHERE username='$khanhnguyen9872';"
-														printf "\n${yellow} Skip nhiem vu ${user_nv} cho [${username}] thanh cong!\n\n${reset}"
+														khanh=$(( $user_nv - 1 ))
+														mysql --user=root -D khanh1 -e "UPDATE ninja SET taskId = '$khanh' WHERE name='$khanhnguyen9872';"
+														printf "\n${yellow} Quay ve nhiem vu ${khanh} cho [${username}] thanh cong!\n\n${reset}"
 														read -p 'Press Enter to exit!' pause
 													fi
 												fi
@@ -1422,7 +1422,7 @@ EOF
 									;;
 									*)
 										if [ $khanh = "k" ] 2> /dev/null || [ $khanh = "K" ] 2> /dev/null; then
-											keep_on=0
+											keep_on1=0
 										fi
 									;;
 								esac
@@ -1814,6 +1814,7 @@ EOF
 	fi
 	unset check_apache2
 	unset khanh
+	unset khanhsource
 	unset restorefile
 	unset pause
 	unset user_gender
