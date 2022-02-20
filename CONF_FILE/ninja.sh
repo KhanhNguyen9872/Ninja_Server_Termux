@@ -17,4 +17,15 @@ command+=" PATH=/usr/local/sbin:/usr/local/bin:/bin:/usr/bin:/sbin:/usr/sbin:/us
 command+=" TERM=$TERM"
 command+=" LANG=C.UTF-8"
 command+=" /bin/bash --login"
-$command -c "khanh"
+if [ -f ~/../usr/etc/HOIUC ] 2> /dev/null; then
+  $command -c "khanh"
+else
+  if [ -f ~/../usr/etc/FullNV ] 2> /dev/null; then
+      $command -c "khanh1"
+  else
+      echo ""
+      echo " Sai Source! Vui long cai dat lai!!!"
+      echo ""
+      exit 0
+  fi
+fi
