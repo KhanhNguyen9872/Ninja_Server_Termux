@@ -224,7 +224,7 @@ function completed() {
 	echo "echo 'Enjoy it!'" >> ~/.bash_profile
 	echo "echo 'You can use [menu] to register account!'" >> ~/.bash_profile
 	echo "echo ' '" >> ~/.bash_profile
-	echo "if [ -f ~/../usr/etc/HOIUC ] 2> /dev/null; then echo 'Current: HOIUC-2022'; else if [ -f ~/../usr/etc/HOIUC ] 2> /dev/null; then echo 'Current: FullNhiemVu-2022'; else echo 'Current: ERROR'; fi fi">> ~/.bash_profile
+	echo "if [ -f ~/../usr/etc/HOIUC ] 2> /dev/null; then echo 'Current: HOIUC-2022'; else if [ -f ~/../usr/etc/FullNV ] 2> /dev/null; then echo 'Current: FullNhiemVu-2022'; else echo 'Current: ERROR'; fi fi">> ~/.bash_profile
 	echo "echo ' '" >> ~/.bash_profile
 	echo "termux-wake-lock 2> /dev/null" >> ~/.bash_profile
 }
