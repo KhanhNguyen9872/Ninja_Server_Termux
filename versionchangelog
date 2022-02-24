@@ -1,5 +1,14 @@
-@ Version 2.3
-- Fix update feature and bugs
+@ Version 2.4
+- Fix update feature
+- Fix text bug
+- Add Buff HP Quai
+- Add Show all ID Quai/VatPham
+- Add Reinstall in More
+- Fix FULLNHIEMVU Settings
+- Add Information menu
+- Show Current Source in all feature
+- Add Buff Toc Chay Phan Than
+- Show ID Quai/Vatpham
 - Update Security Patch 24/02/2022
 - You must update this version for keep latest update
 
