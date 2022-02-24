@@ -1,9 +1,7 @@
-@ Version 2.2
-- Add buff item [Test]
-- Add check info item ID
-- Add Reset Giu Ruong
-- Add skip check mysql [-khanh_ignoremysql]
-- Fix some issue!
+@ Version 2.3
+- Fix update feature and bugs
+- Update Security Patch 24/02/2022
+- You must update this version for keep latest update
 
 Khanh: Good luck for you!
 - Thanks <3
