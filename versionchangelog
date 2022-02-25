@@ -1,15 +1,8 @@
-@ Version 2.4
-- Fix update feature
-- Fix text bug
-- Add Buff HP Quai
-- Add Show all ID Quai/VatPham
-- Add Reinstall in More
-- Fix FULLNHIEMVU Settings
-- Add Information menu
-- Show Current Source in all feature
-- Add Buff Toc Chay Phan Than
-- Show ID Quai/Vatpham
-- Update Security Patch 24/02/2022
+@ Version 2.5
+- Fix Buff HP Quai [HOIUC-2023]
+- Add Giftcode
+- Add Doi Phai Ninja
+- Update Security Patch 25/02/2022
 - You must update this version for keep latest update
 
 Khanh: Good luck for you!
