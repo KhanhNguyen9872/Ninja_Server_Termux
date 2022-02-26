@@ -1,5 +1,6 @@
 # Ninja_Server_Termux
 Ninja School Server on Termux Android
+# Version: 2.5
 # Update: 20/02/2022
 
 #
@@ -11,7 +12,7 @@ CPU: Quad-core with 1.00GHz or up <br />
 
 Architecture: 64bit only [arm64-v8a] <br />
 
-Android 6.0 Marshmallow or up <br />
+Android 7.0 Nougat or up <br />
 
 RAM: 2GB or up <br />
 
