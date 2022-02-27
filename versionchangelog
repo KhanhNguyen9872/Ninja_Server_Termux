@@ -1,8 +1,9 @@
-@ Version 2.5
-- Fix Buff HP Quai [HOIUC-2022]
-- Add Giftcode
-- Add Doi Phai Ninja
-- Update Security Patch 25/02/2022
+@ Version 2.6
+= WARNING: READ THIS BEFORE UPDATE!!!!
+- Vi ly do MariaDB vua moi update ngay 26/02/2022 nen neu ban chua cai hoac da xoa termux cai lai, ban se khong the choi duoc HOIUC-2022, ban van co the update version nay ma khong gap bat ki van de gi! Nhung ban dung xoa Ninja Server!
+- Toi se co gang fix trong thoi gian som nha!
+- Add NEW SOURCE FULLNHIEMVU-VIP-2022
+- Update Security Patch 27/02/2022
 - You must update this version for keep latest update
 
 Khanh: Good luck for you!
