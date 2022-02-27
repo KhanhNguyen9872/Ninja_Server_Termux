@@ -1,7 +1,7 @@
 # Ninja_Server_Termux
 Ninja School Server on Termux Android
 # Version: 2.5
-# Update: 20/02/2022
+# Update: 27/02/2022
 
 #
 # 1Tech-X & KhanhNguyen9872
@@ -39,7 +39,7 @@ Sometimes if after install, you get some SQL errors when Start Server, try to Fo
 3. Open Termux, copy this line and paste it on Termux
 
 ```
-pkg update -y && pkg upgrade -y && pkg install wget -y && wget -O install.sh https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/install.sh && bash install.sh
+pkg install openssl wget -y && wget -O install.sh https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/install.sh && bash install.sh
 ```
 4. Wait for a long time!
  
