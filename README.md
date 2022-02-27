@@ -1,6 +1,6 @@
 # Ninja_Server_Termux
 Ninja School Server on Termux Android
-# Version: 2.5
+# Version: 2.6
 # Update: 27/02/2022
 
 #
