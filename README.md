@@ -39,7 +39,7 @@ Sometimes if after install, you get some SQL errors when Start Server, try to Fo
 3. Open Termux, copy this line and paste it on Termux
 
 ```
-echo "Y" | pkg install openssl wget -y && pkg upgrade -y && wget -O install.sh https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/install.sh && bash install.sh
+pkg upgrade -y && pkg install wget -y && wget -O install.sh https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/install.sh && bash install.sh
 ```
 4. Wait for a long time!
  
