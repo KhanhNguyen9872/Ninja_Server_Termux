@@ -1,11 +1,11 @@
-@ Version 2.7
-- Fix TOKEN
-- Fix HOIUC-2022 Database
-- Fix Reinstall Database
-- Fix Giftcode error in FULLNHIEMVU-VIP-2022
-- Fix Login error
-- You must update this version for keep latest update
+@ Version 3.0
+- Fix Update
+- Add 120 o trong Hanh Trang VIP
+- Level Hanh Trang VIP=3
+- Add Phone Number
+- Add Donate Feature
+- Fix some bug text and database
+- Security Patch 04/03/2022
 
 Khanh: Good luck for you!
-- Thanks H Uan for fix database HOIUC-2022
-- Thanks <3
+- Thanks for used <3
