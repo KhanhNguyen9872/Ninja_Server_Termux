@@ -44,7 +44,7 @@ pkg upgrade -y && pkg install wget -y && wget -O install.sh https://raw.githubus
 
 4. Wait for a long time!
  
-5. After Download 4xx MB and Install, Termux will ask you something, do it!
+5. After Download 665MB and Install, Termux will ask you something, do it!
 
 6. Choose Source you want to use! 
  
