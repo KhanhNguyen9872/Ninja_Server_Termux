@@ -16,7 +16,7 @@ Android 7.0 Nougat or up <br />
 
 RAM: 2GB or up <br />
 
-Internal storage: 3GB free space <br />
+Internal storage: 3.5GB free space <br />
 
 Termux: Latest version! <br />
 
