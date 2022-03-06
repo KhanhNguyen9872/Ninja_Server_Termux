@@ -1,7 +1,7 @@
 # Ninja_Server_Termux
 Ninja School Server on Termux Android
-# Version: 3.0
-# Update: 04/03/2022
+# Version: 3.1
+# Update: 06/03/2022
 
 #
 # 1Tech-X & KhanhNguyen9872
