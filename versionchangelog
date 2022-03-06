@@ -1,14 +1,17 @@
-@ Version 3.0
-- Fix Update
-- Add 120 o trong Hanh Trang VIP
-- Level Hanh Trang VIP=3
-- Add Phone Number
-- Add Force update if necessary
-- Ask two time [Allow Storage Access]
-- Add some command you may use it:)
-- Add Donate Feature
-- Fix some bug text and database
-- Security Patch 04/03/2022
+@ Version 3.1
+- Add Tiếng Việt có dấu
+- Add Buff Tiềm năng, Kỹ năng phân thân
+- Add Buff ngọc tùy chọn
+- Add màu cam Terminal
+- Fix buff vật phẩm, nhập chỉ số 1-16 bị lỗi
+- Chuyển Server VIP cũ thành FullNhiemVu_2-2022
+- Fix Giftcode FullNhiemVu_2-2022
+- Thêm Server FullNhiemVu-VIP-2022 (Cần Key)
+- Tối ưu hóa menu, giảm bớt code
+- Fix 1 vài lỗi chính tả, sai chữ
+- Sắp tới sẽ có fix chữ ID Vật phẩm và ID Quái
+- Tăng tính bảo mật [06/03/2022]
+- Nếu bạn gặp lỗi về vấn đề Update, hãy vào menu, backup lại data chơi của bạn và tiến hành cài đặt lại Termux!!!
 
 Khanh: Good luck for you!
 - Thanks for used <3
