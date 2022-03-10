@@ -1,17 +1,13 @@
-@ Version 3.1
-- Add Tiếng Việt có dấu
-- Add Buff Tiềm năng, Kỹ năng phân thân
-- Add Buff ngọc tùy chọn
-- Add màu cam Terminal
-- Fix buff vật phẩm, nhập chỉ số 1-16 bị lỗi
-- Chuyển Server VIP cũ thành FullNhiemVu_2-2022
-- Fix Giftcode FullNhiemVu_2-2022
-- Thêm Server FullNhiemVu-VIP-2022 (Cần Key)
-- Tối ưu hóa menu, giảm bớt code
-- Fix 1 vài lỗi chính tả, sai chữ
-- Sắp tới sẽ có fix chữ ID Vật phẩm và ID Quái
-- Thêm file Ninja School APK [Bộ nhớ trong]
-- Tăng tính bảo mật [06/03/2022]
+@ Version 3.2
+- Sửa lỗi List ID VP và Quái [HOIUC-FullNV1]
+- Hoàn chỉnh Buff ngọc tùy chọn
+- Tự động random các chỉ số âm của Ngọc
+- Thêm đổi tên nhân vật Ninja
+- Thêm kiểm tra thông tin máy 32bit hay 64bit
+- Thêm Tải lại file game Ninja vào bộ nhớ máy
+
+ LƯU Ý: CÁC BẢN CỦA TÔI SẼ KHÔNG LẤY BẤT KÌ THÔNG TIN CÁ NHÂN NÀO CỦA BẠN! NẾU BẠN SỢ TÔI ĐÁNH CẮP THÔNG TIN, XIN ĐỪNG CÀI NỮA! CẢM ƠN!
+
 - Nếu bạn gặp lỗi về vấn đề Update, hãy vào menu, backup lại data chơi của bạn và tiến hành cài đặt lại Termux!!!
 
 Khanh: Good luck for you!
