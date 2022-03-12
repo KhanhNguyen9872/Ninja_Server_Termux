@@ -1,11 +1,12 @@
-@ Version 3.2
-- Sửa lỗi List ID VP và Quái [HOIUC-FullNV1]
+@ Version 3.3
+- Thêm Hack Skill [1 ninja dùng nhiều skill ninja khác]
+- Thêm list id skill
+- Hoàn chỉnh buff ngọc
+@ LƯU Ý: HOIUC-2022 lỗi khảm ngọc
+- Thêm buff ngọc Random chỉ số
 - Hoàn chỉnh Buff ngọc tùy chọn
-- Tự động random các chỉ số âm của Ngọc
-- Thêm đổi tên nhân vật Ninja
-- Thêm kiểm tra thông tin máy 32bit hay 64bit
-- Thêm Tải lại file game Ninja vào bộ nhớ máy
-- Sửa lỗi đăng ký, active ở FullNhiemVu-VIP
+- Sửa lỗi cài đặt lại database
+- Tăng tính ổn định bảng điều khiển
 
  LƯU Ý: CÁC BẢN CỦA TÔI SẼ KHÔNG LẤY BẤT KÌ THÔNG TIN CÁ NHÂN NÀO CỦA BẠN! NẾU BẠN SỢ TÔI ĐÁNH CẮP THÔNG TIN, XIN ĐỪNG CÀI NỮA! CẢM ƠN!
 
