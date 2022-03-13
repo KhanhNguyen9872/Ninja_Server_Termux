@@ -1,14 +1,6 @@
-@ Version 3.3
-- Thêm Hack Skill [1 ninja dùng nhiều skill ninja khác]
-- Thêm list id skill
-- Tối ưu màn hình chính menu
-- Bạn có thể backup hoặc không ở cài đặt lại database
-- Sửa lỗi backup data không có thông báo
-- Hoàn chỉnh buff ngọc
-@ LƯU Ý: HOIUC-2022 lỗi khảm ngọc
-- Thêm buff ngọc Random chỉ số
-- Hoàn chỉnh Buff ngọc tùy chọn
-- Sửa lỗi cài đặt lại database
+@ Version 3.4
+- Fix lỗi Ốc sên, Ếch xanh 2 tỷ HP
+- Thêm tính năng Online Mode [Test]
 - Tăng tính ổn định bảng điều khiển
 
  LƯU Ý: CÁC BẢN CỦA TÔI SẼ KHÔNG LẤY BẤT KÌ THÔNG TIN CÁ NHÂN NÀO CỦA BẠN! NẾU BẠN SỢ TÔI ĐÁNH CẮP THÔNG TIN, XIN ĐỪNG CÀI NỮA! CẢM ƠN!
