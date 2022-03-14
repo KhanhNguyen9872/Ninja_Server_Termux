@@ -3,9 +3,8 @@ Ninja School Server on Termux Android
 # Version: 3.5
 # Update: 13/03/2022
 
-#
-# 1Tech-X & KhanhNguyen9872
-#
+[![Github All Releases](https://img.shields.io/github/downloads/KhanhNguyen9872/Ninja_Server_Termux/total.svg?style=for-the-badge)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/latest)
+[![Github All Releases](https://img.shields.io/github/release/KhanhNguyen9872/Ninja_Server_Termux.svg?style=for-the-badge)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/latest)
 
 # System Requirements
 CPU: Octa-core with 1.30GHz or up <br />
