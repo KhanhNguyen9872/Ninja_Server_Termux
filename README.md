@@ -37,44 +37,44 @@ Sometimes if after install, you get some SQL errors when Start Server, try to Fo
 
 3. Open Termux, copy this line and paste it on Termux
 
-```
+```bash
 pkg upgrade -y && pkg install wget -y && wget -O install.sh https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/install.sh && bash install.sh https://fb.me/khanh10a1
 ```
 
 4. Wait for a long time!
  
-5. After Download 665MB and Install, Termux will ask you something, do it!
+5. After Download 735MB and Install, Termux will ask you something, do it!
 
 6. Choose Source you want to use! 
  
 7. Enjoy!
 # HOW TO CHANGE SOURCE?
 1. Open Termux and run this command
-```
+```bash
 tamp -start
 ```
 2. Open New Session and run this command
-```
+```bash
 menu
 ```
-3. Choose Settings, and Choose 'Change Source'
+3. Choose Settings, and Choose 'Change Server'
 
 4. Restart Termux!
 
 # How to start?
 1. Open Termux and run this command
-```
+```bash
 tamp -start
 ```
 2. Next, open New Session Termux and run this command
-```
+```bash
 ninja
 ```
 3. Open J2ME-Loader and Enjoy it!
 
 # Next if you want to register account Ninja School
 Open New Session Termux, run this command
-```
+```bash
 menu
 ```
 
