@@ -1,7 +1,10 @@
-@ Version 3.5
-- Version 3.4 bị lỗi ;))) upload nhầm file nha
-- Fix lỗi Ốc sên, Ếch xanh 2 tỷ HP
-- Thêm tính năng Online Mode [Test]
+@ Version 3.6
+- Thêm xóa toàn bộ tài khoản ninja
+- Sửa lỗi tính năng Reset Tiềm năng
+- Sửa lỗi authtoken
+- Sửa lỗi phát hiện đã cài tính năng Online
+- Hiển thị 1 vài thông tin máy
+- Sửa 1 vài chữ không có dấu
 - Tăng tính ổn định bảng điều khiển
 
  LƯU Ý: CÁC BẢN CỦA TÔI SẼ KHÔNG LẤY BẤT KÌ THÔNG TIN CÁ NHÂN NÀO CỦA BẠN! NẾU BẠN SỢ TÔI ĐÁNH CẮP THÔNG TIN, XIN ĐỪNG CÀI NỮA! CẢM ƠN!
