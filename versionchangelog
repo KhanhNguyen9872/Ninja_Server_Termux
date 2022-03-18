@@ -1,13 +1,10 @@
-@ Version 3.6
-- Thêm xóa toàn bộ tài khoản ninja
-- Sửa lỗi tính năng Reset Tiềm năng
-- Sửa lỗi authtoken
-- Sửa lỗi phát hiện đã cài tính năng Online
-- Hiển thị 1 vài thông tin máy
-- Sửa 1 vài chữ không có dấu
-- Tăng tính ổn định bảng điều khiển
+@ Version 3.7
+- Fix lỗi khôi phục data FullNhiemVu [Cần Cài đặt lại Database]
+- Bỏ hiện thông tin ID máy
+- Hiển thị thêm 1 số thông tin để giúp bạn xem tình hình
+- Sửa 1 số chữ không có dấu
 
- LƯU Ý: CÁC BẢN CỦA TÔI SẼ KHÔNG LẤY BẤT KÌ THÔNG TIN CÁ NHÂN NÀO CỦA BẠN! NẾU BẠN SỢ TÔI ĐÁNH CẮP THÔNG TIN, XIN ĐỪNG CÀI NỮA! CẢM ƠN!
+ LƯU Ý: CÁC BẢN CỦA TÔI SẼ KHÔNG LẤY BẤT KÌ THÔNG TIN CÁ NHÂN NÀO HOẶC KỂ CẢ MODEL MÁY TÔI CÒN KHÔNG LẤY CỦA BẠN! NẾU BẠN SỢ TÔI ĐÁNH CẮP THÔNG TIN, XIN ĐỪNG CÀI NỮA! CẢM ƠN!
 
 - Nếu bạn gặp lỗi về vấn đề Update, hãy vào menu, backup lại data chơi của bạn và tiến hành cài đặt lại Termux!!!
 
