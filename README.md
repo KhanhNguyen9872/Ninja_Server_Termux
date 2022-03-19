@@ -13,9 +13,9 @@ Architecture: 64bit only [arm64-v8a] <br />
 
 Android 7.0 Nougat or up <br />
 
-RAM: 2GB or up <br />
+RAM: 2GB [Online Mode: 3GB or up] <br />
 
-Internal storage: 4GB free space <br />
+Internal storage: 5GB free space <br />
 
 Termux: Latest version! <br />
 
