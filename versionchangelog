@@ -1,10 +1,8 @@
-@ Version 4.0
-- Fix lỗi ngoài menu
-- 1 số thông tin, link sẽ được lấy từ server
-- Giảm chỉ số âm cho Ngọc random
-- Remove 'Battery is not present'
-- Fix Online Mode
-- Redesign Information
+@ Version 4.1
+- Fix bug on change server VIP
+- Add Remove Giftcode
+- Fix Giftcode but it is TEST and UNSTABLE
+- Add ninja189-Khanh.jar, ninjaHack-Khanh.apk
 - NOW YOU CAN USE ONLINE MODE
 
 
