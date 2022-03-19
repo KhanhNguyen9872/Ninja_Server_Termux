@@ -1,8 +1,12 @@
-@ Version 3.7
-- Fix lỗi khôi phục data FullNhiemVu [Cần Cài đặt lại Database]
-- Bỏ hiện thông tin ID máy
-- Hiển thị thêm 1 số thông tin để giúp bạn xem tình hình
-- Sửa 1 số chữ không có dấu
+@ Version 4.0
+- Fix lỗi ngoài menu
+- 1 số thông tin, link sẽ được lấy từ server
+- Giảm chỉ số âm cho Ngọc random
+- Remove 'Battery is not present'
+- Fix Online Mode
+- Redesign Information
+- NOW YOU CAN USE ONLINE MODE
+
 
  LƯU Ý: CÁC BẢN CỦA TÔI SẼ KHÔNG LẤY BẤT KÌ THÔNG TIN CÁ NHÂN NÀO HOẶC KỂ CẢ MODEL MÁY TÔI CÒN KHÔNG LẤY CỦA BẠN! NẾU BẠN SỢ TÔI ĐÁNH CẮP THÔNG TIN, XIN ĐỪNG CÀI NỮA! CẢM ƠN!
 
