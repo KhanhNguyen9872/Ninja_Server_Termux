@@ -1,7 +1,7 @@
 # Ninja_Server_Termux
 Ninja School Server on Termux Android
-# Version: 4.1
-# Update: 19/03/2022
+# Version: 4.2
+# Update: 24/03/2022
 
 [![Github All Releases](https://img.shields.io/github/downloads/KhanhNguyen9872/Ninja_Server_Termux/total.svg?style=for-the-badge)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
 [![Github All Releases](https://img.shields.io/github/release/KhanhNguyen9872/Ninja_Server_Termux.svg?style=for-the-badge)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
@@ -77,6 +77,21 @@ Open New Session Termux, run this command
 ```bash
 menu
 ```
+
+# How to start Online mode?
+1. Open Termux, run tamp -start and menu
+2. On menu, choose 7, and choose 7 again, choose Install Online Mode and wait for install
+3. After install, Insert your authtoken ngrok
+4. Open New Session, start ninja server normal
+```bash
+ninja
+```
+5. Open New Session, type
+```bash
+online
+```
+6. Choose your Server and you will have IP Online
+7. Mod your file game with this IP Online, Enjoy!
 
 # IF You don't see Ninja School in J2ME-Loader
  - Install ninja.jar file [using J2ME-Loader] and Enjoy!
