@@ -1,10 +1,6 @@
-@ Version 4.4
-- CẢNH BÁO HÃY UPDATE BẢN NÀY
-- Fix Cài đặt lại database
-- Fix IP Online lỗi
-- Fix các thông báo lỗi ở màn hình chính menu
-- Fix Show IP Wifi và IP SIM CARD
-- Fix số giây ở thông báo menu và install
+@ Version 4.5
+- Các phiên bản cũ hơn 4.2 sẽ không thể sử dụng nữa, hãy update sau 8h tối 25/03
+- Protect ninja
 
  LƯU Ý: CÁC BẢN CỦA TÔI SẼ KHÔNG LẤY BẤT KÌ THÔNG TIN CÁ NHÂN NÀO HOẶC KỂ CẢ MODEL MÁY TÔI CÒN KHÔNG LẤY CỦA BẠN! NẾU BẠN SỢ TÔI ĐÁNH CẮP THÔNG TIN, XIN ĐỪNG CÀI NỮA! CẢM ƠN!
 
