@@ -15,7 +15,7 @@ Android 7.0 Nougat or up <br />
 
 RAM: 3GB [Online Mode: 4GB or up] <br />
 
-Internal storage: 6GB free space <br />
+Internal storage: [4GB Offline only] - [5GB Offline + Online] - [6GB Full Package] <br />
 
 Termux: Latest version! <br />
 
