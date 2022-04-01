@@ -1,16 +1,7 @@
-@ Version 4.7
-- Các phiên bản cũ hơn 4.2 sẽ không thể sử dụng nữa
-- Thêm Recaf, dùng để chỉnh sửa file java hack
-- Thêm báo dung lượng file tải ở Online, Recaf và cài đặt lại Base Ninja
-- Khắc phục lỗi buff hp quái không thể buff
-- Thêm tính năng cài đặt lại Base Ninja, file cần thiết
-- Sửa lỗi báo sai đã cài đặt
-- Tự động xóa các file cũ trước khi cài file mới để tránh đầy bộ nhớ
-- Security Patch 31/03/2022 [Bản cập nhật cuối tháng 3]
-
- LƯU Ý: CÁC BẢN CỦA TÔI SẼ KHÔNG LẤY BẤT KÌ THÔNG TIN CÁ NHÂN NÀO HOẶC KỂ CẢ MODEL MÁY TÔI CÒN KHÔNG LẤY CỦA BẠN! NẾU BẠN SỢ TÔI ĐÁNH CẮP THÔNG TIN, XIN ĐỪNG CÀI NỮA! CẢM ƠN!
-
-- Nếu bạn gặp lỗi về vấn đề Update, hãy vào menu, backup lại data chơi của bạn và tiến hành cài đặt lại Termux!!!
+@ Version 4.8
+- Update Password Recaf cho VNC Viewer
+- Thêm báo cáo dung lượng tải, dung lượng sau khi cài đặt, bộ nhớ cần trống
+- Sửa lỗi file cài đặt lại Base Source Ninja
 
 Khanh: Good luck for you!
 - Thanks for used <3
