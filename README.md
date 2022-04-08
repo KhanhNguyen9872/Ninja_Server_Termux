@@ -1,7 +1,7 @@
 # Ninja_Server_Termux
 Ninja School Server on Termux Android
-# Version: 4.8 [Official]
-# Update: 01/04/2022
+# Version: 5.0 [Official]
+# Update: 08/04/2022
 
 [![Github All Releases](https://img.shields.io/github/downloads/KhanhNguyen9872/Ninja_Server_Termux/total.svg?style=for-the-badge)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
 [![Github All Releases](https://img.shields.io/github/release/KhanhNguyen9872/Ninja_Server_Termux.svg?style=for-the-badge)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
@@ -15,7 +15,7 @@ Android 7.0 Nougat or up <br />
 
 RAM: 2GB [Online Mode: 3GB or up] <br />
 
-Internal storage: [2.5GB Offline only] - [2.8GB Offline + Online] - [3.3GB Full Package] <br />
+Internal storage: [2.50GB Free space | Offline only] - [2.85GB Free space | Offline + Online] - [4.00GB Free space | Full Package] <br />
 
 Termux: Latest version! <br />
 
