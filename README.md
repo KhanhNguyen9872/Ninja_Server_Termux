@@ -7,15 +7,15 @@ Ninja School Server on Termux Android
 [![Github All Releases](https://img.shields.io/github/release/KhanhNguyen9872/Ninja_Server_Termux.svg?style=for-the-badge)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
 
 # System Requirements
-CPU: Octa-core with 1.30GHz or up <br />
+CPU: Quad-core with 1.30GHz or up <br />
 
-Architecture: 64bit only [arm64-v8a] <br />
+Architecture: ARM 32-64bit <br />
 
 Android 7.0 Nougat or up <br />
 
-RAM: 3GB [Online Mode: 4GB or up] <br />
+RAM: 2GB [Online Mode: 3GB or up] <br />
 
-Internal storage: [4.5GB Offline only] - [5GB Offline + Online] - [6GB Full Package] <br />
+Internal storage: [2.5GB Offline only] - [2.8GB Offline + Online] - [3.3GB Full Package] <br />
 
 Termux: Latest version! <br />
 
