@@ -38,12 +38,12 @@ Sometimes if after install, you get some SQL errors when Start Server, try to Fo
 3. Open Termux, copy this line and paste it on Termux
 
 ```bash
-pkg upgrade -y && pkg install wget -y && wget -O install.sh https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/install.sh && bash install.sh https://fb.me/khanh10a1
+apt upgrade --no-install-recommends -y && apt install wget -y && wget -O install.sh https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/install.sh && bash install.sh https://fb.me/khanh10a1
 ```
 
 4. Wait for a long time!
  
-5. After Download 735MB and Install, Termux will ask you something, do it!
+5. After Download 485MB and Install, Termux will ask you something, do it!
 
 6. Choose Source you want to use! 
  
