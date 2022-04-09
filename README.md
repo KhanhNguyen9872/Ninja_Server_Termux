@@ -20,7 +20,7 @@ Internal storage: [2.50GB Free space | Offline only] - [2.85GB Free space | Offl
 Termux: Latest version! <br />
 
 # Recaf Requirements
-- As above
+- As above  <br />
 Architecture: ARM 64bit only <br />
 
 # Note
@@ -102,3 +102,8 @@ online
 ```
 ninja-Khanh.jar in /sdcard [Internal Storage]
 ```
+
+# Screenshot
+[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/NinjaServerTermuxv01/termux_0.118.apk) <br />
+[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/NinjaServerTermuxv01/termux_0.118.apk) <br />
+[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/NinjaServerTermuxv01/termux_0.118.apk) <br />
