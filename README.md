@@ -19,6 +19,10 @@ Internal storage: [2.50GB Free space | Offline only] - [2.85GB Free space | Offl
 
 Termux: Latest version! <br />
 
+# Recaf Requirements
+- As above
+Architecture: ARM 64bit only <br />
+
 # Note
 
 Server cannot be start if port 3306, 8080 is in used! <br />
