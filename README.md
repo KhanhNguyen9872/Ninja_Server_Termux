@@ -6,6 +6,10 @@ Ninja School Server on Termux Android
 [![Github All Releases](https://img.shields.io/github/downloads/KhanhNguyen9872/Ninja_Server_Termux/total.svg?style=for-the-badge)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
 [![Github All Releases](https://img.shields.io/github/release/KhanhNguyen9872/Ninja_Server_Termux.svg?style=for-the-badge)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
 
+<br />
+<br />
+<br />
+
 # System Requirements
 CPU: Quad-core with 1.30GHz or up <br />
 
@@ -23,12 +27,19 @@ Termux: Latest version! <br />
 - As above  <br />
 Architecture: ARM 64bit only <br />
 
+<br />
+<br />
+<br />
+
 # Note
 
 Server cannot be start if port 3306, 8080 is in used! <br />
 
 Sometimes if after install, you get some SQL errors when Start Server, try to Force-Stop Termux and start again, if can't fix it, try download the latest Termux or change to another repo with the command 'termux-change-repo' and try again! <br />
 
+<br />
+<br />
+<br />
 
 # How to install?
  - Tutorial: https://youtu.be/puTeSrOrfL4
@@ -52,6 +63,11 @@ apt update -y && apt upgrade --no-install-recommends -y && pkg install wget -y &
 6. Choose Source you want to use! 
  
 7. Enjoy!
+
+<br />
+<br />
+<br />
+
 # HOW TO CHANGE SOURCE?
 1. Open Termux and run this command
 ```bash
@@ -64,6 +80,10 @@ menu
 3. Choose Settings, and Choose 'Change Server'
 
 4. Restart Termux!
+
+<br />
+<br />
+<br />
 
 # How to start?
 1. Open Termux and run this command
@@ -82,6 +102,10 @@ Open New Session Termux, run this command
 menu
 ```
 
+<br />
+<br />
+<br />
+
 # How to start Online mode?
 1. Open Termux, run tamp -start and menu
 2. On menu, choose 7, and choose 7 again, choose Install Online Mode and wait for install
@@ -97,13 +121,49 @@ online
 6. Choose your Server and you will have IP Online
 7. Mod your file game with this IP Online, Enjoy!
 
+<br />
+<br />
+<br />
+ 
 # IF You don't see Ninja School in J2ME-Loader
  - Install ninja.jar file [using J2ME-Loader] and Enjoy!
 ```
 ninja-Khanh.jar in /sdcard [Internal Storage]
 ```
 
+<br />
+<br />
+<br />
+
 # Screenshot
-[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/NinjaServerTermuxv01/termux_0.118.apk) <br />
-[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/NinjaServerTermuxv01/termux_0.118.apk) <br />
-[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/NinjaServerTermuxv01/termux_0.118.apk) <br />
+
+ <br />
+ <br />
+ 
+ - [chạy tamp] <br />
+[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/screen_00.jpg)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#) <br />
+
+ <br />
+ <br />
+ 
+ - [màn hình chính menu] <br />
+[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/screen_01.jpg)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#) <br />
+
+ <br />
+ <br />
+ 
+ - [more menu] <br />
+[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/screen_02.jpg)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#) <br />
+
+ <br />
+ <br />
+ 
+ - [chạy ninja] <br />
+[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/screen_03.jpg)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#) <br />
+
+ <br />
+ <br />
+ 
+ - [test game] <br />
+[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/screen_04.jpg)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#) <br />
+[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/screen_05.jpg)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#) <br />
