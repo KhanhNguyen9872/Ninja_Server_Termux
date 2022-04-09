@@ -1,9 +1,10 @@
-@ Version 5.1
+@ Version 5.2
 - Finally! 32bit is supported!
-- Fix lỗi Buff VIP HOIUC_2-2022
-- Fix lỗi chữ trong HIện ID Vật phẩm HOIUC_2-2022
-- Vẫn còn bug? Hãy report vào fb của tui nhé!
-- KHUYẾN KHÍCH NÊN BACKUP DATA GAME SAU ĐÓ XÓA TERMUX CÀI LẠI ĐỂ CÓ SỰ ỔN ĐỊNH NHẤT
+- Fix lỗi không chạy được Server trên 64bit
+- Fix lỗi Cài đặt lại Base Source
+- Tách rời 32bit và 64bit ra thành 2 file
+
+- KHUYÊN BẠN NÊN BACKUP LẠI DATA GAME VÀ SAU ĐÓ XÓA TERMUX CÀI LẠI ĐỂ CÓ SỰ ỔN ĐỊNH NHẤT!
 
 Khanh: Good luck for you!
 - Thanks for used <3
