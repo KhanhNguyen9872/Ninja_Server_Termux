@@ -135,6 +135,14 @@ ninja-Khanh.jar in /sdcard [Internal Storage]
 <br />
 <br />
 
+# Video test
+
+https://github.com/KhanhNguyen9872/PublicFile/releases/download/ninjaservertermuxvideo/video_00_480p.mp4
+
+<br />
+<br />
+<br />
+
 # Screenshot
 
  <br />
