@@ -1,8 +1,6 @@
-@ Version 5.2
+@ Version 5.3
 - Finally! 32bit is supported!
-- Fix lỗi không chạy được Server trên 64bit
-- Fix lỗi Cài đặt lại Base Source
-- Tách rời 32bit và 64bit ra thành 2 file
+- Fix lỗi system error trên 64bit
 
 - KHUYÊN BẠN NÊN BACKUP LẠI DATA GAME VÀ SAU ĐÓ XÓA TERMUX CÀI LẠI ĐỂ CÓ SỰ ỔN ĐỊNH NHẤT!
 
