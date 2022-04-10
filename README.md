@@ -137,8 +137,7 @@ ninja-Khanh.jar in /sdcard [Internal Storage]
 
 # Video test
 
-https://user-images.githubusercontent.com/88880309/162602570-1635d88c-a88d-49ff-a8ac-c2a33fb005f8.mp4
-
+https://user-images.githubusercontent.com/88880309/162602603-ac71fbe3-a817-4f2c-896b-947237aee1fc.mp4
 
 
 <br />
