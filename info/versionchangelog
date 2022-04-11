@@ -1,6 +1,7 @@
 @ Version 5.4
 - Finally! 32bit is supported!
 - Fix lỗi 1 số máy không thể vào menu (error token, division by 0)
+- Sau khi cài đặt lại các file cần thiết, menu sẽ tự động thoát và yêu cầu bạn chạy lại menu!
 - Nói chung là trình code còn gà nên chỉ được từng này thui, không thể thêm mấy cái tính năng cao siêu kia được:>
 
 - KHUYÊN BẠN NÊN BACKUP LẠI DATA GAME VÀ SAU ĐÓ XÓA TERMUX CÀI LẠI ĐỂ CÓ SỰ ỔN ĐỊNH NHẤT!
