@@ -1,12 +1,9 @@
-@ Version 5.5
+@ Version 5.6
 - Finally! 32bit is supported!
-- Thêm phpMyAdmin
-- Có thể bật hoặc tắt phpMyAdmin tùy ý
-- Chỉnh sửa lại lấy link video hướng dẫn
-- Thông báo 0MB khi không có internet ở trong phần cài đặt
-- Thêm tính năng Gỡ cài đặt! Vd: recaf, online,...
-- Sửa lỗi không dấu, lỗi null
-- Thay đổi tên file backup với tên dễ nhìn hơn
+- Sửa lỗi date/time ở màn hình chính menu
+- Sửa lỗi không thể chạy phpMyAdmin ở 1 số máy
+- Sửa lỗi cài đặt lại phpMyAdmin bị lỗi
+- Thêm hiển thị dung lượng sẽ nhận lại sau khi gỡ cài đặt
 
 - Nói chung là trình code còn gà nên chỉ được từng này thui, không thể thêm mấy cái tính năng cao siêu kia được:>
 
