@@ -2,6 +2,7 @@
 - Thêm chuyển đổi [0.0.0.0 -> 127.0.0.1] trong mục cài phpMyAdmin dành cho 1 số máy bị lỗi k vào đc phpMyAdmin
 - Thêm Buff vật phẩm theo ô [Ô 1 2 3 4 5 6]
 - Thêm Buff ngọc như Teamobi (chỉ ngọc +1)
+- Giảm chỉ số âm trong buff ngọc Custom và Buff ngọc chỉ số random
 - Sửa lỗi chữ trong xem ID vật phẩm, quái [bản sau sẽ hoàn thiện hơn do chưa dịch hết]
 - Sửa lỗi dư thừa kí tự [Dấu cách]
 - Sửa lỗi chính tả
