@@ -1,13 +1,9 @@
-@ Version 5.7
-- Thêm chuyển đổi [0.0.0.0 -> 127.0.0.1] trong mục cài phpMyAdmin dành cho 1 số máy bị lỗi k vào đc phpMyAdmin
-- Thêm Buff vật phẩm theo ô [Ô 1 2 3 4 5 6]
-- Thêm Buff ngọc như Teamobi (chỉ ngọc +1)
-- Giảm chỉ số âm trong buff ngọc Custom và Buff ngọc chỉ số random
-- Sửa lỗi chữ trong xem ID vật phẩm, quái [bản sau sẽ hoàn thiện hơn do chưa dịch hết]
-- Sửa lỗi dư thừa kí tự [Dấu cách]
-- Sửa lỗi chính tả
-
-- Nói chung là trình code còn gà nên chỉ được từng này thui, không thể thêm mấy cái tính năng cao siêu kia được:>
+@ Version 5.8
+- Thêm Câu hỏi thường gặp
+- Thêm Gỡ cài đặt Server Termux
+- Dịch tất cả tên Quái + Vật phẩm ở tất cả server
+- Fix shop giày HOIUC_v2-2022 [Chỉ data mới]
+- Sửa lỗi xem thông tin Quái+Vật phẩm
 
 Khanh: Good luck for you!
 - Thanks for used <3
