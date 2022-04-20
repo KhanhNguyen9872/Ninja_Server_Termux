@@ -1,9 +1,8 @@
-@ Version 5.8
-- Thêm Câu hỏi thường gặp
-- Thêm Gỡ cài đặt Server Termux
-- Dịch tất cả tên Quái + Vật phẩm ở tất cả server
-- Fix shop giày HOIUC_v2-2022 [Chỉ data mới]
-- Sửa lỗi xem thông tin Quái+Vật phẩm
+@ Version 5.9
+- Update Server HOIUC_v2 với nhiều tính năng mới
+- Data Backup cũ của HOIUC_v2 sẽ không thể sử dụng được nữa
+- Sửa lỗi câu hỏi thường gặp
+- Thay đổi list vật phẩm HOIUC_v2
 
 Khanh: Good luck for you!
 - Thanks for used <3
