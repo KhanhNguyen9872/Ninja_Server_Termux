@@ -1,10 +1,12 @@
-@ Version 5.9
-- Update Server HOIUC_v2 với nhiều tính năng mới
-- Data Backup cũ của HOIUC_v2 sẽ không thể sử dụng được nữa
-- Sửa lỗi câu hỏi thường gặp
-- Thay đổi list vật phẩm HOIUC_v2
+@ Version 6.0
+- Thêm câu hỏi thường gặp về SSH Server
+- Thêm tính năng SSH Server để nhiều người cùng quản lí server Ninja
+- Thêm tính năng tìm tên tài khoản bằng tên ninja
+- Bỏ Giftcode vì không ổn định
+- Sửa list quái HOIUC_v2-2022
+- Sửa lỗi chữ không có dấu
+- Sữa lỗi Lấy mật khẩu tài khoản khi không nhập bất kì cái gì
 
-[Lưu ý: sau khi update xong, hãy vào menu, chọn cài đặt lại Databases nhé]
 
 Khanh: Good luck for you!
 - Thanks for used <3
