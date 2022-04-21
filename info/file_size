@@ -4,5 +4,7 @@ image: 490
 imageInstalled: 900
 online: 28
 onlineInstalled: 89
+online: 35
+onlineInstalled: 125
 php: 10
 phpInstalled: 50
