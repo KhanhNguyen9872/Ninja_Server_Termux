@@ -1,11 +1,8 @@
-@ Version 6.0
-- Thêm câu hỏi thường gặp về SSH Server
-- Thêm tính năng SSH Server để nhiều người cùng quản lí server Ninja
-- Thêm tính năng tìm tên tài khoản bằng tên ninja
-- Bỏ Giftcode vì không ổn định
-- Sửa list quái HOIUC_v2-2022
-- Sửa lỗi chữ không có dấu
-- Sữa lỗi Lấy mật khẩu tài khoản khi không nhập bất kì cái gì
+@ Version 6.1
+- Update Server FullNhiemVu-VIP-2022 [Giống Server MoonSmile 100%/Thanks kakavip]
+- Bạn muốn dùng Server này? Chuyển khoản 20k về số Momo của Khánh trong phần Thông tin menu kèm lời chat mua key, sau đó inbox zalo để nhận key nhé! Key có hạn vĩnh viễn!
+- Fix lỗi SSH Server 1 [Lệnh sai]
+- Update ninja command
 
 
 Khanh: Good luck for you!
