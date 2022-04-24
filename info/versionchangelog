@@ -1,9 +1,13 @@
-@ Version 6.1
-- Update Server FullNhiemVu-VIP-2022 [Giống Server MoonSmile 100%/Thanks kakavip]
-- Bạn muốn dùng Server này? Chuyển khoản 20k về số Momo của Khánh trong phần Thông tin menu kèm lời chat mua key, sau đó inbox zalo để nhận key nhé! Key có hạn vĩnh viễn!
-- Fix lỗi SSH Server 1 [Lệnh sai]
-- Update ninja command
-
+@ Version 6.2
+- Fix tar
+- Thêm lại tính năng Giftcode [chỉ khả dụng trong Server VIP]
+- Thêm tính năng xóa toàn bộ giftcode
+- Thêm câu hỏi thường gặp
+- Tăng tính bảo mật, sau khi chạy tính năng SSH, 1 số tính năng trong menu sẽ không khả dụng
+- Fix lỗi Xóa toàn bộ tài khoản trong Server VIP (sau khi xóa bị lỗi nhiệm vụ thách đấu thầy cô)
+- Fix lỗi bị treo menu nếu Internet của bạn không ổn định hoặc không có Internet
+- Tăng tốc quá trình kiểm tra cập nhật Ninja Server Termux
+- Thêm thông báo preparing,.v.v... đầu menu
 
 Khanh: Good luck for you!
 - Thanks for used <3
