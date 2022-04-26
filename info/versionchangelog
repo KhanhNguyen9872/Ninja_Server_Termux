@@ -1,13 +1,22 @@
-@ Version 6.2
-- Fix tar
-- Thêm lại tính năng Giftcode [chỉ khả dụng trong Server VIP]
-- Thêm tính năng xóa toàn bộ giftcode
+@ Version 6.3
+- Fix lỗi nhập chữ trong cách chổ chỉ nhập số
+- Fix lỗi sau khi đổi tên ninja thì không dùng phân thân được
+- Fix lỗi InnoDB do log full
+- Fix lỗi màu light
+- Fix lỗi Giftcode FullNhiemVu-VIP
+- Thêm Giftcode cho HOIUC_v2-2022 (chỉ vật phẩm)
+- Thêm tính năng test độ trễ server ngrok [Online/SSH] để lựa chọn Server tốt nhất
+- Thêm reset kỹ năng
+- Fix lỗi heap full
+- Thêm tính năng tamp -reinstall để cài đặt lại tamp
 - Thêm câu hỏi thường gặp
-- Tăng tính bảo mật, sau khi chạy tính năng SSH, 1 số tính năng trong menu sẽ không khả dụng
-- Fix lỗi Xóa toàn bộ tài khoản trong Server VIP (sau khi xóa bị lỗi nhiệm vụ thách đấu thầy cô)
-- Fix lỗi bị treo menu nếu Internet của bạn không ổn định hoặc không có Internet
-- Tăng tốc quá trình kiểm tra cập nhật Ninja Server Termux
-- Thêm thông báo preparing,.v.v... đầu menu
+- Fix lỗi Current trong chổ Xóa tài khoản
+- Điều chỉnh lại sau khi chạy SSH có thể backup data, nhưng không thể restore data server
+
+====Update Server VIP [Moonsmile]====
+- Fix: Ninja chưa vào lớp không thể reset tiềm năng, kỹ năng
+- Update tính năng chiến đấu (hình như là pk)
+- Update luong tu ha ma than (chắc là boss)
 
 Khanh: Good luck for you!
 - Thanks for used <3
