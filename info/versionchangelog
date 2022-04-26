@@ -2,6 +2,8 @@
 - Fix lỗi nhập chữ trong cách chổ chỉ nhập số
 - Fix lỗi sau khi đổi tên ninja thì không dùng phân thân được
 - Fix lỗi InnoDB do log full
+- Fix lỗi ID Quái + Vật phẩm
+- Thêm tính năng nếu bạn không nhớ ID vật phẩm hoặc quái, có thể gõ lệnh [xemid] trong lúc nhập để xem toàn bộ ID:>
 - Fix lỗi màu light
 - Fix lỗi Giftcode FullNhiemVu-VIP
 - Thêm Giftcode cho HOIUC_v2-2022 (chỉ vật phẩm)
