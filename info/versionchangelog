@@ -25,6 +25,7 @@
 - Update luong tu ha ma than (chắc là boss)
 
 ====LƯU Ý====
+- Đối với fix tamp, hãy vào menu với lệnh [menu -khanh_ignoremysql] và chọn cài đặt lại -> cài đặt lại các file cần thiết để fix tamp + update tamp nhé!
 - Nên backup lại data chơi rồi hãy cài đặt lại termux để có sự ổn định nhất
 - Nếu bạn gặp 1 số vấn đề sau khi update (vd: trong pb update bảo fix giftcode nhưng bạn lại bị lỗi, hãy thử cài đặt lại database (nhớ backup lại data trước nhé))
 
