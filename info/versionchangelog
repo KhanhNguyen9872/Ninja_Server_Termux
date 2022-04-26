@@ -24,5 +24,9 @@
 - Update tính năng chiến đấu (hình như là pk)
 - Update luong tu ha ma than (chắc là boss)
 
+====LƯU Ý====
+- Nên backup lại data chơi rồi hãy cài đặt lại termux để có sự ổn định nhất
+- Nếu bạn gặp 1 số vấn đề sau khi update (vd: trong pb update bảo fix giftcode nhưng bạn lại bị lỗi, hãy thử cài đặt lại database (nhớ backup lại data trước nhé))
+
 Khanh: Good luck for you!
 - Thanks for used <3
