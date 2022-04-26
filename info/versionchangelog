@@ -5,9 +5,12 @@
 - Fix lỗi màu light
 - Fix lỗi Giftcode FullNhiemVu-VIP
 - Thêm Giftcode cho HOIUC_v2-2022 (chỉ vật phẩm)
+- Fix lỗi nhiệm vụ thách đấu thầy cô và jaian [FullNhiemVu-2022]
 - Thêm tính năng test độ trễ server ngrok [Online/SSH] để lựa chọn Server tốt nhất
 - Thêm reset kỹ năng
 - Fix lỗi heap full
+- Tăng heap max 8192MB đối với 64bit
+- Tăng buffer log file max 300M
 - Thêm tính năng tamp -reinstall để cài đặt lại tamp
 - Thêm câu hỏi thường gặp
 - Fix lỗi Current trong chổ Xóa tài khoản
