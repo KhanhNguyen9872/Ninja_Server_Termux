@@ -1,11 +1,9 @@
-@ Version 6.4
-- Thêm Buff số lần vào hang động
-- Thêm Buff điểm danh vọng
-- Tắt AccessToken
-- Thêm Sau khi test ping, tự động đưa ra Server tốt nhất
-- Thêm test lại ping sau khi test xong (bản trước test xong nhưng phải tắt menu mở lại mới test lại đc)
-- Fix lỗi tamp (cái này nên cài lại tamp bằng [tamp -reinstall] để đc áp dụng)
-- Fix lỗi xóa tài khoản/cài đặt lại database
+@ Version 6.5
+- Fix bug sau khi tắt Access Token
+- Fix bug Test ping ngrok chọn sai server tốt nhất khi mất kết nối internet hoặc server quá tải!
+- Thêm test ping server Ninja Server Termux
+- Thêm tùy chọn [tamp -fixtamp] khi bạn không thể chạy [tamp -start]
+- Tăng Buffer file size tamp lên 350MB
 
 ====LƯU Ý====
 - Nên backup lại data chơi rồi hãy cài đặt lại termux để có sự ổn định nhất
