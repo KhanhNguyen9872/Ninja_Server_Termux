@@ -1,31 +1,12 @@
-@ Version 6.3
-[BIG UPDATE]
-- Fix lỗi nhập chữ trong cách chổ chỉ nhập số
-- Fix lỗi sau khi đổi tên ninja thì không dùng phân thân được
-- Fix lỗi InnoDB do log full
-- Fix lỗi ID Quái + Vật phẩm
-- Thêm tính năng nếu bạn không nhớ ID vật phẩm hoặc quái, có thể gõ lệnh [xemid] trong lúc nhập để xem toàn bộ ID:>
-- Fix lỗi màu light
-- Fix lỗi Giftcode FullNhiemVu-VIP
-- Thêm Giftcode cho HOIUC_v2-2022 (chỉ vật phẩm)
-- Fix lỗi nhiệm vụ thách đấu thầy cô và jaian [FullNhiemVu-2022]
-- Thêm tính năng test độ trễ server ngrok [Online/SSH] để lựa chọn Server tốt nhất
-- Thêm reset kỹ năng
-- Fix lỗi heap full
-- Tăng heap max 8192MB đối với 64bit
-- Tăng buffer log file max 300M
-- Thêm tính năng tamp -reinstall để cài đặt lại tamp
-- Thêm câu hỏi thường gặp
-- Fix lỗi Current trong chổ Xóa tài khoản
-- Điều chỉnh lại sau khi chạy SSH có thể backup data, nhưng không thể restore data server
-
-====Update Server VIP [Moonsmile]====
-- Fix: Ninja chưa vào lớp không thể reset tiềm năng, kỹ năng
-- Update tính năng chiến đấu (hình như là pk)
-- Update luong tu ha ma than (chắc là boss)
+@ Version 6.4
+- Thêm Buff số lần vào hang động
+- Thêm Buff điểm danh vọng
+- Thêm Sau khi test ping, tự động đưa ra Server tốt nhất
+- Thêm test lại ping sau khi test xong (bản trước test xong nhưng phải tắt menu mở lại mới test lại đc)
+- Fix lỗi tamp (cái này nên cài lại tamp bằng [tamp -reinstall] để đc áp dụng)
+- Fix lỗi xóa tài khoản/cài đặt lại database
 
 ====LƯU Ý====
-- Đối với fix tamp, hãy vào menu với lệnh [menu -khanh_ignoremysql] và chọn cài đặt lại -> cài đặt lại các file cần thiết để fix tamp + update tamp nhé!
 - Nên backup lại data chơi rồi hãy cài đặt lại termux để có sự ổn định nhất
 - Nếu bạn gặp 1 số vấn đề sau khi update (vd: trong pb update bảo fix giftcode nhưng bạn lại bị lỗi, hãy thử cài đặt lại database (nhớ backup lại data trước nhé))
 
