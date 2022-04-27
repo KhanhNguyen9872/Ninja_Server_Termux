@@ -1,6 +1,7 @@
 @ Version 6.4
 - Thêm Buff số lần vào hang động
 - Thêm Buff điểm danh vọng
+- Tắt AccessToken
 - Thêm Sau khi test ping, tự động đưa ra Server tốt nhất
 - Thêm test lại ping sau khi test xong (bản trước test xong nhưng phải tắt menu mở lại mới test lại đc)
 - Fix lỗi tamp (cái này nên cài lại tamp bằng [tamp -reinstall] để đc áp dụng)
