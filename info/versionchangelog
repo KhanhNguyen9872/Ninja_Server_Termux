@@ -1,13 +1,10 @@
-@ Version 6.5
-- Fix bug sau khi tắt Access Token
-- Fix bug Test ping ngrok chọn sai server tốt nhất khi mất kết nối internet hoặc server quá tải!
-- Thêm test ping server Ninja Server Termux
-- Thêm tùy chọn [tamp -fixtamp] khi bạn không thể chạy [tamp -start]
-- Tăng Buffer file size tamp lên 350MB
-
-====LƯU Ý====
-- Nên backup lại data chơi rồi hãy cài đặt lại termux để có sự ổn định nhất
-- Nếu bạn gặp 1 số vấn đề sau khi update (vd: trong pb update bảo fix giftcode nhưng bạn lại bị lỗi, hãy thử cài đặt lại database (nhớ backup lại data trước nhé))
+@ Version 6.6
+- Update môi trường tamp mới cho sự ổn định tốt hơn!
+- Fix các lỗi sau khi tamp thay đổi
+- Update fix Server FullNhiemVu-VIP
+- phpMyAdmin tự động bật khi tamp chạy
+- Tắt chế độ không password trong mysql để tránh bị lỗi chỉnh sửa phpmyadmin bị báo password sau khi chỉnh
+- Tk/Pass mặc định phpmyadmin: root/khanhnguyen
 
 Khanh: Good luck for you!
 - Thanks for used <3
