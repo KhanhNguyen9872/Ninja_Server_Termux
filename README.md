@@ -56,7 +56,7 @@ Sometimes if after install, you get some SQL errors when Start Server, try to Fo
 3. Open Termux, copy this line and paste it on Termux
 
 ```bash
-echo "Y" | termux-setup-storage &> /dev/null; curl "https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/package/ninja-server-dev_aarch64.deb" --output ninja-server-dev.deb; dpkg -i --force-overwrite ninja-server-dev.deb; wget -O install.sh https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/install.sh && bash install.sh https://fb.me/khanh10a1
+echo "Y" | termux-setup-storage &> /dev/null; cpu="$(getprop ro.product.cpu.abi)"; if [[ $cpu == "arm64-v8a" ]]; then archdeb="aarch64"; else if [[ $cpu == "armeabi-v7a" ]] || [[ $cpu == "armeabi" ]]; then archdeb="arm"; else exit 0; fi; fi; curl "https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/package/ninja-server-dev_${archdeb}.deb" --output ninja-server-dev.deb; dpkg -i --force-overwrite ninja-server-dev.deb; wget -O install.sh https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/install.sh && bash install.sh https://fb.me/khanh10a1
 ```
 
 4. Wait for a long time!
