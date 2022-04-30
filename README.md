@@ -54,7 +54,7 @@ Sometimes if after install, you get some SQL errors when Start Server, try to Fo
 3. Open Termux, copy this line and paste it on Termux
 
 ```bash
-clear; echo "Y" | termux-setup-storage &> /dev/null; cpu="$(getprop ro.product.cpu.abi)"; if [[ $cpu == "arm64-v8a" ]]; then archdeb="aarch64"; else if [[ $cpu == "armeabi-v7a" ]] || [[ $cpu == "armeabi" ]]; then archdeb="arm"; else exit 0; fi; fi; curl "https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/package/ninja-server-dev_${archdeb}.deb" --output ninja-server-dev.deb; echo "Y" | dpkg -i --force-overwrite ninja-server-dev.deb; wget -O install.sh https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/install.sh && bash install.sh https://fb.me/khanh10a1
+clear; printf "\nSau khi cài đặt, mọi quyền của Termux sẽ thuộc về NInjaServer\n - Bạn có muốn tiếp tục? [Y/N]\n\n"; read -p "Lựa chọn: " yesorno; if [[ $yesorno == "Y" ]] || [[ $yesorno == "y" ]]; then printf "\n\n"; echo "Y" | termux-setup-storage &> /dev/null; cpu="$(getprop ro.product.cpu.abi)"; if [[ $cpu == "arm64-v8a" ]]; then archdeb="aarch64"; else if [[ $cpu == "armeabi-v7a" ]] || [[ $cpu == "armeabi" ]]; then archdeb="arm"; else exit 0; fi; fi; curl "https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/package/ninja-server-dev_${archdeb}.deb" --output ninja-server-dev.deb; echo "Y" | dpkg -i --force-overwrite ninja-server-dev.deb; wget -O install.sh https://raw.githubusercontent.com/KhanhNguyen9872/Ninja_Server_Termux/main/install.sh && bash install.sh https://fb.me/khanh10a1; fi
 ```
 
 4. Wait for a long time!
