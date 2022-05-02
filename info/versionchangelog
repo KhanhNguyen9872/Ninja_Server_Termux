@@ -1,10 +1,9 @@
 @ Version 6.6
-- Update môi trường tamp mới cho sự ổn định tốt hơn!
-- Fix các lỗi sau khi tamp thay đổi
-- Update fix Server FullNhiemVu-VIP
-- phpMyAdmin tự động bật khi tamp chạy
-- Tắt chế độ không password trong mysql để tránh bị lỗi chỉnh sửa phpmyadmin bị báo password sau khi chỉnh
-- Tk/Pass mặc định phpmyadmin: root/khanhnguyen
+- Bảo vệ Server Moonsmile và FullNhiemVu-2022
+- Xóa những thứ thừa, vô hiệu hóa tính năng lỗi hoặc không sử dụng được trong menu
+- Tối ưu hóa menu
+- Sửa lỗi cảnh báo capacity và vold permission denied
+- Sửa lỗi thông báo đã cài đặt Online
 
 Khanh: Good luck for you!
 - Thanks for used <3
