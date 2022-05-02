@@ -25,7 +25,6 @@ Architecture: <br />
 - [x] 64bit ARM
 
 Android: <br />
-- [x] 6 [Unsupported]
 - [x] 7 [May not work]
 - [x] 8
 - [x] 9
