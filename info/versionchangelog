@@ -1,10 +1,6 @@
-@ Version 6.7
-- Bảo vệ Server Moonsmile và FullNhiemVu-2022
-- Xóa những thứ thừa, vô hiệu hóa tính năng lỗi hoặc không sử dụng được trong menu
-- Tối ưu hóa menu
-- Sửa lỗi cảnh báo capacity và vold permission denied
-- Sửa lỗi thông báo đã cài đặt Online
-- Thêm tamp -reinstall để cài đặt lại tamp
+@ Version 6.8
+- AD bị ngu, up nhầm file tamp, sorry ae
+- Update fix tamp
 
 Khanh: Good luck for you!
 - Thanks for used <3
