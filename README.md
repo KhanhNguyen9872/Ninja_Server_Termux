@@ -14,16 +14,25 @@ Ninja School Server on Termux Android
 <br />
 
 # System Requirements
-CPU: Quad-core with 1.30GHz or up <br />
-
+CPU: <br />
 - [x] Snapdragon [Most supported]
 - [x] Mediatek [Most supported]
 - [x] Exynos [Some device may not work]
 - [ ] Unisoc [Unknown]
 
-Architecture: ARM 32-64bit <br />
+Architecture: <br />
+- [x] 32bit ARM [Some device may not work]
+- [x] 64bit ARM
 
-Android 7.0 Nougat or up <br />
+Android: <br />
+- [x] 6 [Unsupported]
+- [x] 7 [May not work]
+- [x] 8
+- [x] 9
+- [x] 10
+- [x] 11
+- [x] 12 [May not work]
+- [ ] 13 [Unknown]
 
 RAM: 2GB [Online Mode: 3GB or up] <br />
 
