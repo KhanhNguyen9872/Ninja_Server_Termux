@@ -18,7 +18,7 @@ CPU: Quad-core with 1.30GHz or up <br />
 
 - [x] Snapdragon [Most supported]
 - [x] Mediatek [Most supported]
-- [ ] Exynos [Not work]
+- [ ] Exynos [Some device may not work]
 - [ ] Unisoc [Unknown]
 
 Architecture: ARM 32-64bit <br />
