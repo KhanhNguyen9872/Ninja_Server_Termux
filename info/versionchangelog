@@ -1,6 +1,10 @@
-@ Version 6.8
-- AD bị ngu, up nhầm file tamp, sorry ae
-- Update fix tamp
+@ Version 6.9
+- Fix IP SSH Server
+- Fix xem thông tin tài khoản khi tài khoản tạo nhiều nhân vật ninja
+- Thêm Giftcode có thể thêm vật phẩm (tối đa 6 vật phẩm) (FullNhiemVu-VIP)
+- Thêm Tăng 1 lần nhập Giftcode cho tài khoản bạn chọn (FullNhiemVu-VIP)
+- Fix lỗi chữ và màu
+- Cho phép tắt hoặc bật phpMyAdmin trong Cài đặt menu
 
 Khanh: Good luck for you!
 - Thanks for used <3
