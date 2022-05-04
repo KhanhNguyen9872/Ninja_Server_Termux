@@ -1,6 +1,7 @@
 @ Version 6.9
 - Fix IP SSH Server
 - Fix xem thông tin tài khoản khi tài khoản tạo nhiều nhân vật ninja
+- Fix lỗi xem thông tin tài khoản mục Trạng thái tài khoản bị báo sai
 - Thêm Giftcode có thể thêm vật phẩm (tối đa 6 vật phẩm) (FullNhiemVu-VIP)
 - Thêm Tăng 1 lần nhập Giftcode cho tài khoản bạn chọn (FullNhiemVu-VIP)
 - Fix lỗi chữ và màu
