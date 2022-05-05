@@ -25,6 +25,8 @@ CPU:
 Architecture:
 - [x] 32bit ARM [Some device may not work]
 - [x] 64bit ARM
+- [ ] 32bit x86
+- [ ] 64bit x86_64
 
 <br />
 
@@ -47,7 +49,11 @@ Termux: Latest version! <br />
 
 # Recaf Requirements
 - As above  <br />
-Architecture: ARM 64bit only <br />
+Architecture:
+- [ ] 32bit ARM
+- [x] 64bit ARM
+- [ ] 32bit x86
+- [ ] 64bit x86_64
 
 <br />
 <br />
