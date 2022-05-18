@@ -1,7 +1,7 @@
 # Ninja_Server_Termux
 Ninja School Server on Termux Android
-# Version: 6.9 [Official]
-# Update: 04/05/2022
+# Version: 7.0 [Official]
+# Update: 18/05/2022
 
 [![Github All Releases](https://img.shields.io/github/downloads/KhanhNguyen9872/Ninja_Server_Termux/total.svg?style=for-the-badge)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
 [![Github All Releases](https://img.shields.io/github/release/KhanhNguyen9872/Ninja_Server_Termux.svg?style=for-the-badge)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
@@ -15,15 +15,15 @@ Ninja School Server on Termux Android
 
 # System Requirements
 CPU:
-- [x] Snapdragon [Most supported]
-- [x] Mediatek [Most supported]
-- [x] Exynos [Some device may not work]
-- [ ] Unisoc [Unknown]
+- [x] Snapdragon
+- [x] Mediatek
+- [x] Exynos
+- [x] Unisoc
 
 <br />
 
 Architecture:
-- [x] 32bit ARM [Some device may not work]
+- [x] 32bit ARM
 - [x] 64bit ARM
 - [ ] 32bit x86
 - [ ] 64bit x86_64
@@ -31,7 +31,7 @@ Architecture:
 <br />
 
 Android:
-- [x] 7 [May not work]
+- [x] 7
 - [x] 8
 - [x] 9
 - [x] 10
