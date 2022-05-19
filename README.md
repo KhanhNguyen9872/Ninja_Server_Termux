@@ -59,16 +59,6 @@ Architecture:
 <br />
 <br />
 
-# Note
-
-Server cannot be start if port 3306, 8080 is in used! <br />
-
-Sometimes if after install, you get some SQL errors when Start Server, try to Force-Stop Termux and start again, if can't fix it, try download the latest Termux or change to another repo with the command 'termux-change-repo' and try again! <br />
-
-<br />
-<br />
-<br />
-
 # How to install?
  - Tutorial: https://youtu.be/puTeSrOrfL4
 1. Download Termux APK (click on Picture): 
