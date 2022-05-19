@@ -1,19 +1,13 @@
-@ Version 7.0
+@ Version 7.1
 - Thay đổi engine mới
-- Tăng độ tương thích đối với 32bit và 64bit
-- Fix lỗi vặt
-- Giới hạn KEY VIP chỉ nhập tối đa 5 thiết bị/1 Key
-- Thêm update sự kiện hiện tại cho FullNhiemVu-VIP-2022 MoonSmile
-- Điều chỉnh 1 số thứ cho menu có thể tương thích với engine mới
-- Cải thiện tính năng kiểm tra CPU
-- Tự động thoát menu nếu công việc không thể hoàn thành do mất Internet giữa chừng
-
-=== FullNhiemVu-VIP-2022 ===
-- Update Tài khoản khách không thể đăng bán trên Shinwa
-- Fix sử dụng item
-- Fix hiệu ứng dame
-- Thay đổi sự kiện Hè (Diều giấy)
-
+- Fix lỗi nếu tạo nhiều nhân vật trong 1 tài khoản thì sẽ không thể buff được
+- Fix lỗi chia ip và port ngrok
+- Fix lỗi Test ping
+- Fix lỗi hiển thị ip wifi, ip simcard
+- Thêm 1 số lệnh menu --help, menu --update, menu --version
+- Xóa code thừa, code không hoàn thiện
+- Tự động chạy tamp -start không cần nhắc khi cài đặt
+- Thêm tính năng tăng thời gian cho SSH Server
 
 Khanh: Good luck for you!
 - Thanks for used <3
