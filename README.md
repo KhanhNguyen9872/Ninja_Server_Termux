@@ -1,7 +1,7 @@
 # Ninja_Server_Termux
 Ninja School Server on Termux Android
-# Version: 7.2 [Official]
-# Update: 20/05/2022
+# Version: 7.3 [Official]
+# Update: 21/05/2022
 
 [![Github All Releases](https://img.shields.io/github/downloads/KhanhNguyen9872/Ninja_Server_Termux/total.svg?style=for-the-badge)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
 [![Github All Releases](https://img.shields.io/github/release/KhanhNguyen9872/Ninja_Server_Termux.svg?style=for-the-badge)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
