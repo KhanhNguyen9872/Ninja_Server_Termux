@@ -1,8 +1,9 @@
-@ Version 7.2
-- Tối ưu hóa code menu, ninja, tamp
-- Thêm hiển thị số thiết bị đã kết nối tới SSH
-- Thêm hiển thị số ninja đã kết nối
-- Sửa lỗi mất hiển thị ip wifi
+@ Version 7.3
+- Fix lỗi Cài đặt [lua_chonsource: command not found]
+- Rút gọn code
+- Thêm tính năng tắt SSH Server
+- Sửa lỗi không thể xem thông tin tài khoản khi chưa tạo nhân vật ninja
+- Fix lỗi mysql command
 - Tăng độ encode menu
 
 Khanh: Good luck for you!
