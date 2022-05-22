@@ -1,5 +1,6 @@
 @ Version 7.4
 - Thêm mục Xác thực Email ngrok
+- Hiển thị số người đang kết nối tới ip online (max: 40)
 - Tích cực fix bug
 - Fix gì thì quên rùi k nhớ đâu hehe
 
