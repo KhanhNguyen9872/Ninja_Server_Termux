@@ -1,10 +1,7 @@
-@ Version 7.3
-- Fix lỗi Cài đặt [lua_chonsource: command not found]
-- Rút gọn code
-- Thêm tính năng tắt SSH Server
-- Sửa lỗi không thể xem thông tin tài khoản khi chưa tạo nhân vật ninja
-- Fix lỗi mysql command
-- Tăng độ encode menu
+@ Version 7.4
+- Thêm mục Xác thực Email ngrok
+- Tích cực fix bug
+- Fix gì thì quên rùi k nhớ đâu hehe
 
 Khanh: Good luck for you!
 - Thanks for used <3
