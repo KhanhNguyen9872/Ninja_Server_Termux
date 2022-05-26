@@ -1,8 +1,8 @@
-@ Version 7.4
-- Thêm mục Xác thực Email ngrok
-- Hiển thị số người đang kết nối tới ip online (max: 40)
-- Tích cực fix bug
-- Fix gì thì quên rùi k nhớ đâu hehe
+@ Version 7.5
+- Thay đổi cơ cấu file script
+- Tối ưu hóa file script
+- Fix lỗi tính năng online, ssh không cài đặt được trên máy 32bit
+- Fix 1 số lỗi nhỏ khác
 
 Khanh: Good luck for you!
 - Thanks for used <3
