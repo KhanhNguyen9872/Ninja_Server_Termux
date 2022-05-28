@@ -1,9 +1,14 @@
-@ Version 7.5
-- Thay đổi cơ cấu file script
-- Tối ưu hóa giúp máy yếu chạy mượt hơn
-- Fix lỗi hiển thị Storage
-- Fix lỗi tính năng online, ssh không cài đặt được trên máy 32bit
-- Fix 1 số lỗi nhỏ khác
+@ Version 7.6
+- Fix lỗi trên máy 32bit
+- Fix lỗi / 1024 ở 1 số dòng máy Android 7 - 8 cũ
+- Thêm Web đăng ký Tài khoản [:>]
+- Thêm tính năng Web Server Online [để share link cho người khác đăng ký]
+- Thêm tùy chọn All IP/only Localhost cho phpMyAdmin
+- Mặc định phpMyAdmin chỉ truy cập được tại 127.0.0.1
+- Thêm nodejs
+- Auto remove temp file khi chạy script
+- Cho hiển thị lại version tại màn hình menu
+- Cho hiển thị link web đăng ký tại màn hình menu
 
-LƯU Ý: CẦN CÀI ĐẶT LẠI ĐỂ SỬ DỤNG VERSION NÀY!
+LƯU Ý: VÌ LÝ DO CÓ WEB NÊN CẦN CÀI ĐẶT LẠI ĐỂ SỬ DỤNG VERSION NÀY!
 - Thanks for used <3
