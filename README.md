@@ -27,7 +27,7 @@ Architecture:
 - [x] 32bit ARM
 - [x] 64bit ARM
 - [ ] 32bit x86
-- [ ] 64bit x86_64
+- [x] 64bit x86_64
 
 <br />
 
@@ -54,7 +54,7 @@ Architecture:
 - [ ] 32bit ARM
 - [x] 64bit ARM
 - [ ] 32bit x86
-- [ ] 64bit x86_64
+- [x] 64bit x86_64
 
 <br />
 <br />
