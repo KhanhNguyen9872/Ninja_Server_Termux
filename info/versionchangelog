@@ -3,6 +3,8 @@
 - Thêm tính năng chỉnh sự kiện server [Chỉ fullnhiemvu]
 - Thêm tính năng chỉnh tỉ lệ quái rơi đồ sự kiện [Chỉ fullnhiemvu]
 - Thêm tính năng chỉnh số yên nhận được khi lật bài [Chỉ fullnhiemvu]
+- Tự động close Server Ninja nếu update được bắt đầu
+- Fix lỗi sau khi update xong không tắt menu
 - Thay đổi 1 số phần quan trọng
 - Update binary
 
