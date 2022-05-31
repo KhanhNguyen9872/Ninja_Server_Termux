@@ -1,17 +1,10 @@
-@ Version 7.6
-- Fix lỗi trên máy 32bit
-- Fix lỗi / 1024 ở 1 số dòng máy Android 7 - 8 cũ
-- Thêm Web đăng ký Tài khoản [:>]
-- Thêm tính năng Web Server Online [để share link cho người khác đăng ký]
-- Thêm tùy chọn All IP/only Localhost cho phpMyAdmin
-- Mặc định phpMyAdmin chỉ truy cập được tại 127.0.0.1
-- Thêm nodejs
-- Auto remove temp file khi chạy script
-- Cho hiển thị lại version tại màn hình menu
-- Cho hiển thị link web đăng ký tại màn hình menu
-- Thêm tính năng tự động kích hoạt tài khoản khi đăng ký thông qua Web
-- Tối ưu hóa tốc độ mở tamp, ninja, menu
-- Xóa code thừa giúp nhẹ file code hơn
+@ Version 7.7
+- Thêm tính năng Fix nhiệm vụ thầy cô [Đang sửa lỗi/không ổn định]
+- Thêm tính năng chỉnh sự kiện server [Chỉ fullnhiemvu]
+- Thêm tính năng chỉnh tỉ lệ quái rơi đồ sự kiện [Chỉ fullnhiemvu]
+- Thêm tính năng chỉnh số yên nhận được khi lật bài [Chỉ fullnhiemvu]
+- Thay đổi 1 số phần quan trọng
+- Update binary
 
 LƯU Ý: VÌ LÝ DO CÓ WEB NÊN CẦN CÀI ĐẶT LẠI ĐỂ SỬ DỤNG VERSION NÀY!
 
