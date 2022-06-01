@@ -1,11 +1,12 @@
-@ Version 7.7
-- Thêm tính năng Fix nhiệm vụ thầy cô [Đang sửa lỗi/không ổn định]
-- Thêm tính năng chỉnh sự kiện server [Chỉ fullnhiemvu]
-- Thêm tính năng chỉnh tỉ lệ quái rơi đồ sự kiện [Chỉ fullnhiemvu]
-- Thêm tính năng chỉnh số yên nhận được khi lật bài [Chỉ fullnhiemvu]
-- Tự động close Server Ninja nếu update được bắt đầu
-- Fix lỗi sau khi update xong không tắt menu
-- Thay đổi 1 số phần quan trọng
+@ Version 7.8
+- Sửa lỗi tùy chỉnh trong phần buff
+- Thêm tùy chỉnh kinh nghiệm nhận quái
+- Thêm tùy chỉnh thời gian quái/boss xuất hiện sau khi bị giết
+- Thêm tùy chỉnh số yên trong rương
+- Thêm tùy chỉnh tỉ lệ xuất hiện quái tinh anh/thủ lĩnh
+- Thêm/sửa lỗi tùy chỉnh tỉ lệ rớt đồ quái [event]
+- Thêm tùy chỉnh tỉ lệ rớt đồ quái [thường]
+[Tất cả thay đổi trên không liên quan tới server HOIUC]
 - Update binary
 
 LƯU Ý: NẾU BẠN GẶP LỖI VỀ QUÁ TRÌNH CẬP NHẬT! HÃY CÀI ĐẶT LẠI!
