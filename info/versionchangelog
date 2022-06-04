@@ -6,6 +6,10 @@
 - Thêm tính năng auto backup database theo ngày
 - Update binary
 
+== UPDATE FULLNHIEMVU-VIP ==
+- Xóa nhiệm vụ thầy cô, jaian, dùng rương thất thú bảo
+- Tự động khóa tài khoản nếu tài khoản nó đang bug lật bài
+
 == BẢN CẬP NHẬT CHO MÁY 32BIT SẼ ĐƯỢC UPLOAD VÀO NGÀY MAI ==
 
 LƯU Ý: NẾU BẠN GẶP LỖI VỀ QUÁ TRÌNH CẬP NHẬT! HÃY CÀI ĐẶT LẠI!
