@@ -15,11 +15,17 @@ Ninja School Server on Termux Android
 <br />
 
 # System Requirements
-CPU:
+CPU ARM:
 - [x] Snapdragon
 - [x] Mediatek
 - [x] Exynos
 - [x] Unisoc
+
+<br />
+
+CPU Emulator:
+- [x] Intel
+- [x] AMD
 
 <br />
 
