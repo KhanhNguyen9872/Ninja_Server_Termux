@@ -1,4 +1,5 @@
-@ Version 7.9
+@ Version 8.0
+- Sửa lỗi ninja
 - Sửa lỗi tùy chỉnh server bị thiếu mục
 - Thêm kiểm tra thông tin server tại mục chỉnh
 - Thêm chỉnh số boss trong 1 map
