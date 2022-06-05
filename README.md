@@ -37,7 +37,7 @@ Android:
 - [x] 9
 - [x] 10
 - [x] 11
-- [x] 12 [May not work]
+- [x] 12 [May crash]
 - [ ] 13 [Unknown]
 
 <br />
