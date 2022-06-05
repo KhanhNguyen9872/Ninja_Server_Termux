@@ -24,8 +24,8 @@ CPU ARM:
 <br />
 
 CPU Emulator:
-- [x] Intel
-- [x] AMD
+- [x] Intel (x64)
+- [x] AMD (x64)
 
 <br />
 
