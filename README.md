@@ -44,7 +44,7 @@ Android:
 
 RAM: 2GB [Online Mode: 3GB or up] <br />
 
-Internal storage: [2.50GB Free space | Offline only] - [2.85GB Free space | Offline + Online] - [4.00GB Free space | Full Package] <br />
+Internal storage: 3.0GB Free Space <br />
 
 Termux: Latest version! <br />
 
