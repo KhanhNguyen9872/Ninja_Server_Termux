@@ -23,12 +23,6 @@ CPU ARM:
 
 <br />
 
-CPU Emulator:
-- [x] Intel (x64)
-- [x] AMD (x64)
-
-<br />
-
 Architecture:
 - [x] 32bit ARM
 - [x] 64bit ARM
@@ -53,6 +47,20 @@ RAM: 2GB [Online Mode: 3GB or up] <br />
 Internal storage: 3.5GB Free Space <br />
 
 Termux: Latest version! <br />
+
+# Emulator
+CPU Emulator:
+- [x] Intel (x64)
+- [x] AMD (x64)
+
+<br />
+
+Emulator:
+- [x] LDPlayer4 (Android 7 - 64bit)
+- [x] BlueStacks 4 (Android 7 - 64bit)
+- [x] BlueStacks 5 (Android 7, 9 - 64bit)
+- [x] Nox App Player (Android 7, 9 - 64bit)
+- [ ] MEmu (Android 7 - 64bit) 
 
 # Recaf Requirements
 - As above  <br />
