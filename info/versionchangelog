@@ -1,15 +1,9 @@
-@ Version 8.0
-- Sửa lỗi ninja
-- Sửa lỗi tùy chỉnh server bị thiếu mục
-- Thêm kiểm tra thông tin server tại mục chỉnh
-- Thêm chỉnh số boss trong 1 map
-- Tối ưu hóa lệnh ninja
-- Thêm tính năng auto backup database theo ngày
-- Update binary
-
-== UPDATE FULLNHIEMVU-VIP ==
-- Xóa nhiệm vụ thầy cô, jaian, dùng rương thất thú bảo
-- Tự động khóa tài khoản nếu tài khoản nó đang bug lật bài
+@ Version 8.1
+- Fix Buff Tốc chạy Phân thân
+- Thay đổi màu giao diện nhập giúp dễ nhìn hơn
+- Add Get Public IP
+- Thay đổi cơ chế Key
 
 LƯU Ý: NẾU BẠN GẶP LỖI VỀ QUÁ TRÌNH CẬP NHẬT! HÃY CÀI ĐẶT LẠI!
+NÊN BACKUP DATA CỦA BẠN TRƯỚC KHI CÀI ĐẶT PHIÊN BẢN NÀY!
 - Thanks for used <3
