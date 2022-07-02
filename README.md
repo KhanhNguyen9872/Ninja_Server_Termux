@@ -1,6 +1,7 @@
 <h1 align="center">Welcome to Ninja_Server_Termux 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-8.2-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-8.3-blue.svg?cacheSeconds=2592000" />
+  <img alt="Update" src="https://img.shields.io/badge/version-02/07/2022-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/KhanhNguyen9872/Ninja_Server_Termux#" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
