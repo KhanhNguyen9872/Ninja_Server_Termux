@@ -65,7 +65,7 @@ clear; printf "\n Sau khi cài đặt, mọi quyền hạn và tính năng của
 👤 **KhanhNguyen9872**
 
 * Website: KhanhNguyen9872.github.io
-* Twitter: [@khanh9872](https://twitter.com/Khnh59855418)
+* Twitter: [@Khnh59855418](https://twitter.com/Khnh59855418)
 * Github: [@KhanhNguyen9872](https://github.com/KhanhNguyen9872)
 
 ## 🤝 Contributing
