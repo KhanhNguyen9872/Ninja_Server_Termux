@@ -8,7 +8,7 @@
     <img alt="License: KhanhNguyen9872" src="https://img.shields.io/badge/License-KhanhNguyen9872-yellow.svg" />
   </a>
   <a href="https://twitter.com/khanh9872" target="_blank">
-    <img alt="Twitter: khanh9872" src="https://img.shields.io/twitter/follow/khanh9872.svg?style=social" />
+    <img alt="Twitter: khanh9872" src="https://img.shields.io/twitter/follow/Khnh59855418.svg?style=social" />
   </a>
   
   [![Github All Releases](https://img.shields.io/github/downloads/KhanhNguyen9872/Ninja_Server_Termux/total.svg?style=for-the-badge)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
@@ -65,7 +65,7 @@ clear; printf "\n Sau khi cài đặt, mọi quyền hạn và tính năng của
 👤 **KhanhNguyen9872**
 
 * Website: KhanhNguyen9872.github.io
-* Twitter: [@khanh9872](https://twitter.com/khanh9872)
+* Twitter: [@khanh9872](https://twitter.com/Khnh59855418)
 * Github: [@KhanhNguyen9872](https://github.com/KhanhNguyen9872)
 
 ## 🤝 Contributing
