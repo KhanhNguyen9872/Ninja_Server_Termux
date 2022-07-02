@@ -1,11 +1,9 @@
-@ Version 8.2
-- Fix bug
-- Add Change Password MySQL/phpMyAdmin
-- Xóa 1 số nhiệm vụ FullNhiemVu-VIP-2022 vì lý do để dễ cày hơn do thiếu người làm nhiệm vụ
-- Mã hóa key, password
-- Add tamp -start-skip-pass
-- Add check key vip
-- Add input password mysql if password is incorrect
+@ Version 8.3
+- Fix Change Password MySQL [Web Ninja]
+- Fix Reload lib
+- Add Color on status box
+- Add Warning MySQL on [ninja]
+- Improved security
 
 LƯU Ý: NẾU BẠN GẶP LỖI VỀ QUÁ TRÌNH CẬP NHẬT! HÃY CÀI ĐẶT LẠI!
 NÊN BACKUP DATA CỦA BẠN TRƯỚC KHI CÀI ĐẶT PHIÊN BẢN NÀY!
