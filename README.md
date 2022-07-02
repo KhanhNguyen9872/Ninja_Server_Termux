@@ -7,7 +7,7 @@
   <a href="https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/LICENSE" target="_blank">
     <img alt="License: KhanhNguyen9872" src="https://img.shields.io/badge/License-KhanhNguyen9872-yellow.svg" />
   </a>
-  <a href="https://twitter.com/khanh9872" target="_blank">
+  <a href="https://twitter.com/Khnh59855418" target="_blank">
     <img alt="Twitter: khanh9872" src="https://img.shields.io/twitter/follow/Khnh59855418.svg?style=social" />
   </a>
   
