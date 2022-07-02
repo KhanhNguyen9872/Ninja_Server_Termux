@@ -1,10 +1,10 @@
 <h1 align="center">Welcome to Ninja_Server_Termux 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-8.2-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/README.md" target="_blank">
+  <a href="https://github.com/KhanhNguyen9872/Ninja_Server_Termux#" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://github.com/KhanhNguyen9872" target="_blank">
+  <a href="https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/LICENSE" target="_blank">
     <img alt="License: KhanhNguyen9872" src="https://img.shields.io/badge/License-KhanhNguyen9872-yellow.svg" />
   </a>
   <a href="https://twitter.com/khanh9872" target="_blank">
@@ -17,7 +17,7 @@
 
 > Ninja School Server on Termux Android
 
-### 🏠 [Homepage](https://github.com/KhanhNguyen9872/Ninja_Server_Termux)
+### 🏠 [Homepage](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
 
 ### ✨ [Demo Server](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/DEMO.md)
 
