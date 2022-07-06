@@ -18,6 +18,12 @@
   [![Github All Releases](https://img.shields.io/github/release/KhanhNguyen9872/Ninja_Server_Termux.svg?style=for-the-badge)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
 </p>
 
+[![Follow Total](https://img.shields.io/github/followers/KhanhNguyen9872?style=social)](https://github.com/KhanhNguyen9872)
+
+[![Fork Total](https://img.shields.io/github/forks/KhanhNguyen9872/Ninja_Server_Termux?style=social)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
+
+[![Star Total](https://img.shields.io/github/stars/KhanhNguyen9872/Ninja_Server_Termux?style=social)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
+
 > Ninja School Server on Termux Android
 
 ### 🏠 [Homepage](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
