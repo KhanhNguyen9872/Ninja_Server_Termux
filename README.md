@@ -2,27 +2,34 @@
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-8.3-blue.svg?cacheSeconds=2592000" />
   <img alt="Update" src="https://img.shields.io/badge/update-02/07/2022-blue.svg?cacheSeconds=2592000" />
-  
-  [![Build Status](https://cloud.drone.io/api/badges/KhanhNguyen9872/Ninja_Server_Termux/status.svg)](https://cloud.drone.io/KhanhNguyen9872/Ninja_Server_Termux)
+  <br />
+  <img alt="Build Status" src="https://cloud.drone.io/api/badges/KhanhNguyen9872/Ninja_Server_Termux/status.svg" />
+
   <a href="https://github.com/KhanhNguyen9872/Ninja_Server_Termux#" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
   <a href="https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/LICENSE" target="_blank">
     <img alt="License: KhanhNguyen9872" src="https://img.shields.io/badge/License-KhanhNguyen9872-yellow.svg" />
   </a>
-  <a href="https://twitter.com/Khnh59855418" target="_blank">
-    <img alt="Twitter: khanh9872" src="https://img.shields.io/twitter/follow/Khnh59855418.svg?style=social" />
-  </a>
-  
-  [![Github All Releases](https://img.shields.io/github/downloads/KhanhNguyen9872/Ninja_Server_Termux/total.svg?style=for-the-badge)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
-  [![Github All Releases](https://img.shields.io/github/release/KhanhNguyen9872/Ninja_Server_Termux.svg?style=for-the-badge)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
+  <br />
+  <img alt="Github Download" src="https://img.shields.io/github/downloads/KhanhNguyen9872/Ninja_Server_Termux/total.svg?style=for-the-badge" />
+  <img alt="Github Releases" src="https://img.shields.io/github/release/KhanhNguyen9872/Ninja_Server_Termux.svg?style=for-the-badge" />
 </p>
+<a href="https://twitter.com/Khnh59855418" target="_blank">
+    <img alt="Twitter: khanh9872" src="https://img.shields.io/twitter/follow/Khnh59855418.svg?style=social" />
+</a>
 
-[![Follow Total](https://img.shields.io/github/followers/KhanhNguyen9872?style=social)](https://github.com/KhanhNguyen9872)
+<a href="https://github.com/KhanhNguyen9872" target="_blank">
+    <img alt="Follow Total" src="https://img.shields.io/github/followers/KhanhNguyen9872?style=social" />
+</a>
 
-[![Fork Total](https://img.shields.io/github/forks/KhanhNguyen9872/Ninja_Server_Termux?style=social)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
+<a href="https://github.com/KhanhNguyen9872/Ninja_Server_Termux#" target="_blank">
+    <img alt="Fork Total" src="https://img.shields.io/github/forks/KhanhNguyen9872/Ninja_Server_Termux?style=social" />
+</a>
 
-[![Star Total](https://img.shields.io/github/stars/KhanhNguyen9872/Ninja_Server_Termux?style=social)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
+<a href="https://github.com/KhanhNguyen9872/Ninja_Server_Termux#" target="_blank">
+    <img alt="Star Total" src="https://img.shields.io/github/stars/KhanhNguyen9872/Ninja_Server_Termux?style=social" />
+</a>
 
 > Ninja School Server on Termux Android
 
