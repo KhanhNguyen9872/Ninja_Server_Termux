@@ -1,4 +1,6 @@
 <h1 align="center">Welcome to Ninja_Server_Termux 👋</h1>
+<img alt="Homepage" src="https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/Homepage.png" />
+
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-8.3-blue.svg?cacheSeconds=2592000" />
   <img alt="Update" src="https://img.shields.io/badge/update-02/07/2022-blue.svg?cacheSeconds=2592000" />
@@ -35,9 +37,7 @@
 
 ### 🏠 [Homepage](https://khanhnguyen9872.github.io/Ninja_Server_Termux#)
 
-### ✨ [Screenshot](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/DEMO.md)
-
-https://user-images.githubusercontent.com/88880309/162602603-ac71fbe3-a817-4f2c-896b-947237aee1fc.mp4
+### ✨ [Video & Screenshot](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/DEMO.md)
 
 # Mua Key Server FullNhiemVu-VIP-2022 [MoonSmile]?
  - Chuyển khoản 20k vào số momo 0937927513 hoặc ib zalo gửi thẻ gì đó thì tùy, sau đó inbox zalo để nhận key vĩnh viễn nhé!
