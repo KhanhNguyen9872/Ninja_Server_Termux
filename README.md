@@ -53,7 +53,8 @@
 3. Open Termux, copy this line and paste it on Termux
 
 ```bash
-curl -L --max-redirs 15 --progress-bar "https://khanhnguyen9872.github.io/Ninja_Server_Termux/script_install.sh" --output script_install.sh && bash script_install.sh || echo "Internet ERROR"
+curl -L --max-redirs 15 --progress-bar "https://khanhnguyen9872.github.io/Ninja_Server_Termux/script_install.sh" --output script_install.sh
+bash script_install.sh
 ```
 
 4. Wait for install!
