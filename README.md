@@ -33,7 +33,7 @@
 
 > Ninja School Server on Termux Android
 
-### 🏠 [Homepage](https://github.com/KhanhNguyen9872/Ninja_Server_Termux#)
+### 🏠 [Homepage](https://khanhnguyen9872.github.io/Ninja_Server_Termux#)
 
 ### ✨ [Screenshot](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/DEMO.md)
 
