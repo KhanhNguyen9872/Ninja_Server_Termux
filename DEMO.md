@@ -1,13 +1,4 @@
-# Video test
-
-https://user-images.githubusercontent.com/88880309/162602603-ac71fbe3-a817-4f2c-896b-947237aee1fc.mp4
-
-
-<br />
-<br />
-<br />
-
-# Screenshot
+## Screenshot
 
  <br />
  <br />
