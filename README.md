@@ -46,7 +46,7 @@
 ## Install
  - Tutorial: [https://youtu.be/puTeSrOrfL4](https://youtu.be/Wyt_f7hEoCQ)
 1. Download Termux APK (click on Picture): 
-<a href="https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/NinjaServerTermuxv01/termux_0.118.apk" target="_blank">
+<a href="https://khanhnguyen9872.github.io/Ninja_Server_Termux/CONF_FILE/termux_0.118.apk" target="_blank">
     <img alt="Termux" src="https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png" />
 </a>
 
