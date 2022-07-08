@@ -46,15 +46,19 @@
 ## Install
  - Tutorial: [https://youtu.be/puTeSrOrfL4](https://youtu.be/Wyt_f7hEoCQ)
 1. Download Termux APK (click on Picture): 
-[![](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png)](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/NinjaServerTermuxv01/termux_0.118.apk)
+<a href="https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/NinjaServerTermuxv01/termux_0.118.apk" target="_blank">
+    <img alt="Termux" src="https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png" />
+</a>
 
 2. Install Termux APK
 
 3. Open Termux, copy this line and paste it on Termux
 
 ```bash
-curl -L --max-redirs 15 --progress-bar "https://khanhnguyen9872.github.io/Ninja_Server_Termux/script_install.sh" --output script_install.sh
-bash script_install.sh
+function install () {
+  curl -L --max-redirs 15 --progress-bar "https://khanhnguyen9872.github.io/Ninja_Server_Termux/script_install.sh" --output script_install.sh && bash script_install.sh || echo "Internet ERROR"
+}
+install
 ```
 
 4. Wait for install!
