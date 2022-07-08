@@ -45,14 +45,15 @@
 
 ## Install
  - Tutorial: [https://youtu.be/puTeSrOrfL4](https://youtu.be/Wyt_f7hEoCQ)
-1. Download Termux APK (click on Picture): 
+ 
+1 - Download Termux APK (click on Picture): 
 <a href="https://khanhnguyen9872.github.io/Ninja_Server_Termux/CONF_FILE/termux_0.118.apk" target="_blank">
     <img alt="Termux" src="https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/termux.png" />
 </a>
 
-2. Install Termux APK
+2 - Install Termux APK
 
-3. Open Termux, copy this line and paste it on Termux
+3 - Open Termux, copy this line and paste it on Termux
 
 ```bash
 function install () {
@@ -61,11 +62,11 @@ function install () {
 install
 ```
 
-4. Wait for install!
+4 - Wait for install!
  
-5. Choose Source you want to use! 
+5 - Choose Source you want to use! 
  
-6. Enjoy!
+6 - Enjoy!
 
 ## System Requirements
 - Architecture:
