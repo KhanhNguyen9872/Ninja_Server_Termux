@@ -1,9 +1,9 @@
-@ Version 8.3
-- Fix Change Password MySQL [Web Ninja]
-- Fix Reload lib
-- Add Color on status box
-- Add Warning MySQL on [ninja]
-- Improved security
+@ Version 8.4
+- Fix binary
+- Fix doesn't work on changed $HOME path
+- Binary optimization
+- auto export HOME
+- Add full path
 
 LƯU Ý: NẾU BẠN GẶP LỖI VỀ QUÁ TRÌNH CẬP NHẬT! HÃY CÀI ĐẶT LẠI!
 NÊN BACKUP DATA CỦA BẠN TRƯỚC KHI CÀI ĐẶT PHIÊN BẢN NÀY!
