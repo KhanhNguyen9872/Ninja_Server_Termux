@@ -73,7 +73,7 @@ install
 - [x] 32bit ARM
 - [x] 64bit ARM
 - [ ] 32bit x86
-- [x] 64bit x86_64 [only Offline]
+- [x] 64bit x86_64 [Android 9 or up]
 
 - Android:
 - [x] 7
