@@ -81,8 +81,8 @@ install
 - [x] 9
 - [x] 10
 - [x] 11
-- [x] 12 [May crash]
-- [ ] 13 [Unknown]
+- [x] 12 [Some devices are limited to 32 processes]
+- [x] 13 [Some devices are limited to 32 processes]
 
 ## Author
 
