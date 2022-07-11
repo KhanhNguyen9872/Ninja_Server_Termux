@@ -1,9 +1,11 @@
-@ Version 8.4
-- Fix binary
-- Fix doesn't work on changed $HOME path
-- Binary optimization
-- auto export HOME
-- Add full path
+@ Version 8.5
+- Update ngrok v3 (latest)
+- Add support Recaf/Online/SSH on Android 9 x86_64 (emulator)
+- Add Change Language
+- Optimized script on Recaf ARM64/x86_64
+- Optimized online mode/SSH mode ARM64/x86_64
+- Add Bytecode Editor Jar on Internal Storage
+- Auto export HOME default
 
 LƯU Ý: NẾU BẠN GẶP LỖI VỀ QUÁ TRÌNH CẬP NHẬT! HÃY CÀI ĐẶT LẠI!
 NÊN BACKUP DATA CỦA BẠN TRƯỚC KHI CÀI ĐẶT PHIÊN BẢN NÀY!
