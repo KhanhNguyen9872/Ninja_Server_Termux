@@ -2,6 +2,7 @@
 - Từ các bản 8.7 trở về trước sẽ không thể dùng Key Vip, bạn hãy update lên 8.8 để có thể sử dụng Key Vip
 - Fix Auto Backup Database not work
 - Fix Encrypt password using base64
+- Fix base64: invalid input
 - Fix Error when run script (all)
 - Fix core
 
