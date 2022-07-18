@@ -1,6 +1,9 @@
-@ Version 8.7
-- Từ các bản 8.6 trở về trước sẽ không thể dùng Key Vip, bạn hãy update lên 8.7 để có thể sử dụng Key Vip
-- Add killall process
+@ Version 8.8
+- Từ các bản 8.7 trở về trước sẽ không thể dùng Key Vip, bạn hãy update lên 8.8 để có thể sử dụng Key Vip
+- Fix Auto Backup Database not work
+- Fix Encrypt password using base64
+- Fix Error when run script (all)
+- Fix core
 
 LƯU Ý: NẾU BẠN GẶP LỖI VỀ QUÁ TRÌNH CẬP NHẬT! HÃY CÀI ĐẶT LẠI!
 BẠN CẦN CÀI ĐẶT PHIÊN BẢN NÀY TRƯỚC KHI SỬ DỤNG! ĐÂY LÀ BẮT BUỘC!
