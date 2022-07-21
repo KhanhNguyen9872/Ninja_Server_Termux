@@ -6,5 +6,7 @@ online: 24
 onlineInstalled: 83
 ssh: 24
 sshInstalled: 83
+web: 24
+webInstalled: 83
 php: 0
 phpInstalled: 0
