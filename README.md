@@ -2,8 +2,8 @@
 <img alt="Homepage" src="https://github.com/KhanhNguyen9872/Ninja_Server_Termux/raw/main/image/Homepage.png" />
 
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-8.8-blue.svg?cacheSeconds=2592000" />
-  <img alt="Update" src="https://img.shields.io/badge/update-18/07/2022-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-8.9-blue.svg?cacheSeconds=2592000" />
+  <img alt="Update" src="https://img.shields.io/badge/update-21/07/2022-blue.svg?cacheSeconds=2592000" />
   <br />
   <img alt="Build Status" src="https://cloud.drone.io/api/badges/KhanhNguyen9872/Ninja_Server_Termux/status.svg" />
 
@@ -73,7 +73,7 @@ install
 - [x] 32bit ARM
 - [x] 64bit ARM
 - [ ] 32bit x86
-- [x] 64bit x86_64 [Android 9 or up]
+- [x] 64bit x86_64 [only Offline]
 
 - Android:
 - [x] 7
@@ -81,8 +81,8 @@ install
 - [x] 9
 - [x] 10
 - [x] 11
-- [x] 12 [Some devices are limited to 32 processes]
-- [x] 13 [Some devices are limited to 32 processes]
+- [x] 12 [May crash]
+- [ ] 13 [Unknown]
 
 ## Author
 
