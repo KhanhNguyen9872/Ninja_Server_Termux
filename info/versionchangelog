@@ -6,6 +6,7 @@
 - Thêm tính năng Stop cho Recaf, Online, Web Server để bạn có thể tắt/bật mà không cần phải tắt hẳn Termux
 - Tô màu chữ 1 số chổ điểm nhấn
 - Sắp xếp lại các mục theo thứ tự giống nhau
+- Tự động xóa file khi cài đặt thất bại
 
 LƯU Ý: NẾU BẠN GẶP LỖI VỀ QUÁ TRÌNH CẬP NHẬT! HÃY CÀI ĐẶT LẠI!
 BẠN CẦN CÀI ĐẶT PHIÊN BẢN NÀY TRƯỚC KHI SỬ DỤNG! ĐÂY LÀ BẮT BUỘC!
