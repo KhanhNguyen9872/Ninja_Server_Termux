@@ -1,8 +1,6 @@
-@ Version 9.0
-- Vì lý do Admin bị ngu sau chuyến đi TPHCM (say xe nặng) nên đã up nhầm file khiến tính năng Online không thể sử dụng được
-- Cảm ơn các bạn đã report lỗi
-- Fix Online Mode
-- Add unset LD_PRELOAD
+@ Version 9.1
+- Add Change storage
+- Auto check storage path when backup/restore data
 
 LƯU Ý: NẾU BẠN GẶP LỖI VỀ QUÁ TRÌNH CẬP NHẬT! HÃY CÀI ĐẶT LẠI!
 BẠN CẦN CÀI ĐẶT PHIÊN BẢN NÀY TRƯỚC KHI SỬ DỤNG! ĐÂY LÀ BẮT BUỘC!
