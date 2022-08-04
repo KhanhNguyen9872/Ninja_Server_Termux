@@ -1,7 +1,12 @@
-@ Version 9.1
-- Add Change storage
-- Auto check storage path when backup/restore data
+@ Version 9.2
+- Thêm Server HOIUC_BIA333-2022 - Dame ảo
+- Thêm tính năng GiftCode cho HOIUC_BIA333-2022
+- Thay đổi giao diện tùy chỉnh Server
+- Thêm Server HOIUC_BIA333-2022 vào web đăng ký tài khoản
+- Sửa lỗi Current không tự reload trong Settings
+- Update binary
 
-LƯU Ý: NẾU BẠN GẶP LỖI VỀ QUÁ TRÌNH CẬP NHẬT! HÃY CÀI ĐẶT LẠI!
+
+LƯU Ý: KHUYẾN KHÍCH NÊN BACKUP DATA GAME SAU ĐÓ CÀI ĐẶT LẠI
 BẠN CẦN CÀI ĐẶT PHIÊN BẢN NÀY TRƯỚC KHI SỬ DỤNG! ĐÂY LÀ BẮT BUỘC!
 - Thanks for used <3
