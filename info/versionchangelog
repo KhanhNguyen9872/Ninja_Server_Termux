@@ -1,10 +1,10 @@
-@ Version 9.2
-- Thêm Server HOIUC_BIA333-2022 - Dame ảo
-- Thêm tính năng GiftCode cho HOIUC_BIA333-2022
-- Thay đổi giao diện tùy chỉnh Server
-- Thêm Server HOIUC_BIA333-2022 vào web đăng ký tài khoản
-- Sửa lỗi Current không tự reload trong Settings
-- Update binary
+@ Version 9.3
+- Fix lỗi Change Password MYSQL [HOIUC_BIA333-2022]
+- Thêm tính năng Buff 4 dòng tiềm năng trong mục Buff tiềm năng
+- Thêm cảnh báo Buff tiềm năng có thể không hoạt động trên FullNhiemVu
+- Fix binary ARM64
+- Fix Package
+- Loại bỏ Ctrl + C trong menu
 
 
 LƯU Ý: KHUYẾN KHÍCH NÊN BACKUP DATA GAME SAU ĐÓ CÀI ĐẶT LẠI
