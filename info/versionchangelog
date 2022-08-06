@@ -1,10 +1,9 @@
-@ Version 9.3
-- Fix lỗi Change Password MYSQL [HOIUC_BIA333-2022]
-- Thêm tính năng Buff 4 dòng tiềm năng trong mục Buff tiềm năng
-- Thêm cảnh báo Buff tiềm năng có thể không hoạt động trên FullNhiemVu
-- Fix binary ARM64
-- Fix Package
-- Loại bỏ Ctrl + C trong menu
+@ Version 9.4
+- Thêm Buff VIP (không nhận đc quà VIP) cho HOIUC_BIA333-2022
+- Thêm Reset Shop Shinwa, Reset BXH Thiên địa bảng
+- Thêm Tùy chỉnh Số lượng ô Hành Trang nhân vật
+- Sửa lỗi Auto Buff Cao/thấp không thể Buff lượng
+- Còn nữa mà không nhớ
 
 
 LƯU Ý: KHUYẾN KHÍCH NÊN BACKUP DATA GAME SAU ĐÓ CÀI ĐẶT LẠI
