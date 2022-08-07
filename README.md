@@ -84,6 +84,14 @@ install
 - [x] 12 [May crash]
 - [ ] 13 [Unknown]
 
+## Download Emulator (x86_64)
+
+<a href="https://github.com/KhanhNguyen9872/PublicFile/releases/download/ninjaemulator/LDPlayer_9.0.0.0.exe" target="_blank">
+    <img alt="LDPlayer9" src="https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/image/ldplayer9.ico?raw=true" width="150" height="150" />
+</a>
+
+- [LDPlayer9](https://github.com/KhanhNguyen9872/PublicFile/releases/download/ninjaemulator/LDPlayer_9.0.0.0.exe)
+
 ## Author
 
 👤 **KhanhNguyen9872**
