@@ -1,9 +1,13 @@
-@ Version 9.4
-- Thêm Buff VIP (không nhận đc quà VIP) cho HOIUC_BIA333-2022
-- Thêm Reset Shop Shinwa, Reset BXH Thiên địa bảng
-- Thêm Tùy chỉnh Số lượng ô Hành Trang nhân vật
-- Sửa lỗi Auto Buff Cao/thấp không thể Buff lượng
-- Còn nữa mà không nhớ
+@ Version 9.5
+- Sửa lỗi Reset BXH Thiên Địa
+- Sửa lỗi sau khi Reset Shinwa thì không bán đồ được (nếu bạn đang gặp lỗi Shinwa, hãy vào menu -> Reset Shinwa để khắc phục)
+- Sửa lỗi chữ trong mục Reset
+- Thêm hiện tên Server trong phần Reset Database (chỉ reset database server đó)
+- Thêm Reset rương đồ nhân vật
+- Tối ưu, rút gọn code bằng cách xóa cách mục code lặp lại và dùng if else thần chưởng
+- Buff VIP Server BIA333 lên VIP 18
+
+- Chăm chỉ nhưng đời không như là mơ
 
 
 LƯU Ý: KHUYẾN KHÍCH NÊN BACKUP DATA GAME SAU ĐÓ CÀI ĐẶT LẠI
