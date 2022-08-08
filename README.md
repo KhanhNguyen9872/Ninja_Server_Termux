@@ -86,7 +86,7 @@ install
 
 ## Download Emulator (x86_64)
 
-<a href="https://github.com/KhanhNguyen9872/PublicFile/releases/download/ninjaemulator/LDPlayer_9.0.0.0.exe" target="_blank">
+<a href="https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/emulatorx64/LDPlayer9_x86_64_KhanhNguyen9872.exe" target="_blank">
     <img alt="LDPlayer9" src="https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/image/ldplayer9.ico?raw=true" width="150" height="150" />
 </a>
 
