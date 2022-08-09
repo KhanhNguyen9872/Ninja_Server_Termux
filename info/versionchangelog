@@ -1,13 +1,10 @@
-@ Version 9.5
-- Sửa lỗi Reset BXH Thiên Địa
-- Sửa lỗi sau khi Reset Shinwa thì không bán đồ được (nếu bạn đang gặp lỗi Shinwa, hãy vào menu -> Reset Shinwa để khắc phục)
-- Sửa lỗi chữ trong mục Reset
-- Thêm hiện tên Server trong phần Reset Database (chỉ reset database server đó)
-- Thêm Reset rương đồ nhân vật
-- Tối ưu, rút gọn code bằng cách xóa cách mục code lặp lại và dùng if else thần chưởng
-- Buff VIP Server BIA333 lên VIP 18
-
-- Chăm chỉ nhưng đời không như là mơ
+@ Version 9.6
+- Sửa lỗi Recaf chưa được cài đặt trên x86_64
+- Thêm Hiển thị IP Wifi khi Start Recaf
+- Thêm Hiển thị Trạng thái Recaf ở màn hình chính menu
+- Thêm Start Recaf ở 2 dạng All IP và Only Localhost
+- Fix Reset Shinwa của Server FullNhiemVu
+- Update hổ trợ giả lập LDPlayer9 tốt nhất!
 
 
 LƯU Ý: KHUYẾN KHÍCH NÊN BACKUP DATA GAME SAU ĐÓ CÀI ĐẶT LẠI
