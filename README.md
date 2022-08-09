@@ -73,7 +73,7 @@ install
 - [x] 32bit ARM
 - [x] 64bit ARM
 - [ ] 32bit x86
-- [x] 64bit x86_64 [LDPlayer9]
+- [x] 64bit x86_64 [[LDPlayer9](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/emulatorx64/LDPlayer9_x86_64_KhanhNguyen9872.exe)]
 
 - Android:
 - [x] 7
