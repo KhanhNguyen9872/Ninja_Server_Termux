@@ -1,9 +1,9 @@
-@ Version 9.6
-- Sửa lỗi Recaf chưa được cài đặt trên x86_64
-- Thêm Hiển thị IP Wifi khi Start Recaf
-- Thêm Hiển thị Trạng thái Recaf ở màn hình chính menu
-- Thêm Start Recaf ở 2 dạng All IP và Only Localhost
-- Fix Reset Shinwa của Server FullNhiemVu
+@ Version 9.7
+- Fix lỗi SSH chưa được cài đặt trên x86_64 [LDPlayer9]
+- Fix lỗi hiển thị sai số người Connected SSH
+- Thêm hiển thị trạng thái MySQL và Apache2
+- Thay đổi màu sắc 1 số dòng IP ở màn hình chính menu
+- Xóa 1 số variable thừa
 - Update hổ trợ giả lập LDPlayer9 tốt nhất!
 
 
