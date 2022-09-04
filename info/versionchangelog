@@ -1,11 +1,5 @@
-@ Version 9.7
-- Fix lỗi SSH chưa được cài đặt trên x86_64 [LDPlayer9]
-- Fix lỗi hiển thị sai số người Connected SSH
-- Thêm hiển thị trạng thái MySQL và Apache2
-- Thay đổi màu sắc 1 số dòng IP ở màn hình chính menu
-- Xóa 1 số variable thừa
-- Update hổ trợ giả lập LDPlayer9 tốt nhất!
-
+@ Version 9.8
+- Auto Change IP Online when having DDOS (menu --anti-ddos), work only on file game have update Server
 
 LƯU Ý: KHUYẾN KHÍCH NÊN BACKUP DATA GAME SAU ĐÓ CÀI ĐẶT LẠI
 BẠN CẦN CÀI ĐẶT PHIÊN BẢN NÀY TRƯỚC KHI SỬ DỤNG! ĐÂY LÀ BẮT BUỘC!
