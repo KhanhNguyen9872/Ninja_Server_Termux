@@ -1,11 +1,9 @@
-@ Version 10.0
-- Thêm Online Mode [2] (có thể chạy song song với Online Mode [1])
-- Thêm dex-tools cho ae mod classes APK
-- Sửa 1 số lỗi Anti-DDOS, tương thích cả 2 tính năng Online
-- Thay thế file game ninjaHack-Khanh.apk thành ninjaHackFix-Khanh.apk
-- Thêm file game ninjaHack201-Khanh.jar (Hiện TB2, có Hack, không cập nhật đc Server)
-- Thêm tùy chọn Gỡ cài đặt cho dex-tools, Online Mode [2]
-- Thêm kiểm tra file restore có đúng với Server hiện tại hay không
+@ Version 10.1
+- Thêm tính năng clean log, cache [HOIUC_2-2022, HOIUC_BIA333]
+- Tự động phát hiện cài đặt Termux bên ngoài bộ nhớ máy
+- Đưa file log ra ngoài [Bộ nhớ máy/log_ninja] để dễ dàng check thông tin
+- Tự động relink symlink khi mở menu
+- Update phpMyAdmin 5.1.2 -> 5.2.0
 
 LƯU Ý: KHUYẾN KHÍCH NÊN BACKUP DATA GAME SAU ĐÓ CÀI ĐẶT LẠI
 BẠN CẦN CÀI ĐẶT PHIÊN BẢN NÀY TRƯỚC KHI SỬ DỤNG! ĐÂY LÀ BẮT BUỘC!
