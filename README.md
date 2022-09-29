@@ -73,7 +73,7 @@ install
 - [x] 32bit ARM
 - [x] 64bit ARM
 - [ ] 32bit x86
-- [x] 64bit x86_64 [[LDPlayer9](https://khanhnguyen9872.github.io/Ninja_Server_Termux/base/LDPlayer9_x86_64_KhanhNguyen9872.exe)]
+- [x] 64bit x86_64 [[LDPlayer9](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/emulatorx64/LDPlayer9_x86_64_KhanhNguyen9872.exe)]
 
 - Android:
 - [x] 7
@@ -86,11 +86,11 @@ install
 
 ## Download Emulator (x86_64)
 
-<a href="https://khanhnguyen9872.github.io/Ninja_Server_Termux/base/LDPlayer9_x86_64_KhanhNguyen9872.exe" target="_blank">
+<a href="https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/emulatorx64/LDPlayer9_x86_64_KhanhNguyen9872.exe" target="_blank">
     <img alt="LDPlayer9" src="https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/image/ldplayer9.ico?raw=true" width="150" height="150" />
 </a>
 
-- [LDPlayer9](https://khanhnguyen9872.github.io/Ninja_Server_Termux/base/LDPlayer9_x86_64_KhanhNguyen9872.exe)
+- [LDPlayer9](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/emulatorx64/LDPlayer9_x86_64_KhanhNguyen9872.exe)
 
 ## Author
 
