@@ -1,9 +1,7 @@
-@ Version 10.1
-- Thêm tính năng clean log, cache [HOIUC_2-2022, HOIUC_BIA333]
-- Tự động phát hiện cài đặt Termux bên ngoài bộ nhớ máy
-- Đưa file log ra ngoài [Bộ nhớ máy/log_ninja] để dễ dàng check thông tin
-- Tự động relink symlink khi mở menu
-- Update phpMyAdmin 5.1.2 -> 5.2.0
+@ Version 10.2
+- Tắt hiển thị Apache version khi bị check head
+- Thêm tính năng Chỉnh sửa rương, hành trang,... nhân vật
+- Hiển thị Termux PATH ở màn hình chính menu
 
 LƯU Ý: KHUYẾN KHÍCH NÊN BACKUP DATA GAME SAU ĐÓ CÀI ĐẶT LẠI
 BẠN CẦN CÀI ĐẶT PHIÊN BẢN NÀY TRƯỚC KHI SỬ DỤNG! ĐÂY LÀ BẮT BUỘC!
