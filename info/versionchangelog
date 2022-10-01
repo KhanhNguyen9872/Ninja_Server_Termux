@@ -1,7 +1,8 @@
-@ Version 10.2
-- Tắt hiển thị Apache version khi bị check head
-- Thêm tính năng Chỉnh sửa rương, hành trang,... nhân vật
-- Hiển thị Termux PATH ở màn hình chính menu
+@ Version 10.3
+- Force black UI (Ép buộc giao diện nền đen)
+- Chỉnh sửa nhân vật thêm hổ trợ chỉnh bằng IDE ngoài (QuickEdit, FX Edit,...)
+- Tắt hiển thị toast session khi chuyển đổi giữa các session
+- Force home directory /data/data/com.termux/files/home
 
 LƯU Ý: KHUYẾN KHÍCH NÊN BACKUP DATA GAME SAU ĐÓ CÀI ĐẶT LẠI
 BẠN CẦN CÀI ĐẶT PHIÊN BẢN NÀY TRƯỚC KHI SỬ DỤNG! ĐÂY LÀ BẮT BUỘC!
