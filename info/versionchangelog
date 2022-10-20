@@ -1,9 +1,6 @@
-@ Version 10.4
-- Xóa [Túi kim lượng] ở shop Kiriko HOIUC_2-2022
-- Khóa 1 giờ nhập key khi nhập sai key vip 5 lần để tránh spam
-- Thêm mục Chỉnh sửa shop Ninja với đủ các NPC thông thường
-- Fix lỗi dấu trong mục chỉnh sửa nhân vật ninja
-- Chỉnh sửa 1 số từ lỗi, thiếu
+@ Version 10.5
+- Fix lỗi không tự động đổi pass nếu cài đặt lại Base Source Ninja
+- Thêm Hiển thị ID chỉ số vật phẩm
 
 LƯU Ý: KHUYẾN KHÍCH NÊN BACKUP DATA GAME SAU ĐÓ CÀI ĐẶT LẠI
 BẠN CẦN CÀI ĐẶT PHIÊN BẢN NÀY TRƯỚC KHI SỬ DỤNG! ĐÂY LÀ BẮT BUỘC!
