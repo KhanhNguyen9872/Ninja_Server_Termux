@@ -1,6 +1,5 @@
-@ Version 10.5
-- Fix lỗi không tự động đổi pass nếu cài đặt lại Base Source Ninja
-- Thêm Hiển thị ID chỉ số vật phẩm
+@ Version 10.6
+- Thêm tính năng fix lỗi Android 12 Crash Termux, VMOS, VPhoneGaGa, F1VM, X8 Sandbox,...
 
 LƯU Ý: KHUYẾN KHÍCH NÊN BACKUP DATA GAME SAU ĐÓ CÀI ĐẶT LẠI
 BẠN CẦN CÀI ĐẶT PHIÊN BẢN NÀY TRƯỚC KHI SỬ DỤNG! ĐÂY LÀ BẮT BUỘC!
