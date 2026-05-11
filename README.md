@@ -40,8 +40,8 @@
 ### ✨ [Video & Screenshot](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/DEMO.md)
 
 # Mua Key Server FullNhiemVu-VIP-2022 [MoonSmile]?
- - Chuyển khoản 20k vào số momo 0328460695 hoặc ib zalo gửi thẻ gì đó thì tùy, sau đó inbox zalo để nhận key vĩnh viễn nhé!
- - Lưu ý! Nên cài và sử dụng các server free khác trước khi mua server này! Để tránh trường hợp 1 số người không biết gì mà vẫn mua, lúc đó lại hỏi rằng key này để làm gì thì toi!
+  - Key này hiện miễn phí nha, inbox admin theo [Zalo](https://zalo.me/0328460695) hoặc [Facebook](https://fb.me/khanh10a1) để nhận key nha
+  - Vì hồi đó code bẩn mắt quá nên lười refactor bỏ phần key đi, kkk
 
 ## Install
  - Tutorial: [https://youtu.be/puTeSrOrfL4](https://youtu.be/Wyt_f7hEoCQ)
