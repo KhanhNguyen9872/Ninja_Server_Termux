@@ -40,7 +40,7 @@
 ### ✨ [Video & Screenshot](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/blob/main/DEMO.md)
 
 # Server FullNhiemVu-VIP-2022 [MoonSmile]
-  - Key này hiện miễn phí nha, inbox admin theo [Zalo](https://zalo.me/0328460695) hoặc [Facebook](https://fb.me/khanh10a1) để nhận key nha
+  - Inbox admin theo [Zalo](https://zalo.me/0328460695) hoặc [Facebook](https://fb.me/khanh10a1) để nhận key nha
   - Vì hồi đó code bẩn mắt quá nên lười refactor bỏ phần key đi, kkk
 
 ## Install
