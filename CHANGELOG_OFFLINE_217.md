@@ -1,6 +1,6 @@
-v1.26.82 (bản offline/low cập nhật 19/11/2026)
+v1.26.83 (bản offline/low cập nhật 19/11/2026)
 - Bản thường giữ gameplay, audio và tài nguyên đầy đủ.
-- Thêm `NinjaSchoolOffline_v1.26.82_low.jar` cho Nokia E71 và máy ARM11 yếu: bỏ audio, bỏ decode background/atmosphere, chạy một authority worker và giới hạn tối đa 5 bot nền online.
+- Thêm `NinjaSchoolOffline_v1.26.83_low.jar` cho Nokia E71 và máy ARM11 yếu: bỏ audio, bỏ decode background/atmosphere, chạy một authority worker và giới hạn tối đa 5 bot nền online.
 - Bản low quantize PNG trong resource pack xuống 32 màu nhưng giữ nguyên kích thước sprite; các pack nóng được để STORED để giảm tải inflate trên CPU chậm.
 - Buff Quạt dùng đủ giá trị option của skill, bỏ phép trừ 3% theo point; bonus option 66 từ trang bị vẫn được cộng.
 - Khi tắt Bot, cả bản thường và bản low đều dừng bot.
