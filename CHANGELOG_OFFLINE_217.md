@@ -1,24 +1,9 @@
-# Bản mới nhất là v1.26.82
-# Cập nhật lần cuối 12:18 - 19/11/2026 (GMT +7)
-
-- File danh sách vật phẩm: 
-[nsoff_item_1_26_64.pdf](https://github.com/user-attachments/files/33806753/nsoff_item_1_26_64.pdf)
-
-## Thay đổi
-
 v1.26.82 (bản offline/low cập nhật 19/11/2026)
 - Bản thường giữ gameplay, audio và tài nguyên đầy đủ.
-- Thêm `NinjaSchoolOffline_low.jar` cho Nokia E71 và máy ARM11 yếu: bỏ audio, bỏ decode background/atmosphere, chạy một authority worker và giới hạn tối đa 5 bot nền online.
+- Thêm `NinjaSchoolOffline_v1.26.82_low.jar` cho Nokia E71 và máy ARM11 yếu: bỏ audio, bỏ decode background/atmosphere, chạy một authority worker và giới hạn tối đa 5 bot nền online.
 - Bản low quantize PNG trong resource pack xuống 32 màu nhưng giữ nguyên kích thước sprite; các pack nóng được để STORED để giảm tải inflate trên CPU chậm.
 - Buff Quạt dùng đủ giá trị option của skill, bỏ phép trừ 3% theo point; bonus option 66 từ trang bị vẫn được cộng.
 - Khi tắt Bot, cả bản thường và bản low đều dừng bot.
-
-## Tải xuống
-- Bản thường: [JAR](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/offline_217/NinjaSchoolOffline_v1.26.82.jar) · [JAD](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/offline_217/NinjaSchoolOffline_v1.26.82.jad) · [SHA-256](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/offline_217/NinjaSchoolOffline_v1.26.82.sha256)
-- Bản máy yếu: [JAR](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/offline_217/NinjaSchoolOffline_low.jar) · [JAD](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/offline_217/NinjaSchoolOffline_low.jad) · [SHA-256](https://github.com/KhanhNguyen9872/Ninja_Server_Termux/releases/download/offline_217/NinjaSchoolOffline_low.sha256)
-- SHA-256 bản thường: `16E98E9585B8379CF7F31C58D922719843419D046ACB1A827A10D4C262B32E48`
-- SHA-256 bản low: `841948A54775E0DF69679A7BC1D0AEE77E87730557D153EFDD1203ABF4498AE0`
-
 
 v1.26.34
 - Chẵn lẻ, BlackSaturday, .... tại làng Tone
@@ -480,13 +465,3 @@ v1.26.82
 - Sửa bot vẫn chạy theo sau khi thoát game vào lại dù nhóm đã mất: thoát game giải tán nhóm như nguồn, bot không còn tự đi theo.
 - Giảm đọc dữ liệu lúc khởi động: bước kiểm tra hồ sơ bot không còn giải nén lại pack cho từng lần tra bảng (mô phỏng: 136 MB xuống 17,7 MB).
 - Sửa thêm 1 số lỗi.
-
-Server multiplayer FREE
-- Status: Online (last check 15:00 13/11/2026)
-- IP: 0.tcp.ap.ngrok.io
-- Port: 14782
-
-Bạn có thể tự chạy multiplayer local bằng [Ninja_School_MP](https://github.com/KhanhNguyen9872/Ninja_School_MP)
-LƯU Ý: Không thảo luận multiplayer trên mọi nền tảng; khi sử dụng tính năng này, tác giả miễn trừ trách nhiệm và người dùng tự chịu mọi rủi ro.
-
-
